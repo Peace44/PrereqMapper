@@ -1,0 +1,71 @@
+6.1200[J] Mathematics for Computer Science
+Prereq: CalculusI
+Elementary discrete mathematics for science and engineering, with a focus on mathematical tools and proof techniques useful in computer science. Topics include logical notation, sets, relations, elementary graph theory, state machines and invariants, induction and proofs by contradiction, recurrences, asymptotic notation, elementary analysis of algorithms, elementary number theory and cryptography, permutations and combinations, counting tools, and discrete probability.
+
+6.1210 Introduction to Algorithms
+Prereq: 6.100A, 6.1200[J]
+Introduction to mathematical modeling of computational problems, as well as common algorithms, algorithmic paradigms, and data structures used to solve these problems. Emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems. Enrollment may be limited.
+
+6.1220[J] Design and Analysis of Algorithms
+Prereq: 6.1200[J], 6.1210
+Techniques for the design and analysis of efficient algorithms, emphasizing methods useful in practice. Topics include sorting; search trees, heaps, and hashing; divide-and-conquer; dynamic programming; greedy algorithms; amortized analysis; graph algorithms; and shortest paths. Advanced topics may include network flow; computational geometry; number-theoretic algorithms; polynomial and matrix calculations; caching; and parallel computing.
+
+6.1400[J] Computability and Complexity Theory
+Prereq: 6.1200[J], 6.1210
+Mathematical introduction to the theory of computing. Rigorously explores what kinds of tasks can be efficiently solved with computers by way of finite automata, circuits, Turing machines, and communication complexity, introducing students to some major open problems in mathematics. Builds skills in classifying computational tasks in terms of their difficulty. Discusses other fundamental issues in computing, including the Halting Problem, the Church-Turing Thesis, the P versus NP problem, and the power of randomness.  
+
+6.1420 Fixed Parameter and Fine-grained Computation
+Prereq: 6.1200[J], 6.1210, 6.1400[J]
+An overview of the theory of parameterized algorithms and the "problem-centric" theory of fine-grained complexity, both of which reconsider how to measure the difficulty and feasibility of solving computational problems. Topics include: fixed-parameter tractability (FPT) and its characterizations, the W-hierarchy (W[1], W[2], W[P], etc.), 3-sum-hardness, all-pairs shortest paths (APSP)-equivalences, strong exponential time hypothesis (SETH) hardness of problems, and the connections to circuit complexity and other aspects of computing.
+
+6.5210[J] Advanced Algorithms
+Prereq: 6.1220[J], 6.1200[J]
+First-year graduate subject in algorithms. Emphasizes fundamental algorithms and advanced methods of algorithmic design, analysis, and implementation. Surveys a variety of computational models and the algorithms for them. Data structures, network flows, linear programming, computational geometry, approximation algorithms, online algorithms, parallel algorithms, external memory, streaming algorithms.
+
+6.5220[J] Randomized Algorithms
+Prereq: 6.1200[J], 6.5210[J]
+Studies how randomization can be used to make algorithms simpler and more efficient via random sampling, random selection of witnesses, symmetry breaking, and Markov chains. Models of randomized computation. Data structures: hash tables, and skip lists. Graph algorithms: minimum spanning trees, shortest paths, and minimum cuts. Geometric algorithms: convex hulls, linear programming in fixed or arbitrary dimension. Approximate counting; parallel algorithms; online algorithms; derandomization techniques; and tools for probabilistic analysis of algorithms.
+
+6.5230 Advanced Data Structures
+Prereq: 6.1220[J]
+More advanced and powerful data structures for answering several queries on the same data. Such structures are crucial in particular for designing efficient algorithms. Dictionaries; hashing; search trees. Self-adjusting data structures; linear search; splay trees; dynamic optimality. Integer data structures; word RAM. Predecessor problem; van Emde Boas priority queues; y-fast trees; fusion trees. Lower bounds; cell-probe model; round elimination. Dynamic graphs; link-cut trees; dynamic connectivity. Strings; text indexing; suffix arrays; suffix trees. Static data structures; compact arrays; rank and select. Succinct data structures; tree encodings; implicit data structures. External-memory and cache-oblivious data structures; B-trees; buffer trees; tree layout; ordered-file maintenance. Temporal data structures; persistence; retroactivity.
+
+6.5240 Sublinear Time Algorithms
+Prereq: 6.1220[J]
+Sublinear time algorithms understand parameters and properties of input data after viewing only a minuscule fraction of it. Tools from number theory, combinatorics, linear algebra, optimization theory, distributed algorithms, statistics, and probability are covered. Topics include: testing and estimating properties of distributions, functions, graphs, strings, point sets, and various combinatorial objects.
+
+6.5250[J] Distributed Algorithms
+Prereq: 6.1220[J]
+Design and analysis of concurrent algorithms, emphasizing those suitable for use in distributed networks. Process synchronization, allocation of computational resources, distributed consensus, distributed graph algorithms, election of a leader in a network, distributed termination, deadlock detection, concurrency control, communication, and clock synchronization. Special consideration given to issues of efficiency and fault tolerance. Formal models and proof methods for distributed computation.
+
+6.5310 Geometric Folding Algorithms: Linkages, Origami, Polyhedra
+Prereq: 6.1220[J]
+Covers discrete geometry and algorithms underlying the reconfiguration of foldable structures, with applications to robotics, manufacturing, and biology. Linkages made from one-dimensional rods connected by hinges: constructing polynomial curves, characterizing rigidity, characterizing unfoldable versus locked, protein folding. Folding two-dimensional paper (origami): characterizing flat foldability, algorithmic origami design, one-cut magic trick. Unfolding and folding three-dimensional polyhedra: edge unfolding, vertex unfolding, gluings, Alexandrov's Theorem, hinged dissections.
+
+6.5320 Geometric Computing
+Prereq: 6.1220[J]
+Introduction to the design and analysis of algorithms for geometric problems, in low- and high-dimensional spaces. Algorithms: convex hulls, polygon triangulation, Delaunay triangulation, motion planning, pattern matching. Geometric data structures: point location, Voronoi diagrams, Binary Space Partitions. Geometric problems in higher dimensions: linear programming, closest pair problems. High-dimensional nearest neighbor search and low-distortion embeddings between metric spaces. Geometric algorithms for massive data sets: external memory and streaming algorithms. Geometric optimization.
+
+6.5340 Topics in Algorithmic Game Theory
+Prereq: 6.1220[J]
+Presents research topics at the interface of computer science and game theory, with an emphasis on algorithms and computational complexity. Explores the types of game-theoretic tools that are applicable to computer systems, the loss in system performance due to the conflicts of interest of users and administrators, and the design of systems whose performance is robust with respect to conflicts of interest inside the system. Algorithmic focus is on algorithms for equilibria, the complexity of equilibria and fixed points, algorithmic tools in mechanism design, learning in games, and the price of anarchy.
+
+6.5350 Matrix Multiplication and Graph Algorithms
+Prereq: 6.1220[J]
+Explores topics around matrix multiplication (MM) and its use in the design of graph algorithms. Focuses on problems such as transitive closure, shortest paths, graph matching, and other classical graph problems. Explores fast approximation algorithms when MM techniques are too expensive.
+
+6.5400[J] Theory of Computation
+Prereq: 6.1200[J]
+A more extensive and theoretical treatment of the material in 6.1400[J]/18.400[J], emphasizing computability and computational complexity theory. Regular and context-free languages. Decidable and undecidable problems, reducibility, recursive function theory. Time and space measures on computation, completeness, hierarchy theorems, inherently complex problems, oracles, probabilistic computation, and interactive proof systems. Students in Course 18 must register for the undergraduate version, 6.5400[J].
+
+6.5410[J] Advanced Complexity Theory
+Prereq: 6.5400[J]
+Current research topics in computational complexity theory. Nondeterministic, alternating, probabilistic, and parallel computation models. Boolean circuits. Complexity classes and complete sets. The polynomial-time hierarchy. Interactive proof systems. Relativization. Definitions of randomness. Pseudo-randomness and derandomizations. Interactive proof systems and probabilistically checkable proofs.
+
+6.5420 Randomness and Computation
+Prereq: 6.1220[J], 6.5400[J]
+The power and sources of randomness in computation. Connections and applications to computational complexity, computational learning theory, cryptography and combinatorics. Topics include: probabilistic proofs, uniform generation and approximate counting, Fourier analysis of Boolean functions, computational learning theory, expander graphs, pseudorandom generators, derandomization.
+
+6.5430 Quantum Complexity Theory
+Prereq: 6.1400[J], 6.5400[J], 6.6410[J]
+Introduction to quantum computational complexity theory, the study of the fundamental capabilities and limitations of quantum computers. Topics include complexity classes, lower bounds, communication complexity, proofs and advice, and interactive proof systems in the quantum world; classical simulation of quantum circuits. The objective is to bring students to the research frontier.
