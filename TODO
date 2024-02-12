@@ -1,2 +1,0 @@
-Separating prerequisite chains with ;
-For the same subject, if it has intersecting prerequisite chains (chains that have 1 or more identical subjects), only the shortest unique chain should be preserved! 
