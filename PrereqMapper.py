@@ -94,16 +94,21 @@ def visualize_graph(G):
 
 
 def minimize_prerequisite_chains(all_paths):
-    # Sort paths by length (longest first)
-    all_paths.sort(key=len, reverse=True)
-    unique_paths = all_paths.copy()
+    # Sort paths by length (shortest first)
+    all_paths.sort(key=len)
+    unique_paths = []
 
-    # Remove paths that are subsumed by longer paths
+    # Keep track of prerequisites covered by the selected paths
+    covered_prerequisites = set()
+
     for path in all_paths:
-        for longer_path in unique_paths:
-            if path != longer_path and set(path).issubset(set(longer_path)):
-                unique_paths.remove(path)
-                break
+        # Check if the current path contains any new prerequisites
+        new_prerequisites = set(path[:-1]) - covered_prerequisites
+        if new_prerequisites:
+            # If the path contributes new prerequisites, add it to the unique paths
+            unique_paths.append(path)
+            covered_prerequisites.update(new_prerequisites)
+
     return unique_paths
 
 def write_layers_to_file(G, layers, filename):
