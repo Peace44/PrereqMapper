@@ -93,6 +93,19 @@ def visualize_graph(G):
 
 
 
+def minimize_prerequisite_chains(all_paths):
+    # Sort paths by length (longest first)
+    all_paths.sort(key=len, reverse=True)
+    unique_paths = all_paths.copy()
+
+    # Remove paths that are subsumed by longer paths
+    for path in all_paths:
+        for longer_path in unique_paths:
+            if path != longer_path and set(path).issubset(set(longer_path)):
+                unique_paths.remove(path)
+                break
+    return unique_paths
+
 def write_layers_to_file(G, layers, filename):
     # Group subjects by layers
     layers_to_subjects = {}
@@ -114,15 +127,17 @@ def write_layers_to_file(G, layers, filename):
                     for path in nx.all_simple_paths(G, source=root, target=subject):
                         all_paths.append(path)
                 
+                # Minimize the prerequisite chains
+                minimized_paths = minimize_prerequisite_chains(all_paths)
+                
                 # Format the paths
-                if all_paths:
-                    formatted_paths = [' ==> '.join(path) for path in all_paths]
+                if minimized_paths:
+                    formatted_paths = [' ==> '.join(path) for path in minimized_paths]
                     file.write(f"{'; '.join(formatted_paths)}\n")
                 else:
                     # Subject has no prerequisites
                     file.write(f"{subject}\n")
             file.write("\n")  # Separate layers with a newline
-
 
 
 # Main function to run the app
