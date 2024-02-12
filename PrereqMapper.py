@@ -107,11 +107,17 @@ def write_layers_to_file(G, layers, filename):
             # Write the layer heading
             file.write(f"Layer {layer}:\n")
             for subject in sorted(layers_to_subjects[layer]):
-                # Write the subject and its immediate prerequisites
-                prereqs = sorted(G.predecessors(subject))
-                if prereqs:
-                    prereq_str = ' ==> '.join(prereqs + [subject])
-                    file.write(f"{prereq_str}\n")
+                # Find all paths from root nodes to the subject
+                root_nodes = [n for n, d in G.in_degree() if d == 0]
+                all_paths = []
+                for root in root_nodes:
+                    for path in nx.all_simple_paths(G, source=root, target=subject):
+                        all_paths.append(path)
+                
+                # Format the paths
+                if all_paths:
+                    formatted_paths = [' ==> '.join(path) for path in all_paths]
+                    file.write(f"{'; '.join(formatted_paths)}\n")
                 else:
                     # Subject has no prerequisites
                     file.write(f"{subject}\n")
