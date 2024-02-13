@@ -1,5 +1,7 @@
 import networkx as nx
 import matplotlib.pyplot as plt
+import os
+import fnmatch
 
 
 
@@ -78,7 +80,7 @@ def assign_layers(G):
 
 
 # Step 4: Visualization
-def visualize_graph(G):
+def visualize_graph_to_file(G, output_file):
     # Make sure the 'subset' attribute is used for the multipartite layout
     layout = nx.multipartite_layout(G, subset_key='subset')
     
@@ -88,8 +90,8 @@ def visualize_graph(G):
     nx.draw_networkx_labels(G, layout, font_size=8)
     
     # Plot the graph
-    plt.title("Graph Visualization")
-    plt.savefig('graph-visualization.png')
+    plt.title(output_file.replace('.png', ''))
+    plt.savefig(output_file)
 
 
 
@@ -146,17 +148,22 @@ def write_layers_to_file(G, layers, filename):
 
 
 # Main function to run the app
-def main(input_file):
-    subjects = parse_input_file(input_file)
+def main(input, output):
+    subjects = parse_input_file(input + '.txt')
     G = create_graph(subjects)
     layers = assign_layers(G)
-    visualize_graph(G)
-    write_layers_to_file(G, layers, output_file)
+    
+    visualize_graph_to_file(G, output + '.png')
+    write_layers_to_file(G, layers, output + '.txt')
 
 
 
 # Run the app
 if __name__ == "__main__":
-    input_file = 'Course6TheoreticalCS.txt'
-    output_file = 'Output' + input_file
-    main(input_file)
+    for root, dir, files in os.walk("./courses"):
+        for filename in files:
+            if 'concentrations' in root:
+                input = os.path.join(root, filename).replace(".txt",'')
+                output = input.replace("concentrations","outputs") + 'Output'
+                main(input, output)
+                
