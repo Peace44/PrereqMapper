@@ -82,6 +82,7 @@ def assign_layers(G):
 # Step 4: Visualization
 def visualize_graph_to_file(G, output_file):
     # Make sure the 'subset' attribute is used for the multipartite layout
+    plt.figure() # Create a new figure
     layout = nx.multipartite_layout(G, subset_key='subset')
     
     # Draw the parts we want
@@ -92,6 +93,7 @@ def visualize_graph_to_file(G, output_file):
     # Plot the graph
     plt.title(output_file.replace('.png', ''))
     plt.savefig(output_file)
+    plt.clf()
 
 
 
