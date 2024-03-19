@@ -1,0 +1,35 @@
+6.1800 Computer Systems Engineering
+Prereq: 6.1910
+Topics on the engineering of computer software and hardware systems: techniques for controlling complexity; strong modularity using client-server design, operating systems; performance, networks; naming; security and privacy; fault-tolerant systems, atomicity and coordination of concurrent activities, and recovery; impact of computer systems on society. Case studies of working systems and readings from the current literature provide comparisons and contrasts. Includes a single, semester-long design project. Students engage in extensive written communication exercises. Enrollment may be limited.
+
+6.1810 Operating System Engineering
+Prereq: 6.1910
+Design and implementation of operating systems, and their use as a foundation for systems programming. Topics include virtual memory, file systems, threads, context switches, kernels, interrupts, system calls, interprocess communication, coordination, and interaction between software and hardware. A multi-processor operating system for RISC-V, xv6, is used to illustrate these topics. Individual laboratory assignments involve extending the xv6 operating system, for example to support sophisticated virtual memory features and networking.
+
+6.1820[J] Mobile and Sensor Computing
+Prereq: 6.1800
+Focuses on "Internet of Things" (IoT) systems and technologies, sensing, computing, and communication. Explores fundamental design and implementation issues in the engineering of mobile and sensor computing systems. Topics include battery-free sensors, seeing through wall, robotic sensors, vital sign sensors (breathing, heartbeats, emotions), sensing in cars and autonomous vehicles, subsea IoT, sensor security, positioning technologies (including GPS and indoor WiFi), inertial sensing (accelerometers, gyroscopes, inertial measurement units, dead-reckoning), embedded and distributed system architectures, sensing with radio signals, sensing with microphones and cameras, wireless sensor networks, embedded and distributed system architectures, mobile libraries and APIs to sensors, and application case studies. Includes readings from research literature, as well as laboratory assignments and a significant term project.
+
+6.1850 Computer Systems and Society
+Prereq: 6.1800
+Explores the impact of computer systems on individual humans, society, and the environment. Examines large- and small-scale power structures that stem from low-level technical design decisions, the consequences of those structures on society, and how they can limit or provide access to certain technologies. Students learn to assess design decisions within an ethical framework and consider the impact of their decisions on non-users. Case studies of working systems and readings from the current literature provide comparisons and contrasts. Possible topics include the implications of hierarchical designs (e.g., DNS) for scale; how layered models influence what parts of a network have the power to take certain actions; and the environmental impact of proof-of-work-based systems such as Bitcoin. Enrollment may be limited.
+
+6.5810 Operating System Engineering
+Prereq: 6.1020, 6.1800
+Fundamental design and implementation issues in the engineering of operating systems. Lectures based on the study of a symmetric multiprocessor version of UNIX version 6 and research papers. Topics include virtual memory; file system; threads; context switches; kernels; interrupts; system calls; interprocess communication; coordination, and interaction between software and hardware. Individual laboratory assignments accumulate in the construction of a minimal operating system (for an x86-based personal computer) that implements the basic operating system abstractions and a shell. Knowledge of programming in the C language is a prerequisite.
+
+6.5820 Computer Networks
+Prereq: 6.1800
+Topics on the engineering and analysis of network protocols and architecture, including architectural principles for designing heterogeneous networks; transport protocols; Internet routing; router design; congestion control and network resource management; wireless networks; network security; naming; overlay and peer-to-peer networks. Readings from original research papers. Semester-long project and paper.
+
+6.5830 Database Systems
+Prereq: 6.1800, 6.1210
+Topics related to the engineering and design of database systems, including data models; database and schema design; schema normalization and integrity constraints; query processing; query optimization and cost estimation; transactions; recovery; concurrency control; isolation and consistency; distributed, parallel and heterogeneous databases; adaptive databases; trigger systems; pub-sub systems; semi structured data and XML querying. Lecture and readings from original research papers. Semester-long project and paper. Students taking graduate version complete different assignments. Enrollment may be limited.
+
+6.5840 Distributed Computer Systems Engineering
+Prereq: 6.1800
+Abstractions and implementation techniques for engineering distributed systems: remote procedure call, threads and locking, client/server, peer-to-peer, consistency, fault tolerance, and security. Readings from current literature. Individual laboratory assignments culminate in the construction of a fault-tolerant and scalable network file system. Programming experience with C/C++ required. Enrollment limited.
+
+6.5850 Principles of Computer Systems
+Prereq: 6.1800, 6.1200[J]
+Introduction to the basic principles of computer systems with emphasis on the use of rigorous techniques as an aid to understanding and building modern computing systems. Particular attention paid to concurrent and distributed systems. Topics include: specification and verification, concurrent algorithms, synchronization, naming, Networking, replication techniques (including distributed cache management), and principles and algorithms for achieving reliability.
