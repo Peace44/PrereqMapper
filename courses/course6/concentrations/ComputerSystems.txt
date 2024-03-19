@@ -2,7 +2,7 @@
 Prereq: 6.1910
 Topics on the engineering of computer software and hardware systems: techniques for controlling complexity; strong modularity using client-server design, operating systems; performance, networks; naming; security and privacy; fault-tolerant systems, atomicity and coordination of concurrent activities, and recovery; impact of computer systems on society. Case studies of working systems and readings from the current literature provide comparisons and contrasts. Includes a single, semester-long design project. Students engage in extensive written communication exercises. Enrollment may be limited.
 
-6.1810 Operating System Engineering
+6.1810 Operating System Engineering I
 Prereq: 6.1910
 Design and implementation of operating systems, and their use as a foundation for systems programming. Topics include virtual memory, file systems, threads, context switches, kernels, interrupts, system calls, interprocess communication, coordination, and interaction between software and hardware. A multi-processor operating system for RISC-V, xv6, is used to illustrate these topics. Individual laboratory assignments involve extending the xv6 operating system, for example to support sophisticated virtual memory features and networking.
 
@@ -14,7 +14,7 @@ Focuses on "Internet of Things" (IoT) systems and technologies, sensing, computi
 Prereq: 6.1800
 Explores the impact of computer systems on individual humans, society, and the environment. Examines large- and small-scale power structures that stem from low-level technical design decisions, the consequences of those structures on society, and how they can limit or provide access to certain technologies. Students learn to assess design decisions within an ethical framework and consider the impact of their decisions on non-users. Case studies of working systems and readings from the current literature provide comparisons and contrasts. Possible topics include the implications of hierarchical designs (e.g., DNS) for scale; how layered models influence what parts of a network have the power to take certain actions; and the environmental impact of proof-of-work-based systems such as Bitcoin. Enrollment may be limited.
 
-6.5810 Operating System Engineering
+6.5810 Operating System Engineering II
 Prereq: 6.1020, 6.1800
 Fundamental design and implementation issues in the engineering of operating systems. Lectures based on the study of a symmetric multiprocessor version of UNIX version 6 and research papers. Topics include virtual memory; file system; threads; context switches; kernels; interrupts; system calls; interprocess communication; coordination, and interaction between software and hardware. Individual laboratory assignments accumulate in the construction of a minimal operating system (for an x86-based personal computer) that implements the basic operating system abstractions and a shell. Knowledge of programming in the C language is a prerequisite.
 
