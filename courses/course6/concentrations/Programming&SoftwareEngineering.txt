@@ -1,0 +1,31 @@
+6.100A Introduction to Computer Science Programming in Python
+Prereq: None
+Introduction to computer science and programming for students with little or no programming experience. Students develop skills to program and use computational techniques to solve problems. Topics include the notion of computation, Python, simple algorithms and data structures, testing and debugging, and algorithmic complexity. Combination of 6.100A and 6.100B or 16.C20[J] counts as REST subject. Final given in the seventh week of the term.
+
+6.100B Introduction to Computational Thinking and Data Science
+Prereq: 6.100A
+Provides an introduction to using computation to understand real-world phenomena. Topics include plotting, stochastic programs, probability and statistics, random walks, Monte Carlo simulations, modeling data, optimization problems, and clustering. Combination of 6.100A and 6.100B counts as REST subject.
+
+6.1010 Fundamentals of Programming
+Prereq: 6.100A
+Introduces fundamental concepts of programming. Designed to develop skills in applying basic methods from programming languages to abstract problems. Topics include programming and Python basics, computational concepts, software engineering, algorithmic techniques, data types, and recursion.  Lab component consists of software design, construction, and implementation of design. Enrollment may be limited.
+
+6.1020 Software Construction
+Prereq: 6.1010
+Introduces fundamental principles and techniques of software development: how to write software that is safe from bugs, easy to understand, and ready for change. Topics include specifications and invariants; testing, test-case generation, and coverage; abstract data types and representation independence; design patterns for object-oriented programming; concurrent programming, including message passing and shared memory concurrency, and defending against races and deadlock; and functional programming with immutable data and higher-order functions. Includes weekly programming exercises and larger group programming projects.
+
+6.1040 Software Design
+Prereq: 6.1020, 6.1200[J]
+Provides design-focused instruction on how to build complex software applications. Design topics include classic human-computer interaction (HCI) design tactics (need finding, heuristic evaluation, prototyping, user testing), conceptual design (inventing, modeling and evaluating constituent concepts), social and ethical implications, abstract data modeling, and visual design. Implementation topics include reactive front-ends, web services, and databases. Students work both on individual projects and a larger team project in which they design and build full-stack web applications.
+
+6.1060 Software Performance Engineering
+Prereq: 6.1020, 6.1210, 6.1910
+Project-based introduction to building efficient, high-performance and scalable software systems. Topics include performance analysis, algorithmic techniques for high performance, instruction-level optimizations, vectorization, cache and memory hierarchy optimization, and parallel programming.
+
+6.5060 Algorithm Engineering
+Prereq: 6.1060, 6.1220[J]
+Covers the theory and practice of algorithms and data structures. Topics include models of computation, algorithm design and analysis, and performance engineering of algorithm implementations. Presents the design and implementation of sequential, parallel, cache-efficient, and external-memory algorithms. Illustrates many of the principles of algorithm engineering in the context of parallel algorithms and graph problems.
+
+6.5080 Multicore Programming
+Prereq: 6.1210
+Introduces principles and core techniques for programming multicore machines. Topics include locking, scalability, concurrent data structures, multiprocessor scheduling, load balancing, and state-of-the-art synchronization techniques, such as transactional memory. Includes sequence of programming assignments on a large multicore machine, culminating with the design of a highly concurrent application. Students taking graduate version complete additional assignments.
