@@ -1,0 +1,67 @@
+CalculusI 18.01
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalculusII 18.02
+Prereq: CalculusI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+18.03 Differential Equations
+Prereq: CalculusII 
+Study of differential equations, including modeling physical systems. Solution of first-order ODEs by analytical, graphical, and numerical methods. Linear ODEs with constant coefficients. Complex numbers and exponentials. Inhomogeneous equations: polynomial, sinusoidal, and exponential inputs. Oscillations, damping, resonance. Fourier series. Matrices, eigenvalues, eigenvectors, diagonalization. First order linear systems: normal modes, matrix exponentials, variation of parameters. Heat equation, wave equation. Nonlinear autonomous systems: critical point analysis, phase plane diagrams.
+
+PhysicsI 8.01 (Classical Mechanics I)
+Prereq: None
+Introduces classical mechanics. Space and time: straight-line kinematics; motion in a plane; forces and static equilibrium; particle dynamics, with force and conservation of momentum; relative inertial frames and non-inertial force; work, potential energy and conservation of energy; kinetic theory and the ideal gas; rigid bodies and rotational dynamics; vibrational motion; conservation of angular momentum; central force motions; fluid mechanics. Subject taught using the TEAL (Technology-Enabled Active Learning) format which features students working in groups of three, discussing concepts, solving problems, and doing table-top experiments with the aid of computer data acquisition and analysis.
+
+PhysicsII 8.02 
+Prereq: CalculusII, PhysicsI
+Covers Maxwell's equations in both differential and integral form, electrostatic and magnetic vector potential, and the properties of dielectrics and magnetic materials. Topics include electric charge, Coulomb's law, electrostatic fields and potentials, electric currents, magnetic fields, Ampere's law, Faraday's law of induction, basic electric circuits, and electromagnetic waves. The course utilizes the TEAL (Technology Enabled Active Learning) format for small group interactions and practical experiments in electricity and magnetism. Some knowledge of vector calculus is assumed.
+
+PhysicsIII 8.03
+Prereq: PhysicsII
+Mechanical vibrations and waves; simple harmonic motion, superposition, forced vibrations and resonance, coupled oscillations, and normal modes; vibrations of continuous systems; reflection and refraction; phase and group velocity. Optics; wave solutions to Maxwell's equations; polarization; Snell's Law, interference, Huygens's principle, Fraunhofer diffraction, and gratings.
+
+18.06 Linear Algebra
+Prereq: CalculusII
+Basic subject on matrix theory and linear algebra, emphasizing topics useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, singular value decomposition, and positive definite matrices. Applications to least-squares approximations, stability of differential equations, networks, Fourier transforms, and Markov processes. Uses linear algebra software. Compared with 18.700, more emphasis on matrix algorithms and many applications.
+
+6.1200[J] Mathematics for Computer Science
+Prereq: CalculusI
+Elementary discrete mathematics for science and engineering, with a focus on mathematical tools and proof techniques useful in computer science. Topics include logical notation, sets, relations, elementary graph theory, state machines and invariants, induction and proofs by contradiction, recurrences, asymptotic notation, elementary analysis of algorithms, elementary number theory and cryptography, permutations and combinations, counting tools, and discrete probability.
+
+18.100A Real Analysis A
+Prereq: CalculusII
+Covers fundamentals of mathematical analysis: convergence of sequences and series, continuity, differentiability, Riemann integral, sequences and series of functions, uniformity, interchange of limit operations. Shows the utility of abstract concepts and teaches understanding and construction of proofs. Proofs and definitions are less abstract than in 18.100B. Gives applications where possible. Concerned primarily with the real line.
+
+18.100B Real Analysis B
+Prereq: 18.100A
+Covers fundamentals of mathematical analysis: convergence of sequences and series, continuity, differentiability, Riemann integral, sequences and series of functions, uniformity, interchange of limit operations. Shows the utility of abstract concepts and teaches understanding and construction of proofs. More demanding than 18.100A, for students with more mathematical maturity. Places more emphasis on point-set topology and n-space.
+
+18.950 Differential Geometry
+Prereq: 18.06, 18.100B
+Introduction to differential geometry, centered on notions of curvature. Starts with curves in the plane, and proceeds to higher dimensional submanifolds. Computations in coordinate charts: first and second fundamental form, Christoffel symbols. Discusses the distinction between extrinsic and intrinsic aspects, in particular Gauss' theorema egregium. The Gauss-Bonnet theorem. Geodesics. Examples such as hyperbolic space.
+
+8.04 Quantum Physics I
+Prereq: PhysicsIII, 18.03
+Experimental basis of quantum physics: photoelectric effect, Compton scattering, photons, Franck-Hertz experiment, the Bohr atom, electron diffraction, deBroglie waves, and wave-particle duality of matter and light. Introduction to wave mechanics: Schroedinger's equation, wave functions, wave packets, probability amplitudes, stationary states, the Heisenberg uncertainty principle, and zero-point energies. Solutions to Schroedinger's equation in one dimension: transmission and reflection at a barrier, barrier penetration, potential wells, the simple harmonic oscillator. Schroedinger's equation in three dimensions: central potentials and introduction to hydrogenic systems.
+
+8.05 Quantum Physics II
+Prereq: 8.04
+Vector spaces, linear operators, and matrix representations.  Inner products and adjoint operators. Commutator identities. Dirac's Bra-kets. Uncertainty principle and energy-time version. Spectral theorem and complete set of commuting observables. Schrodinger and Heisenberg pictures.  Axioms of quantum mechanics. Coherent states and nuclear magnetic resonance. Multiparticle states and tensor products. Quantum teleportation, EPR and Bell inequalities. Angular momentum and central potentials. Addition of angular momentum. Density matrices, pure and mixed states, decoherence
+
+8.06 Quantum Physics III
+Prereq: 8.05
+Continuation of 8.05. Units: natural units, scales of microscopic phenomena, applications. Time-independent approximation methods: degenerate and nondegenerate perturbation theory, variational method, Born-Oppenheimer approximation, applications to atomic and molecular systems. The structure of one- and two-electron atoms: overview, spin-orbit and relativistic corrections, fine structure, variational approximation, screening, Zeeman and Stark effects. Charged particles in a magnetic field: Landau levels and integer quantum hall effect. Scattering: general principles, partial waves, review of one-dimension, low-energy approximations, resonance, Born approximation. Time-dependent perturbation theory. Students research and write a paper on a topic related to the content of 8.05 and 8.06.
+
+8.223 Classical Mechanics II
+Prereq: CalculusII, PhysicsI
+A broad, theoretical treatment of classical mechanics, useful in its own right for treating complex dynamical problems, but essential to understanding the foundations of quantum mechanics and statistical physics. Generalized coordinates, Lagrangian and Hamiltonian formulations, canonical transformations, and Poisson brackets. Applications to continuous media. The relativistic Lagrangian and Maxwell's equations.
+
+8.09 Classical Mechanics III
+Prereq: 8.223
+Covers Lagrangian and Hamiltonian mechanics, systems with constraints, rigid body dynamics, vibrations, central forces, Hamilton-Jacobi theory, action-angle variables, perturbation theory, and continuous systems. Provides an introduction to ideal and viscous fluid mechanics, including turbulence, as well as an introduction to nonlinear dynamics, including chaos. Students taking graduate version complete different assignments.
+
+18.102 Introduction to Functional Analysis
+Prereq: 18.06, 18.100B
+Normed spaces, completeness, functionals, Hahn-Banach theorem, duality, operators. Lebesgue measure, measurable functions, integrability, completeness of L-p spaces. Hilbert space. Compact, Hilbert-Schmidt and trace class operators. Spectral theorem.
