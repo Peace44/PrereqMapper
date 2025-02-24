@@ -1,0 +1,19 @@
+6.1600 Foundations of Computer Security
+Prereq: 6.1210, 6.1800
+Fundamental notions and big ideas for achieving security in computer systems. Topics include cryptographic foundations (pseudorandomness, collision-resistant hash functions, authentication codes, signatures, authenticated encryption, public-key encryption), systems ideas (isolation, non-interference, authentication, access control, delegation, trust), and implementation techniques (privilege separation, fuzzing, symbolic execution, runtime defenses, side-channel attacks). Case studies of how these ideas are realized in deployed systems. Lab assignments apply ideas from lectures to learn how to build secure systems and how they can be attacked.
+
+6.5610 Applied Cryptography and Security
+Prereq: 6.1200[J], 6.1800
+Emphasis on applied cryptography. May include: basic notion of systems security, cryptographic hash functions, symmetric cryptography (one-time pad, block ciphers, stream ciphers, message authentication codes), hash functions, key-exchange, public-key cryptography (encryption, digital signatures), elliptic curve cryptography,  secret-sharing, fully homomorphic encryption, zero-knowledge proofs, and electronic voting. Assignments include a final group project. Topics may vary year to year.
+
+6.5620[J] Foundations of Cryptography
+Prereq: 6.1400[J]
+A rigorous introduction to modern cryptography. Emphasis on the fundamental cryptographic primitives such as public-key encryption, digital signatures, and pseudo-random number generation, as well as advanced cryptographic primitives such as zero-knowledge proofs, homomorphic encryption, and secure multiparty computation.
+
+6.5630 Advanced Topics in Cryptography
+Prereq: 6.5620[J]
+In-depth exploration of recent results in cryptography.
+
+6.5660 Computer Systems Security
+Prereq: 6.1020, 6.1800
+Design and implementation of secure computer systems. Lectures cover attacks that compromise security as well as techniques for achieving security, based on recent research papers. Topics include operating system security, privilege separation, capabilities, language-based security, cryptographic network protocols, trusted hardware, and security in web applications and mobile phones. Labs involve implementing and compromising a web application that sandboxes arbitrary code, and a group final project.

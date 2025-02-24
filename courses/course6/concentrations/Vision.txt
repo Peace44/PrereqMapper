@@ -1,15 +1,15 @@
-6.8301 Advances in Computer Vision
+6.8300 Advances in Computer Vision
 Prereq: 6.3700, 18.06
 Advanced topics in computer vision with a focus on the use of machine learning techniques and applications in graphics and human-computer interface. Covers image representations, texture models, structure-from-motion algorithms, Bayesian techniques, object and scene recognition, tracking, shape modeling, and image databases. Applications may include face recognition, multimodal interaction, interactive systems, cinematic special effects, and photorealistic rendering. Includes instruction and practice in written and oral communication. Students taking graduate version complete additional assignments.
 
 6.8320 Advanced Topics in Computer Vision
-Prereq: 6.8301 
+Prereq: 6.8300 
 Seminar exploring advanced research topics in the field of computer vision; focus varies with lecturer. Typically structured around discussion of assigned research papers and presentations by students. Example research areas explored in this seminar include learning in vision, computational imaging techniques, multimodal human-computer interaction, biomedical imaging, representation and estimation methods used in modern computer vision.
 
 6.8370 Advanced Computational Photography
-Prereq: CalculusII, 6.1020
+Prereq: CalcII, 6.1020
 Presents fundamentals and applications of hardware and software techniques used in digital and computational photography, with an emphasis on software methods. Provides sufficient background to implement solutions to photographic challenges and opportunities. Topics include cameras and image formation, image processing and image representations, high-dynamic-range imaging, human visual perception and color, single view 3-D model reconstruction, morphing, data-rich photography, super-resolution, and image-based rendering. Students taking graduate version complete additional assignments.
 
 6.8371 Digital and Computational Photography
-Prereq: CalculusII, 6.1010
+Prereq: CalcII, 6.1010
 Presents fundamentals and applications of hardware and software techniques used in digital and computational photography, with an emphasis on software methods. Provides sufficient background to implement solutions to photographic challenges and opportunities. Topics include cameras and image formation, image processing and image representations, high-dynamic-range imaging, human visual perception and color, single view 3-D model reconstruction, morphing, data-rich photography, super-resolution, and image-based rendering. Students taking graduate version complete additional assignments.

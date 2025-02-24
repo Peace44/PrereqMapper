@@ -1,0 +1,59 @@
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+18.03 Differential Equations
+Prereq: CalcII
+Study of differential equations, including modeling physical systems. Solution of first-order ODEs by analytical, graphical, and numerical methods. Linear ODEs with constant coefficients. Complex numbers and exponentials. Inhomogeneous equations: polynomial, sinusoidal, and exponential inputs. Oscillations, damping, resonance. Fourier series. Matrices, eigenvalues, eigenvectors, diagonalization. First order linear systems: normal modes, matrix exponentials, variation of parameters. Heat equation, wave equation. Nonlinear autonomous systems: critical point analysis, phase plane diagrams.
+
+18.031 System Functions and the Laplace Transform
+Prereq: 18.03
+Studies basic continuous control theory as well as representation of functions in the complex frequency domain. Covers generalized functions, unit impulse response, and convolution; and Laplace transform, system (or transfer) function, and the pole diagram. Includes examples from mechanical and electrical engineering.
+
+18.032 Differential Equations
+Prereq: CalcII
+Covers much of the same material as 18.03 with more emphasis on theory. The point of view is rigorous and results are proven. Local existence and uniqueness of solutions.
+
+18.04 Complex Variables with Applications
+Prereq: CalcII, 18.03
+Complex algebra and functions; analyticity; contour integration, Cauchy's theorem; singularities, Taylor and Laurent series; residues, evaluation of integrals; multivalued functions, potential theory in two dimensions; Fourier analysis, Laplace transforms, and partial differential equations.
+
+18.05 Introduction to Probability and Statistics
+Prereq: CalcII
+Elementary introduction with applications. Basic probability models. Combinatorics. Random variables. Discrete and continuous probability distributions. Statistical estimation and testing. Confidence intervals. Introduction to linear regression.
+
+18.06 Linear Algebra
+Prereq: CalcII
+Basic subject on matrix theory and linear algebra, emphasizing topics useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, singular value decomposition, and positive definite matrices. Applications to least-squares approximations, stability of differential equations, networks, Fourier transforms, and Markov processes. Uses linear algebra software. Compared with 18.700, more emphasis on matrix algorithms and many applications.
+
+18.062[J] Mathematics for Computer Science
+Prereq: CalcI
+See description under subject 6.1200[J].
+
+18.063 Matrix Calculus for Machine Learning and Beyond
+Prereq: CalcII, 18.06
+Covers a coherent approach to matrix calculus, showing techniques that allow the student to think of a matrix holistically, rather than as an array of scalars; generalize and compute derivatives of important matrix factorizations and other complicated-looking operations; and understand how differentiation formulas must be reimagined in large-scale computing. Discusses "adjoint" or "reverse-mode" differentiation, custom vector-Jacobian products, and how modern automatic differentiation is more computer science than calculus.
+
+18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning
+Prereq: 18.06
+Reviews linear algebra with applications to life sciences, finance, engineering, and big data. Covers singular value decomposition, weighted least squares, signal and image processing, principal component analysis, covariance and correlation matrices, directed and undirected graphs, matrix factorizations, neural nets, machine learning, and computations with large matrices.
+
+18.085 Computational Science and Engineering I
+Prereq: CalcII, 18.03
+Review of linear algebra, applications to networks, structures, and estimation, finite difference and finite element solution of differential equations, Laplace's equation and potential flow, boundary-value problems, Fourier series, discrete Fourier transform, convolution. Frequent use of MATLAB in a wide range of scientific and engineering applications.
+
+18.086 Computational Science and Engineering II
+Prereq: CalcII, 18.03
+Initial value problems: finite difference methods, accuracy and stability, heat equation, wave equations, conservation laws and shocks, level sets, Navier-Stokes. Solving large systems: elimination with reordering, iterative methods, preconditioning, multigrid, Krylov subspaces, conjugate gradients. Optimization and minimum principles: weighted least squares, constraints, inverse problems, calculus of variations, saddle point problems, linear programming, duality, adjoint methods.
+
+18.090 Introduction to Mathematical Reasoning
+Prereq: CalcII
+Focuses on understanding and constructing mathematical arguments. Discusses foundational topics (such as infinite sets, quantifiers, and methods of proof) as well as selected concepts from algebra (permutations, vector spaces, fields) and analysis (sequences of real numbers). Particularly suitable for students desiring additional experience with proofs before going on to more advanced mathematics subjects or subjects in related areas with significant mathematical content.
+
+18.091 Introduction to Metric Spaces
+Prereq: 18.100A
+Covers metrics, open and closed sets, continuous functions (from a topological perspective), function spaces, completeness, and compactness. Aims to provide more complex concepts and proofs for students who have taken 18.100A as their real analysis subject.

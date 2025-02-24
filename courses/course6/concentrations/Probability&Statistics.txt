@@ -1,0 +1,23 @@
+6.3700 Introduction to Probability
+Prereq: CalcII
+An introduction to probability theory, the modeling and analysis of probabilistic systems, and elements of statistical inference. Probabilistic models, conditional probability. Discrete and continuous random variables. Expectation and conditional expectation, and further topics about random variables. Limit Theorems. Bayesian estimation and hypothesis testing. Elements of classical statistical inference. Bernoulli and Poisson processes. Markov chains. Students taking graduate version complete additional assignments.
+
+6.3720 Introduction to Statistical Data Analysis
+Prereq: 18.06, 6.100A, 6.3700
+Introduction to the central concepts and methods of data science with an emphasis on statistical grounding and modern computational capabilities. Covers principles involved in extracting information from data for the purpose of making predictions or decisions, including data exploration, feature selection, model fitting, and performance assessment. Topics include learning of distributions, hypothesis testing (including multiple comparison procedures), linear and nonlinear regression and prediction, classification, time series, uncertainty quantification, model validation, causal inference, optimization, and decisions. Computational case studies and projects drawn from applications in finance, sports, engineering, and machine learning life sciences. Students taking graduate version complete additional assignments.
+
+6.3730[J] Statistics, Computation and Applications
+Prereq: 6.100B, 18.06, 6.3800
+See description under subject IDS.012[J]. Enrollment limited; priority to Statistics and Data Science minors, and to juniors and seniors.
+
+6.7700[J] Fundamentals of Probability
+Prereq: CalcII
+Introduction to probability theory. Probability spaces and measures. Discrete and continuous random variables. Conditioning and independence. Multivariate normal distribution. Abstract integration, expectation, and related convergence results. Moment generating and characteristic functions. Bernoulli and Poisson process. Finite-state Markov chains. Convergence notions and their relations. Limit theorems. Familiarity with elementary probability and real analysis is desirable.
+
+6.7710 Discrete Stochastic Processes
+Prereq: 6.3702
+Review of probability and laws of large numbers; Poisson counting process and renewal processes; Markov chains (including Markov decision theory), branching processes, birth-death processes, and semi-Markov processes; continuous-time Markov chains and reversibility; random walks, martingales, and large deviations; applications from queueing, communication, control, and operations research.
+
+6.7720[J] Discrete Probability and Stochastic Processes
+Prereq: 6.7700[J]
+See description under subject 15.070[J].

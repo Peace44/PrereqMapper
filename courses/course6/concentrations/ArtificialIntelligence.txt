@@ -1,0 +1,23 @@
+6.4100 Artificial Intelligence
+Prereq: 6.100A
+Introduces representations, methods, and architectures used to build applications and to account for human intelligence from a computational point of view. Covers applications of rule chaining, constraint propagation, constrained search, inheritance, statistical inference, and other problem-solving paradigms. Also addresses applications of identification trees, neural nets, genetic algorithms, support-vector machines, boosting, and other learning paradigms. Considers what separates human intelligence from that of other animals.
+
+6.4110 Representation, Inference, and Reasoning in AI
+Prereq: 16.09, 16.410[J]
+An introduction to representations and algorithms for artificial intelligence. Topics covered include: constraint satisfaction in discrete and continuous problems, logical representation and inference, Monte Carlo tree search, probabilistic graphical models and inference, planning in discrete and continuous deterministic and probabilistic models including MDPs and POMDPs.
+
+6.4120[J] Computational Cognitive Science
+Prereq: 6.3800
+See description under subject 9.66[J].
+
+6.4130[J] Principles of Autonomy and Decision Making
+Prereq: 6.9080
+See description under subject 16.410[J].
+
+6.4150[J] Artificial Intelligence for Business
+Prereq: None
+See description under subject 15.563[J].
+
+6.8110[J] Cognitive Robotics
+Prereq: 16.413[J], 6.3700
+See description under subject 16.412[J]. Enrollment may be limited.

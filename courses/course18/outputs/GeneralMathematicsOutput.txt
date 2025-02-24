@@ -1,0 +1,27 @@
+Layer 0:
+18.100A
+None
+
+Layer 1:
+18.100A ==> 18.091
+None ==> CalcI
+
+Layer 2:
+None ==> CalcI ==> 18.062[J]
+None ==> CalcI ==> CalcII
+
+Layer 3:
+None ==> CalcI ==> CalcII ==> 18.03
+None ==> CalcI ==> CalcII ==> 18.032
+None ==> CalcI ==> CalcII ==> 18.05
+None ==> CalcI ==> CalcII ==> 18.06
+None ==> CalcI ==> CalcII ==> 18.090
+
+Layer 4:
+None ==> CalcI ==> CalcII ==> 18.03 ==> 18.031
+None ==> CalcI ==> CalcII ==> 18.03 ==> 18.04
+None ==> CalcI ==> CalcII ==> 18.06 ==> 18.063
+None ==> CalcI ==> CalcII ==> 18.06 ==> 18.065
+None ==> CalcI ==> CalcII ==> 18.03 ==> 18.085
+None ==> CalcI ==> CalcII ==> 18.03 ==> 18.086
+

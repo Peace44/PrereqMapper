@@ -1,0 +1,15 @@
+6.4200[J] Robotics: Science and Systems
+Prereq: 6.100A, 16.06
+Presents concepts, principles, and algorithmic foundations for robots and autonomous vehicles operating in the physical world. Topics include sensing, kinematics and dynamics, state estimation, computer vision, perception, learning, control, motion planning, and embedded system development. Students design and implement advanced algorithms on complex robotic platforms capable of agile autonomous navigation and real-time interaction with the physical word. Students engage in extensive written and oral communication exercises. Enrollment limited.
+
+6.4210 Robotic Manipulation
+Prereq: 6.100A, 6.3900
+Introduces the fundamental algorithmic approaches for creating robot systems that can autonomously manipulate physical objects in unstructured environments such as homes and restaurants. Topics include perception (including approaches based on deep learning and approaches based on 3D geometry), planning (robot kinematics and trajectory generation, collision-free motion planning, task-and-motion planning, and planning under uncertainty), as well as dynamics and control (both model-based and learning-based). Students taking graduate version complete additional assignments. Students engage in extensive written and oral communication exercises.
+
+6.8200 Sensorimotor Learning
+Prereq: 6.7900
+Provides an in-depth view of the state-of-the-art learning methods for control and the know-how of applying these techniques. Topics span reinforcement learning, self-supervised learning, imitation learning, model-based learning, and advanced deep learning architectures, and specific machine learning challenges unique to building sensorimotor systems. Discusses how to identify if learning-based control can help solve a particular problem, how to formulate the problem in the learning framework, and what algorithm to use. Applications of algorithms in robotics, logistics, recommendation systems, playing games, and other control domains covered. Instruction involves two lectures a week, practical experience through exercises, discussion of current research directions, and a group project.
+
+6.8210 Underactuated Robotics
+Prereq: 18.03, 18.06
+Covers nonlinear dynamics and control of underactuated mechanical systems, with an emphasis on computational methods. Topics include the nonlinear dynamics of robotic manipulators, applied optimal and robust control and motion planning. Discussions include examples from biology and applications to legged locomotion, compliant manipulation, underwater robots, and flying machines.

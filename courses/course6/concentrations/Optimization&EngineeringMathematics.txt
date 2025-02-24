@@ -1,0 +1,47 @@
+6.3260[J] Networks
+Prereq: 6.3700
+See description under subject 14.15[J].
+
+6.7210[J] Introduction to Mathematical Programming
+Prereq: 18.06
+Introduction to linear optimization and its extensions emphasizing both methodology and the underlying mathematical structures and geometrical ideas. Covers classical theory of linear programming as well as some recent advances in the field. Topics: simplex method; duality theory; sensitivity analysis; network flow problems; decomposition; robust optimization; integer programming; interior point algorithms for linear programming; and introduction to combinatorial optimization and NP-completeness.
+
+6.7220[J] Nonlinear Optimization
+Prereq: 18.06, 18.100A
+Unified analytical and computational approach to nonlinear optimization problems. Unconstrained optimization methods include gradient, conjugate direction, Newton, sub-gradient and first-order methods. Constrained optimization methods include feasible directions, projection, interior point methods, and Lagrange multiplier methods. Convex analysis, Lagrangian relaxation, nondifferentiable optimization, and applications in integer programming. Comprehensive treatment of optimality conditions and Lagrange multipliers. Geometric approach to duality theory. Applications drawn from control, communications, machine learning, and resource allocation problems.
+
+6.7230[J] Algebraic Techniques and Semidefinite Optimization
+Prereq: 6.7210[J]
+Theory and computational techniques for optimization problems involving polynomial equations and inequalities with particular, emphasis on the connections with semidefinite optimization. Develops algebraic and numerical approaches of general applicability, with a view towards methods that simultaneously incorporate both elements, stressing convexity-based ideas, complexity results, and efficient implementations. Examples from several engineering areas, in particular systems and control applications. Topics include semidefinite programming, resultants/discriminants, hyperbolic polynomials, Groebner bases, quantifier elimination, and sum of squares.
+
+6.7240 Game Theory with Engineering Applications
+Prereq: 6.3702
+Introduction to fundamentals of game theory and mechanism design with motivations for each topic drawn from engineering applications (including distributed control of wireline/wireless communication networks, transportation networks, pricing). Emphasis on the foundations of the theory, mathematical tools, as well as modeling and the equilibrium notion in different environments. Topics include normal form games, supermodular games, dynamic games, repeated games, games with incomplete/imperfect information, mechanism design, cooperative game theory, and network games.
+
+6.7250 Optimization for Machine Learning
+Prereq: 6.3900, 18.06
+Optimization algorithms are central to all of machine learning. Covers a variety of topics in optimization, with a focus on non-convex optimization. Focuses on both classical and cutting-edge results, including foundational topics grounded in convexity, complexity theory of first-order methods, stochastic optimization, as well as recent progress in non-Euclidean optimization, deep learning, and beyond. Prepares students to appreciate a broad spectrum of ideas in OPTML, learning to be not only informed users but also gaining exposure to research questions in the area.
+
+6.7260 Network Science and Models
+Prereq: 6.3702, 18.06
+Introduces the main mathematical models used to describe large networks and dynamical processes that evolve on networks. Static models of random graphs, preferential attachment, and other graph evolution models. Epidemic propagation, opinion dynamics, social learning, and inference in networks. Applications drawn from social, economic, natural, and infrastructure networks, as well as networked decision systems such as sensor networks.
+
+6.7300[J] Introduction to Modeling and Simulation
+Prereq: 18.06
+Introduction to computational techniques for modeling and simulation of a variety of large and complex engineering, science, and socio-economical systems. Prepares students for practical use and development of computational engineering in their own research and future work. Topics include mathematical formulations (e.g., automatic assembly of constitutive and conservation principles); linear system solvers (sparse and iterative); nonlinear solvers (Newton and homotopy); ordinary, time-periodic and partial differential equation solvers; and model order reduction. Students develop their own models and simulators for self-proposed applications, with an emphasis on creativity, teamwork, and communication. Prior basic linear algebra required and at least one numerical programming language (e.g., MATLAB, Julia, Python, etc.) helpful.
+
+6.7310[J] Introduction to Numerical Methods
+Prereq: 18.06
+See description under subject 18.335[J].
+
+6.7320[J] Parallel Computing and Scientific Machine Learning
+Prereq: 18.06
+See description under subject 18.337[J].
+
+6.7330[J] Numerical Methods for Partial Differential Equations
+Prereq: 18.03
+See description under subject 16.920[J].
+
+6.7340[J] Fast Methods for Partial Differential and Integral Equations
+Prereq: 16.920[J]
+See description under subject 18.336[J].

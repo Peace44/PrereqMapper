@@ -15,7 +15,7 @@ Prereq: 6.1800
 Explores the impact of computer systems on individual humans, society, and the environment. Examines large- and small-scale power structures that stem from low-level technical design decisions, the consequences of those structures on society, and how they can limit or provide access to certain technologies. Students learn to assess design decisions within an ethical framework and consider the impact of their decisions on non-users. Case studies of working systems and readings from the current literature provide comparisons and contrasts. Possible topics include the implications of hierarchical designs (e.g., DNS) for scale; how layered models influence what parts of a network have the power to take certain actions; and the environmental impact of proof-of-work-based systems such as Bitcoin. Enrollment may be limited.
 
 6.5810 Operating System Engineering II
-Prereq: 6.1020, 6.1800
+Prereq: 6.1020, 6.1810
 Fundamental design and implementation issues in the engineering of operating systems. Lectures based on the study of a symmetric multiprocessor version of UNIX version 6 and research papers. Topics include virtual memory; file system; threads; context switches; kernels; interrupts; system calls; interprocess communication; coordination, and interaction between software and hardware. Individual laboratory assignments accumulate in the construction of a minimal operating system (for an x86-based personal computer) that implements the basic operating system abstractions and a shell. Knowledge of programming in the C language is a prerequisite.
 
 6.5820 Computer Networks
@@ -23,7 +23,7 @@ Prereq: 6.1800
 Topics on the engineering and analysis of network protocols and architecture, including architectural principles for designing heterogeneous networks; transport protocols; Internet routing; router design; congestion control and network resource management; wireless networks; network security; naming; overlay and peer-to-peer networks. Readings from original research papers. Semester-long project and paper.
 
 6.5830 Database Systems
-Prereq: 6.1800, 6.1210
+Prereq: 6.1220[J], 6.1800
 Topics related to the engineering and design of database systems, including data models; database and schema design; schema normalization and integrity constraints; query processing; query optimization and cost estimation; transactions; recovery; concurrency control; isolation and consistency; distributed, parallel and heterogeneous databases; adaptive databases; trigger systems; pub-sub systems; semi structured data and XML querying. Lecture and readings from original research papers. Semester-long project and paper. Students taking graduate version complete different assignments. Enrollment may be limited.
 
 6.5840 Distributed Computer Systems Engineering

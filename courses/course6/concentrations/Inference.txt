@@ -1,0 +1,19 @@
+6.3800 Introduction to Inference
+Prereq: CalcII
+Introduces probabilistic modeling for problems of inference and machine learning from data, emphasizing analytical and computational aspects. Distributions, marginalization, conditioning, and structure, including graphical and neural network representations. Belief propagation, decision-making, classification, estimation, and prediction. Sampling methods and analysis. Introduces asymptotic analysis and information measures. Computational laboratory component explores the concepts introduced in class in the context of contemporary applications. Students design inference algorithms, investigate their behavior on real data, and discuss experimental results.
+
+6.7800 Inference and Information
+Prereq: 6.3800
+Introduction to principles of Bayesian and non-Bayesian statistical inference. Hypothesis testing and parameter estimation, sufficient statistics; exponential families. EM agorithm. Log-loss inference criterion, entropy and model capacity. Kullback-Leibler distance and information geometry. Asymptotic analysis and large deviations theory. Model order estimation; nonparametric statistics. Computational issues and approximation techniques; Monte Carlo methods. Selected topics such as universal inference and learning, and universal features and neural networks.
+
+6.7810 Algorithms for Inference
+Prereq: 18.06, 6.3800
+Introduction to computational aspects of statistical inference via probabilistic graphical models. Directed and undirected graphical models, and factor graphs, over discrete and Gaussian distributions; hidden Markov models, linear dynamical systems. Sum-product and junction tree algorithms; forward-backward algorithm, Kalman filtering and smoothing. Min-sum and Viterbi algorithms. Variational methods, mean-field theory, and loopy belief propagation. Sampling methods; Glauber dynamics and mixing time analysis. Parameter structure learning for graphical models; Baum-Welch and Chow-Liu algorithms. Selected topics such as causal inference, particle filtering, restricted Boltzmann machines, and graph neural networks.
+
+6.7820[J] Graphical Models: A Geometric, Algebraic, and Combinatorial Perspective
+Prereq: 6.3702, 18.06
+See description under subject IDS.136[J].
+
+6.7830 Bayesian Modeling and Inference
+Prereq: 6.7700[J], 6.7900
+Covers Bayesian modeling and inference at an advanced graduate level. Topics include de Finetti's theorem, decision theory, approximate inference (modern approaches and analysis of Monte Carlo, variational inference, etc.), hierarchical modeling, (continuous and discrete) nonparametric Bayesian approaches, sensitivity and robustness, and evaluation.

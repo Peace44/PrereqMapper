@@ -1,5 +1,5 @@
 6.1200[J] Mathematics for Computer Science
-Prereq: CalculusI
+Prereq: CalcI
 Elementary discrete mathematics for science and engineering, with a focus on mathematical tools and proof techniques useful in computer science. Topics include logical notation, sets, relations, elementary graph theory, state machines and invariants, induction and proofs by contradiction, recurrences, asymptotic notation, elementary analysis of algorithms, elementary number theory and cryptography, permutations and combinations, counting tools, and discrete probability.
 
 6.1210 Introduction to Algorithms
@@ -19,11 +19,11 @@ Prereq: 6.1200[J], 6.1210, 6.1400[J]
 An overview of the theory of parameterized algorithms and the "problem-centric" theory of fine-grained complexity, both of which reconsider how to measure the difficulty and feasibility of solving computational problems. Topics include: fixed-parameter tractability (FPT) and its characterizations, the W-hierarchy (W[1], W[2], W[P], etc.), 3-sum-hardness, all-pairs shortest paths (APSP)-equivalences, strong exponential time hypothesis (SETH) hardness of problems, and the connections to circuit complexity and other aspects of computing.
 
 6.5210[J] Advanced Algorithms
-Prereq: 6.1220[J], 6.1200[J]
+Prereq: 6.1220[J], 6.3700
 First-year graduate subject in algorithms. Emphasizes fundamental algorithms and advanced methods of algorithmic design, analysis, and implementation. Surveys a variety of computational models and the algorithms for them. Data structures, network flows, linear programming, computational geometry, approximation algorithms, online algorithms, parallel algorithms, external memory, streaming algorithms.
 
 6.5220[J] Randomized Algorithms
-Prereq: 6.1200[J], 6.5210[J]
+Prereq: 6.5210[J]
 Studies how randomization can be used to make algorithms simpler and more efficient via random sampling, random selection of witnesses, symmetry breaking, and Markov chains. Models of randomized computation. Data structures: hash tables, and skip lists. Graph algorithms: minimum spanning trees, shortest paths, and minimum cuts. Geometric algorithms: convex hulls, linear programming in fixed or arbitrary dimension. Approximate counting; parallel algorithms; online algorithms; derandomization techniques; and tools for probabilistic analysis of algorithms.
 
 6.5230 Advanced Data Structures
@@ -59,7 +59,7 @@ Prereq: 6.1200[J]
 A more extensive and theoretical treatment of the material in 6.1400[J]/18.400[J], emphasizing computability and computational complexity theory. Regular and context-free languages. Decidable and undecidable problems, reducibility, recursive function theory. Time and space measures on computation, completeness, hierarchy theorems, inherently complex problems, oracles, probabilistic computation, and interactive proof systems. Students in Course 18 must register for the undergraduate version, 6.5400[J].
 
 6.5410[J] Advanced Complexity Theory
-Prereq: 6.5400[J]
+Prereq: 18.404
 Current research topics in computational complexity theory. Nondeterministic, alternating, probabilistic, and parallel computation models. Boolean circuits. Complexity classes and complete sets. The polynomial-time hierarchy. Interactive proof systems. Relativization. Definitions of randomness. Pseudo-randomness and derandomizations. Interactive proof systems and probabilistically checkable proofs.
 
 6.5420 Randomness and Computation
