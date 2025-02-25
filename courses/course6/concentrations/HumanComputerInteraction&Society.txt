@@ -1,0 +1,27 @@
+6.4510 Engineering Interactive Technologies
+Prereq: 6.9010
+Provides instruction in building cutting-edge interactive technologies, explains the underlying engineering concepts, and shows how those technologies evolved over time. Students use a studio format (i.e., extended periods of time) for constructing software and hardware prototypes. Topics include interactive technologies, such as multi-touch, augmented reality, haptics, wearables, and shape-changing interfaces. In a group project, students build their own interactive hardware/software prototypes and present them in a live demo at the end of term. Enrollment may be limited.
+
+6.4530[J] Principles and Practice of Assistive Technology
+Prereq: ?
+Students work closely with people with disabilities to develop assistive and adaptive technologies that help them live more independently. Covers design methods and problem-solving strategies; human factors; human-machine interfaces; community perspectives; social and ethical aspects; and assistive technology for motor, cognitive, perceptual, and age-related impairments. Prior knowledge of one or more of the following areas useful: software; electronics; human-computer interaction; cognitive science; mechanical engineering; control; or MIT hobby shop, MIT PSC, or other relevant independent project experience. Enrollment may be limited.
+
+6.4550[J] Interactive Music Systems
+Prereq: 6.1010, 21M.301
+Explores audio synthesis, musical structure, human computer interaction (HCI), and visual presentation for the creation of interactive musical experiences. Topics include audio synthesis; mixing and looping; MIDI sequencing; generative composition; motion sensors; music games; and graphics for UI, visualization, and aesthetics. Includes weekly programming assignments in python. Teams build an original, dynamic, and engaging interactive music system for their final project. Students taking graduate version complete different assignments. Limited to 36.
+
+6.4570[J] Creating Video Games
+Prereq: 6.100A, CMS.301
+Introduces students to the complexities of working in small, multidisciplinary teams to develop video games. Covers creative design and production methods, stressing design iteration and regular testing across all aspects of game development (design, visual arts, music, fiction, and programming). Assumes a familiarity with current video games, and the ability to discuss games critically. Previous experience in audio design, visual arts, or project management recommended. Limited to 36.
+
+6.4590[J] Foundations of Information Policy
+Prereq: ?
+Studies the growth of computer and communications technology and the new legal and ethical challenges that reflect tensions between individual rights and societal needs. Topics include computer crime; intellectual property restrictions on software; encryption, privacy, and national security; academic freedom and free speech. Students meet and question technologists, activists, law enforcement agents, journalists, and legal experts. Instruction and practice in oral and written communication provided. Students taking graduate version complete additional assignments. Enrollment limited.
+
+6.8510 Intelligent Multimodal User Interfaces
+Prereq: 6.1020, 6.4100
+Implementation and evaluation of intelligent multi-modal user interfaces, taught from a combination of hands-on exercises and papers from the original literature. Topics include basic technologies for handling speech, vision, pen-based interaction, and other modalities, as well as various techniques for combining modalities. Substantial readings and a term project, where students build a program that illustrates one or more of the themes of the course.
+
+6.8530 Interactive Data Visualization
+Prereq: 6.1020
+Interactive visualization provides a means of making sense of a world awash in data. Covers the techniques and algorithms for creating effective visualizations, using principles from graphic design, perceptual psychology, and cognitive science. Short assignments build familiarity with the data analysis and visualization design process, and a final project provides experience designing, implementing, and deploying an explanatory narrative visualization or visual analysis tool to address a concrete challenge.

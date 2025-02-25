@@ -32,7 +32,7 @@ Basic subject on matrix theory and linear algebra, emphasizing topics useful in 
 
 18.062[J] Mathematics for Computer Science
 Prereq: CalcI
-See description under subject 6.1200[J].
+Elementary discrete mathematics for science and engineering, with a focus on mathematical tools and proof techniques useful in computer science. Topics include logical notation, sets, relations, elementary graph theory, state machines and invariants, induction and proofs by contradiction, recurrences, asymptotic notation, elementary analysis of algorithms, elementary number theory and cryptography, permutations and combinations, counting tools, and discrete probability.
 
 18.063 Matrix Calculus for Machine Learning and Beyond
 Prereq: CalcII, 18.06

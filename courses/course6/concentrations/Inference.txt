@@ -12,7 +12,7 @@ Introduction to computational aspects of statistical inference via probabilistic
 
 6.7820[J] Graphical Models: A Geometric, Algebraic, and Combinatorial Perspective
 Prereq: 6.3702, 18.06
-See description under subject IDS.136[J].
+Provides instruction in the geometric, algebraic and combinatorial perspective on graphical models. Presents methods for learning the underlying graph and inferring its parameters. Topics include exponential families, duality theory, conic duality, polyhedral geometry, undirected graphical models, Bayesian networks, Markov properties, total positivity of distributions, hidden variables, and tensor decompositions.
 
 6.7830 Bayesian Modeling and Inference
 Prereq: 6.7700[J], 6.7900

@@ -8,7 +8,7 @@ Introduction to the central concepts and methods of data science with an emphasi
 
 6.3730[J] Statistics, Computation and Applications
 Prereq: 6.100B, 18.06, 6.3800
-See description under subject IDS.012[J]. Enrollment limited; priority to Statistics and Data Science minors, and to juniors and seniors.
+Hands-on analysis of data demonstrates the interplay between statistics and computation. Includes four modules, each centered on a specific data set, and introduced by a domain expert. Provides instruction in specific, relevant analysis methods and corresponding algorithmic aspects. Potential modules may include medical data, gene regulation, social networks, finance data (time series), traffic, transportation, weather forecasting, policy, or industrial web applications. Projects address a large-scale data analysis question. Students taking graduate version complete additional assignments. Enrollment limited; priority to Statistics and Data Science minors, and to juniors and seniors.
 
 6.7700[J] Fundamentals of Probability
 Prereq: CalcII
@@ -20,4 +20,4 @@ Review of probability and laws of large numbers; Poisson counting process and re
 
 6.7720[J] Discrete Probability and Stochastic Processes
 Prereq: 6.7700[J]
-See description under subject 15.070[J].
+Provides an introduction to tools used for probabilistic reasoning in the context of discrete systems and processes. Tools such as the probabilistic method, first and second moment method, martingales, concentration and correlation inequalities, theory of random graphs, weak convergence, random walks and Brownian motion, branching processes, Markov chains, Markov random fields, correlation decay method, isoperimetry, coupling, influences and other basic tools of modern research in probability will be presented. Algorithmic aspects and connections to statistics and machine learning will be emphasized.

@@ -1,6 +1,6 @@
 6.3260[J] Networks
 Prereq: 6.3700
-See description under subject 14.15[J].
+Highlights common principles that permeate the functioning of diverse technological, economic and social networks. Utilizes three sets of tools for analyzing networks -- random graph models, optimization, and game theory -- to study informational and learning cascades; economic and financial networks; social influence networks; formation of social groups; communication networks and the Internet; consensus and gossiping; spread and control of epidemics; control and use of energy networks; and biological networks. Students taking graduate version complete additional assignments.
 
 6.7210[J] Introduction to Mathematical Programming
 Prereq: 18.06
@@ -32,16 +32,16 @@ Introduction to computational techniques for modeling and simulation of a variet
 
 6.7310[J] Introduction to Numerical Methods
 Prereq: 18.06
-See description under subject 18.335[J].
+Advanced introduction to numerical analysis: accuracy and efficiency of numerical algorithms. In-depth coverage of sparse-matrix/iterative and dense-matrix algorithms in numerical linear algebra (for linear systems and eigenproblems). Floating-point arithmetic, backwards error analysis, conditioning, and stability. Other computational topics (e.g., numerical integration or nonlinear optimization) may also be surveyed. Final project involves some programming.
 
 6.7320[J] Parallel Computing and Scientific Machine Learning
 Prereq: 18.06
-See description under subject 18.337[J].
+Introduction to scientific machine learning with an emphasis on developing scalable differentiable programs. Covers scientific computing topics (numerical differential equations, dense and sparse linear algebra, Fourier transformations, parallelization of large-scale scientific simulation) simultaneously with modern data science (machine learning, deep neural networks, automatic differentiation), focusing on the emerging techniques at the connection between these areas, such as neural differential equations and physics-informed deep learning. Provides direct experience with the modern realities of optimizing code performance for supercomputers, GPUs, and multicores in a high-level language.
 
 6.7330[J] Numerical Methods for Partial Differential Equations
 Prereq: 18.03
-See description under subject 16.920[J].
+Covers the fundamentals of modern numerical techniques for a wide range of linear and nonlinear elliptic, parabolic, and hyperbolic partial differential and integral equations. Topics include mathematical formulations; finite difference, finite volume, finite element, and boundary element discretization methods; and direct and iterative solution techniques. The methodologies described form the foundation for computational approaches to engineering systems involving heat transfer, solid mechanics, fluid dynamics, and electromagnetics. Computer assignments requiring programming.
 
 6.7340[J] Fast Methods for Partial Differential and Integral Equations
 Prereq: 16.920[J]
-See description under subject 18.336[J].
+Unified introduction to the theory and practice of modern, near linear-time, numerical methods for large-scale partial-differential and integral equations. Topics include preconditioned iterative methods; generalized Fast Fourier Transform and other butterfly-based methods; multiresolution approaches, such as multigrid algorithms and hierarchical low-rank matrix decompositions; and low and high frequency Fast Multipole Methods. Example applications include aircraft design, cardiovascular system modeling, electronic structure computation, and tomographic imaging.

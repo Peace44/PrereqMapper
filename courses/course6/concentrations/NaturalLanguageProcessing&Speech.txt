@@ -1,0 +1,11 @@
+6.8610 Quantitative Methods for Natural Language Processing
+Prereq: 6.3900, 18.06
+Introduces the study of human language from a computational perspective, including syntactic, semantic and discourse processing models. Emphasizes machine learning methods and algorithms. Uses these methods and models in applications such as syntactic parsing, information extraction, statistical machine translation, dialogue systems. Students taking graduate version complete additional assignments.
+
+6.8620[J] Spoken Language Processing
+Prereq: 6.3000, 6.3900
+Introduces the rapidly developing field of spoken language processing including automatic speech recognition. Topics include acoustic theory of speech production, acoustic-phonetics, signal representation, acoustic and language modeling, search, hidden Markov modeling, neural networks models, end-to-end deep learning models, and other machine learning techniques applied to speech and language processing topics. Lecture material intersperses theory with practice. Includes problem sets, laboratory exercises, and open-ended term project.
+
+6.8630[J] Natural Language and the Computer Representation of Knowledge
+Prereq: 6.4100
+Explores the relationship between the computer representation and acquisition of knowledge and the structure of human language, its acquisition, and hypotheses about its differentiating uniqueness. Emphasizes development of analytical skills necessary to judge the computational implications of grammatical formalisms and their role in connecting human intelligence to computational intelligence. Uses concrete examples to illustrate particular computational issues in this area.

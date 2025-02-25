@@ -8,16 +8,16 @@ An introduction to representations and algorithms for artificial intelligence. T
 
 6.4120[J] Computational Cognitive Science
 Prereq: 6.3800
-See description under subject 9.66[J].
+Introduction to computational theories of human cognition. Focus on principles of inductive learning and inference, and the representation of knowledge. Computational frameworks covered include Bayesian and hierarchical Bayesian models; probabilistic graphical models; nonparametric statistical models and the Bayesian Occam's razor; sampling algorithms for approximate learning and inference; and probabilistic models defined over structured representations such as first-order logic, grammars, or relational schemas. Applications to understanding core aspects of cognition, such as concept learning and categorization, causal reasoning, theory formation, language acquisition, and social inference. Graduate students complete a final project.
 
 6.4130[J] Principles of Autonomy and Decision Making
 Prereq: 6.9080
-See description under subject 16.410[J].
+Surveys decision making methods used to create highly autonomous systems and decision aids. Applies models, principles and algorithms taken from artificial intelligence and operations research. Focuses on planning as state-space search, including uninformed, informed and stochastic search, activity and motion planning, probabilistic and adversarial planning, Markov models and decision processes, and Bayesian filtering. Also emphasizes planning with real-world constraints using constraint programming. Includes methods for satisfiability and optimization of logical, temporal and finite domain constraints, graphical models, and linear and integer programs, as well as methods for search, inference, and conflict-learning. Students taking graduate version complete additional assignments.
 
 6.4150[J] Artificial Intelligence for Business
 Prereq: None
-See description under subject 15.563[J].
+Explores how to design and evaluate products and policy based on artificial intelligence. Provides a functional (as opposed to mechanistic) understanding of the emerging technologies underlying AI. Presents AI's opportunities and risks and how to create conditions under which its deployment can succeed. No technical background required.
 
 6.8110[J] Cognitive Robotics
 Prereq: 16.413[J], 6.3700
-See description under subject 16.412[J]. Enrollment may be limited.
+Highlights algorithms and paradigms for creating human-robot systems that act intelligently and robustly, by reasoning from models of themselves, their counterparts and their world. Examples include space and undersea explorers, cooperative vehicles, manufacturing robot teams and everyday embedded devices. Themes include architectures for goal-directed systems; decision-theoretic programming and robust execution; state-space programming, activity and path planning; risk-bounded programming and risk-bounded planners; self-monitoring and self-diagnosing systems, and human-robot collaboration. Student teams explore recent advances in cognitive robots through delivery of advanced lectures and final projects, in support of a class-wide grand challenge. Enrollment may be limited.
