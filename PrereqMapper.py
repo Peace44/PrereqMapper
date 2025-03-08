@@ -19,6 +19,31 @@ class Subject:
 
 
 
+# Step 0: merge all textfiles of a folder into 1 textfile
+def merge_files(folder_path, output_filename):
+    combined_content = []
+    output_filepath = os.path.join(folder_path, output_filename)
+    output_basename = os.path.basename(output_filepath)
+
+    # If the output file already exists, empty it
+    if os.path.exists(output_filepath):
+        with open(output_filepath, 'w', encoding='utf-8') as file:
+            file.write("")
+
+    # Iterate over all files in the folder
+    for filename in os.listdir(folder_path):
+        file_path = os.path.join(folder_path, filename)
+        # Process only textfiles and ignore the output file if it exists
+        if fnmatch.fnmatch(filename, '*.txt') and filename != output_basename:
+            with open(file_path, 'r', encoding='utf-8') as file:
+                content = file.read().strip()
+                combined_content.append(content)
+    merged_content = '\n\n'.join(combined_content)
+    with open(output_filepath, 'w', encoding='utf-8') as file:
+        file.write(merged_content)
+
+
+
 # Step 1: Parse the input file and create Subject objects
 def parse_input_file(filename):
     subjects = {}
@@ -79,6 +104,7 @@ def assign_layers(G):
     return layers
 
 
+
 # Step 4: Visualization
 def visualize_graph_to_file(G, output_file):
     # Make sure the 'subset' attribute is used for the multipartite layout
@@ -93,7 +119,7 @@ def visualize_graph_to_file(G, output_file):
     # Plot the graph
     plt.title(output_file.replace('.png', ''))
     plt.savefig(output_file)
-    plt.clf()
+    plt.close()
 
 
 
@@ -114,6 +140,8 @@ def minimize_prerequisite_chains(all_paths):
             covered_prerequisites.update(new_prerequisites)
 
     return unique_paths
+
+
 
 def write_layers_to_file(G, layers, filename):
     # Group subjects by layers
@@ -149,6 +177,7 @@ def write_layers_to_file(G, layers, filename):
             file.write("\n")  # Separate layers with a newline
 
 
+
 # Main function to run the app
 def main(input, output):
     subjects = parse_input_file(input + '.txt')
@@ -162,6 +191,11 @@ def main(input, output):
 
 # Run the app
 if __name__ == "__main__":
+    for root, dir, files in os.walk("./courses"):
+        for filename in files:
+            if 'concentrations' in root:
+                merge_files(root, "AllConcentrations.txt")
+
     for root, dir, files in os.walk("./courses"):
         for filename in files:
             if 'concentrations' in root:

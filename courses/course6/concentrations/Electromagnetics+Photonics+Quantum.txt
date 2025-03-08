@@ -1,0 +1,43 @@
+6.2300 Electromagnetics Waves and Applications
+Prereq: CalcII, PhysII, 6.2000, 6.3000
+Analysis and design of modern applications that employ electromagnetic phenomena for signals and power transmission in RF, microwaves, optical and wireless communication systems. Fundamentals include dynamic solutions for Maxwell's equations; electromagnetic power and energy, waves in media, metallic and dielectric waveguides, radiation, and diffraction; resonance; filters; and acoustic analogs. Lab activities range from building to testing of devices and systems (e.g., antenna arrays, radars, dielectric waveguides). Students work in teams on self-proposed maker-style design projects with a focus on fostering creativity, teamwork, and debugging skills.
+
+6.2370 Modern Optics Project Laboratory
+Prereq: 8.03, 6.3000
+Lectures, laboratory exercises and projects on optical signal generation, transmission, detection, storage, processing and display. Topics include polarization properties of light; reflection and refraction; coherence and interference; Fraunhofer and Fresnel diffraction; holography; Fourier optics; coherent and incoherent imaging and signal processing systems; optical properties of materials; lasers and LEDs; electro-optic and acousto-optic light modulators; photorefractive and liquid-crystal light modulation; display technologies; optical waveguides and fiber-optic communication systems; photodetectors. Students may use this subject to find an advanced undergraduate project. Students engage in extensive oral and written communication exercises.
+
+6.2400 Introduction to Quantum Systems Engineering
+Prereq: 6.2300, 18.06
+Introduction to the quantum mechanics needed to engineer quantum systems for computation, communication, and sensing. Topics include: motivation for quantum engineering, qubits and quantum gates, rules of quantum mechanics, mathematical background, quantum electrical circuits and other physical quantum systems, harmonic and anharmonic oscillators, measurement, the Schrödinger equation, noise, entanglement, benchmarking, quantum communication, and quantum algorithms. No prior experience with quantum mechanics is assumed.
+
+6.2410 Quantum Engineering Platforms
+Prereq: 6.2400
+Provides practical knowledge and quantum engineering experience with several physical platforms for quantum computation, communication, and sensing, including photonics, superconducting qubits, and trapped ions. Labs include both a hardware component -- to gain experience with challenges, design, and non-idealities -- and a cloud component to run algorithms on state of the art commercial systems. Use entangled photons to communicate securely (quantum key distribution). Run quantum algorithms on trapped ion and superconducting quantum computers.
+
+6.6300 Electromagnetics
+Prereq: PhysII, 6.3000
+Explores electromagnetic phenomena in modern applications, including wireless and optical communications, circuits, computer interconnects and peripherals, microwave communications and radar, antennas, sensors, micro-electromechanical systems, and power generation and transmission. Fundamentals include quasistatic and dynamic solutions to Maxwell's equations; waves, radiation, and diffraction; coupling to media and structures; guided and unguided waves; modal expansions; resonance; acoustic analogs; and forces, power, and energy.
+
+6.6310 Optics and Photonics
+Prereq: 6.2300
+Introduction to fundamental concepts and techniques of optics, photonics, and fiber optics, aimed at developing skills for independent research. Topics include: Review of Maxwell's equations, light propagation, reflection and transmission, dielectric mirrors and filters. Scattering matrices, interferometers, and interferometric measurement. Fresnel and Fraunhoffer diffraction theory. Lenses, optical imaging systems, and software design tools. Gaussian beams, propagation and resonator design. Optical waveguides, optical fibers and photonic devices for encoding and detection. Discussion of research operations / funding and professional development topics. The course reviews and introduces mathematical methods and techniques, which are fundamental in optics and photonics, but also useful in many other engineering specialties.
+
+6.6330 Fundamentals of Photonics
+Prereq: 2.71
+Covers the fundamentals of optics and the interaction of light and matter, leading to devices such as light emitting diodes, optical amplifiers, and lasers. Topics include classical ray, wave, beam, and Fourier optics; Maxwell's electromagnetic waves; resonators; quantum theory of photons; light-matter interaction; laser amplification; lasers; and semiconductors optoelectronics. Students taking graduate version complete additional assignments.
+
+6.6340[J] Nonlinear Optics
+Prereq: 6.2300
+Techniques of nonlinear optics with emphasis on fundamentals for research in optics, photonics, spectroscopy, and ultrafast science. Topics include: electro-optic modulators and devices, sum and difference frequency generation, and parametric conversion. Nonlinear propagation effects in optical fibers including self-phase modulation, pulse compression, solitons, communication, and femtosecond fiber lasers. Review of quantum mechanics, interaction of light with matter, laser gain and operation, density matrix techniques, perturbation theory, diagrammatic methods, nonlinear spectroscopies, ultrafast lasers and measurements. Discussion of research operations and funding and professional development topics. Introduces fundamental methods and techniques needed for independent research in advanced optics and photonics, but useful in many other engineering and physics disciplines.
+
+6.6400 Applied Quantum and Statistical Physics
+Prereq: 18.06
+Elementary quantum mechanics and statistical physics. Introduces applied quantum physics. Emphasizes experimental basis for quantum mechanics. Applies Schrodinger's equation to the free particle, tunneling, the harmonic oscillator, and hydrogen atom. Variational methods. Elementary statistical physics; Fermi-Dirac, Bose-Einstein, and Boltzmann distribution functions. Simple models for metals, semiconductors, and devices such as electron microscopes, scanning tunneling microscope, thermonic emitters, atomic force microscope, and more. Some familiarity with continuous time Fourier transforms recommended.
+
+6.6410[J] Quantum Computation
+Prereq: 8.05, 18.06
+Provides an introduction to the theory and practice of quantum computation. Topics covered: physics of information processing; quantum algorithms including the factoring algorithm and Grover's search algorithm; quantum error correction; quantum communication and cryptography.
+
+6.6420[J] Quantum Information Science
+Prereq: 18.435[J]
+Examines quantum computation and quantum information. Topics include quantum circuits, the quantum Fourier transform and search algorithms, the quantum operations formalism, quantum error correction, Calderbank-Shor-Steane and stabilizer codes, fault tolerant quantum computation, quantum data compression, quantum entanglement, capacity of quantum channels, and quantum cryptography and the proof of its security. Prior knowledge of quantum mechanics required.

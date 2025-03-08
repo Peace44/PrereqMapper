@@ -1,0 +1,19 @@
+6.2200 Electric Energy Systems
+Prereq: 6.2000
+Analysis and design of modern energy conversion and delivery systems. Develops a solid foundation in electromagnetic phenomena with a focus on electrical energy distribution, electro-mechanical energy conversion (motors and generators), and electrical-to-electrical energy conversion (DC-DC, DC-AC power conversion). Students apply the material covered to consider critical challenges associated with global energy systems, with particular examples related to the electrification of transport and decarbonization of the grid.
+
+6.2210 Electromagnetic Fields, Forces and Motion
+Prereq: PhysII, 18.03
+Study of electromagnetics and electromagnetic energy conversion leading to an understanding of devices, including electromagnetic sensors, actuators, motors and generators. Quasistatic Maxwell's equations and the Lorentz force law. Studies of the quasistatic fields and their sources through solutions of Poisson's and Laplace's equations. Boundary conditions and multi-region boundary-value problems. Steady-state conduction, polarization, and magnetization. Charge conservation and relaxation, and magnetic induction and diffusion. Extension to moving materials. Electric and magnetic forces and force densities derived from energy, and stress tensors. Extensive use of engineering examples. Students taking graduate version complete additional assignments.
+
+6.2220 Power Electronics Laboratory
+Prereq: 6.2000
+Introduces the design and construction of power electronic circuits and motor drives. Laboratory exercises include the construction of drive circuitry for an electric go-cart, flash strobes, computer power supplies, three-phase inverters for AC motors, and resonant drives for lamp ballasts and induction heating. Basic electric machines introduced include DC, induction, and permanent magnet motors, with drive considerations. Provides instruction in written and oral communication. Students taking independent inquiry version 6.2221 expand the scope of their laboratory project.
+
+6.6220 Power Electronics
+Prereq: 6.2500
+The application of electronics to energy conversion and control. Modeling, analysis, and control techniques. Design of power circuits including inverters, rectifiers, and dc-dc converters. Analysis and design of magnetic components and filters. Characteristics of power semiconductor devices. Numerous application examples, such as motion control systems, power supplies, and radio-frequency power amplifiers.
+
+6.6280 Electric Machines
+Prereq: 6.2200
+Treatment of electromechanical transducers, rotating and linear electric machines. Lumped-parameter electromechanics. Power flow using Poynting's theorem, force estimation using the Maxwell stress tensor and Principle of virtual work. Development of analytical techniques for predicting device characteristics: energy conversion density, efficiency; and of system interaction characteristics: regulation, stability, controllability, and response. Use of electric machines in drive systems. Problems taken from current research.

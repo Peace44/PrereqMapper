@@ -1,0 +1,35 @@
+6.1903 Introduction to Low-level Programming in C and Assembly
+Prereq: 6.100A
+Introduction to C and assembly language for students coming from a Python background (6.100A). Studies the C language, focusing on memory and associated topics including pointers, how different data structures are stored in memory, the stack, and the heap in order to build a strong understanding of the constraints involved in manipulating complex data structures in modern computational systems. Studies assembly language to facilitate a firm understanding of how high-level languages are translated to machine-level instructions.
+
+6.1910 Computation Structures
+Prereq: PhysII, 6.100A, 6.1903
+Provides an introduction to the design of digital systems and computer architecture. Emphasizes expressing all hardware designs in a high-level hardware description language and synthesizing the designs. Topics include combinational and sequential circuits, instruction set abstraction for programmable hardware, single-cycle and pipelined processor implementations, multi-level memory hierarchies, virtual memory, exceptions and I/O, and parallel systems.
+
+6.1920 Constructive Computer Architecture
+Prereq: 6.1910
+Illustrates a constructive (as opposed to a descriptive) approach to computer architecture. Topics include combinational and pipelined arithmetic-logic units (ALU), in-order pipelined microarchitectures, branch prediction, blocking and unblocking caches, interrupts, virtual memory support, cache coherence and multicore architectures. Labs in a modern Hardware Design Language (HDL) illustrate various aspects of microprocessor design, culminating in a term project in which students present a multicore design running on an FPGA board.
+
+6.5900 Computer System Architecture
+Prereq: 6.1910
+Introduction to the principles underlying modern computer architecture. Emphasizes the relationship among technology, hardware organization, and programming systems in the evolution of computer architecture. Topics include pipelined, out-of-order, and speculative execution; caches, virtual memory and exception handling, superscalar, very long instruction word (VLIW), vector, and multithreaded processors; on-chip networks, memory models, synchronization, and cache coherence protocols for multiprocessors.
+
+6.5910 Complex Digital Systems Design
+Prereq: 6.1910
+Introduction to the design and implementation of large-scale digital systems using hardware description languages and high-level synthesis tools in conjunction with standard commercial electronic design automation (EDA) tools. Emphasizes modular and robust designs, reusable modules, correctness by construction, architectural exploration, meeting area and timing constraints, and developing functional field-programmable gate array (FPGA) prototypes. Extensive use of CAD tools in weekly labs serve as preparation for a multi-person design project on multi-million gate FPGAs. Enrollment may be limited.
+
+6.5920 Parallel Computing
+Prereq: 6.1910
+Introduction to parallel and multicore computer architecture and programming. Topics include the design and implementation of multicore processors; networking, video, continuum, particle and graph applications for multicores; communication and synchronization algorithms and mechanisms; locality in parallel computations; computational models, including shared memory, streams, message passing, and data parallel; multicore mechanisms for synchronization, cache coherence, and multithreading. Performance evaluation of multicores; compilation and runtime systems for parallel computing. Substantial project required.
+
+6.5930 Hardware Architecture for Deep Learning
+Prereq: 6.1910, 6.3900
+Introduction to the design and implementation of hardware architectures for efficient processing of deep learning algorithms and tensor algebra in AI systems. Topics include basics of deep learning, optimization principles for programmable platforms, design principles of accelerator architectures, co-optimization of algorithms and hardware (including sparsity) and use of advanced technologies (including memristors and optical computing). Includes labs involving modeling and analysis of hardware architectures, architecting deep learning inference systems, and an open-ended design project. Students taking graduate version complete additional assignments.
+
+6.5940 TinyML and Efficient Deep Learning Computing
+Prereq: 6.1910, 6.3900
+Introduces efficient deep learning computing techniques that enable powerful deep learning applications on resource-constrained devices. Topics include model compression, pruning, quantization, neural architecture search, distributed training, data/model parallellism, gradient compression, on-device fine-tuning. It also introduces application-specific acceleration techniques for video recognition, point cloud, and generative AI (diffusion model, LLM). Students will get hands-on experience accelerating deep learning applications with an open-ended design project.
+
+6.5950 Secure Hardware Design
+Prereq: 6.1910
+Introduction to basic concepts, principles, and implementation issues in the designing of secure hardware systems. Through a mixture of lectures and paper discussions, covers state-of-the-art security attacks and defenses targeting the computer architecture, digital circuits, and physics layers of computer systems. Emphasizes both the conceptual and the practical aspects of security issues in modern hardware systems. Topics include microarchitectural timing side channels, speculative execution attacks, RowHammer, Trusted Execution Environment, physical attacks, hardware support for software security, and verification of digital systems. Students taking graduate version complete additional assignments.

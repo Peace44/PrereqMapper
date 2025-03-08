@@ -1,0 +1,23 @@
+6.1100 Computer Language Engineering
+Prereq: 6.1020, 6.1910
+Analyzes issues associated with the implementation of higher-level programming languages. Fundamental concepts, functions, and structures of compilers. The interaction of theory and practice. Using tools in building software. Includes a multi-person project on compiler design and implementation.
+
+6.1120 Dynamic Computer Language Engineering
+Prereq: 6.1020
+Studies the design and implementation of modern, dynamic programming languages. Topics include fundamental approaches for parsing, semantics and interpretation, virtual machines, garbage collection, just-in-time machine code generation, and optimization. Includes a semester-long, group project that delivers a virtual machine that spans all of these topics.
+
+6.5110 Foundations of Program Analysis
+Prereq: 6.1100
+Presents major principles and techniques for program analysis. Includes formal semantics, type systems and type-based program analysis, abstract interpretation and model checking and synthesis. Emphasis on Haskell and Ocaml, but no prior experience in these languages is assumed. Student assignments include implementing of techniques covered in class, including building simple verifiers.
+
+6.5120 Formal Reasoning About Programs
+Prereq: 6.1020, 6.1200[J]
+Surveys techniques for rigorous mathematical reasoning about correctness of software, emphasizing commonalities across approaches. Introduces interactive computer theorem proving with the Coq proof assistant, which is used for all assignments, providing immediate feedback on soundness of logical arguments. Covers common program-proof techniques, including operational semantics, model checking, abstract interpretation, type systems, program logics, and their applications to functional, imperative, and concurrent programs. Develops a common conceptual framework based on invariants, abstraction, and modularity applied to state and labeled transition systems.
+
+6.5150 Large-scale Symbolic Systems
+Prereq: 6.4100
+Concepts and techniques for the design and implementation of large software systems that can be adapted to uses not anticipated by the designer. Applications include compilers, computer-algebra systems, deductive systems, and some artificial intelligence applications. Covers means for decoupling goals from strategy, mechanisms for implementing additive data-directed invocation, work with partially-specified entities, and how to manage multiple viewpoints. Topics include combinators, generic operations, pattern matching, pattern-directed invocation, rule systems, backtracking, dependencies, indeterminacy, memoization, constraint propagation, and incremental refinement. Students taking graduate version complete additional assignments.
+
+6.5160[J] Classical Mechanics: A Computational Approach
+Prereq: PhysI, 18.03
+Classical mechanics in a computational framework, Lagrangian formulation, action, variational principles, and Hamilton's principle. Conserved quantities, Hamiltonian formulation, surfaces of section, chaos, and Liouville's theorem. Poincaré integral invariants, Poincaré-Birkhoff and KAM theorems. Invariant curves and cantori. Nonlinear resonances, resonance overlap and transition to chaos. Symplectic integration. Adiabatic invariants. Applications to simple physical systems and solar system dynamics. Extensive use of computation to capture methods, for simulation, and for symbolic analysis. Programming experience required.
