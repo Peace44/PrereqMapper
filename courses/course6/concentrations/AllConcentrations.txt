@@ -179,7 +179,7 @@ Prereq: 8.05, 18.06
 Provides an introduction to the theory and practice of quantum computation. Topics covered: physics of information processing; quantum algorithms including the factoring algorithm and Grover's search algorithm; quantum error correction; quantum communication and cryptography.
 
 6.6420[J] Quantum Information Science
-Prereq: 18.435[J]
+Prereq: 6.6410[J]
 Examines quantum computation and quantum information. Topics include quantum circuits, the quantum Fourier transform and search algorithms, the quantum operations formalism, quantum error correction, Calderbank-Shor-Steane and stabilizer codes, fault tolerant quantum computation, quantum data compression, quantum entanglement, capacity of quantum channels, and quantum cryptography and the proof of its security. Prior knowledge of quantum mechanics required.
 
 6.2200 Electric Energy Systems
