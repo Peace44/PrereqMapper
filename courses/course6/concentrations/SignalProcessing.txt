@@ -1,0 +1,23 @@
+6.3000 Signal Processing
+Prereq: 6.100A, 18.03
+Fundamentals of signal processing, focusing on the use of Fourier methods to analyze and process signals such as sounds and images. Topics include Fourier series, Fourier transforms, the Discrete Fourier Transform, sampling, convolution, deconvolution, filtering, noise reduction, and compression. Applications draw broadly from areas of contemporary interest with emphasis on both analysis and design.
+
+6.3010 Signals, Systems and Inference
+Prereq: 6.3000, 6.3700
+Covers signals, systems and inference in communication, control and signal processing. Topics include input-output and state-space models of linear systems driven by deterministic and random signals; time- and transform-domain representations in discrete and continuous time; and group delay. State feedback and observers. Probabilistic models; stochastic processes, correlation functions, power spectra, spectral factorization. Least-mean square error estimation; Wiener filtering. Hypothesis testing; detection; matched filters.
+
+6.3020[J] Fundamentals of Music Processing
+Prereq: 6.3000, 21M.051
+Analyzes recorded music in digital audio form using advanced signal processing and optimization techniques to understand higher-level musical meaning. Covers fundamental tools like windowing, feature extraction, discrete and short-time Fourier transforms, chromagrams, and onset detection. Addresses analysis methods including dynamic time warping, dynamic programming, self-similarity matrices, and matrix factorization. Explores a variety of applications, such as event classification, audio alignment, chord recognition, structural analysis, tempo and beat tracking, content-based audio retrieval, and audio decomposition. Students taking graduate version complete different assignments.
+
+6.7000 Discrete-Time Signal Processing
+Prereq: 6.3010
+Representation, analysis, and design of discrete time signals and systems. Decimation, interpolation, and sampling rate conversion. Noise shaping. Flowgraph structures for DT systems. IIR and FIR filter design techniques. Parametric signal modeling, linear prediction, and lattice filters. Discrete Fourier transform, DFT computation, and FFT algorithms. Spectral analysis, time-frequency analysis, relation to filter banks. Multirate signal processing, perfect reconstruction filter banks, and connection to wavelets.
+
+6.7010 Digital Image Processing
+Prereq: 6.3000, 6.3700
+Introduces models, theories, and algorithms key to digital image processing. Core topics covered include models of image formation, image processing fundamentals, filtering in the spatial and frequency domains, image transforms, and feature extraction. Additional topics include image enhancement, image restoration and reconstruction, compression of images and videos, visual recognition, and the application of machine learning-based approaches to image processing. Includes student-driven term project.
+
+6.7020 Array Processing
+Prereq: 6.7000, 2.687
+Adaptive and non-adaptive processing of signals received at arrays of sensors. Deterministic beamforming, space-time random processes, optimal and adaptive algorithms, and the sensitivity of algorithm performance to modeling errors and limited data. Methods of improving the robustness of algorithms to modeling errors and limited data are derived. Advanced topics include an introduction to matched field processing and physics-based methods of estimating signal statistics. Homework exercises providing the opportunity to implement and analyze the performance of algorithms in processing data supplied during the course.
