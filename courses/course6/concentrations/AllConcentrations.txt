@@ -138,6 +138,22 @@ Abstractions and implementation techniques for engineering distributed systems: 
 Prereq: 6.1800, 6.1200[J]
 Introduction to the basic principles of computer systems with emphasis on the use of rigorous techniques as an aid to understanding and building modern computing systems. Particular attention paid to concurrent and distributed systems. Topics include: specification and verification, concurrent algorithms, synchronization, naming, Networking, replication techniques (including distributed cache management), and principles and algorithms for achieving reliability.
 
+6.3100 Dynamical System Modeling and Control Design
+Prereq: PhysII, 18.06
+A learn-by-design introduction to modeling and control of discrete- and continuous-time systems, from intuition-building analytical techniques to more computational and data-centric strategies. Topics include: linear difference/differential equations (natural frequencies, transfer functions); controller metrics (stability, tracking, disturbance rejection); analytical techniques (PID, root-loci, lead-lag, phase margin); computational strategies (state-space, eigen-placement, LQR); and data-centric approaches (state estimation, regression, and identification). Concepts are introduced with lectures and online problems, and then mastered during weekly labs. In lab, students model, design, test, and explain systems and controllers involving sensors, actuators, and a microcontroller (e.g., optimizing thrust-driven positioners or stabilizing magnetic levitators). Students taking graduate version complete additional problems and labs.
+
+6.7100[J] Dynamic Systems and Control
+Prereq: 6.3000, 6.3100
+Linear, discrete- and continuous-time, multi-input-output systems in control, related areas. Least squares and matrix perturbation problems. State-space models, modes, stability, controllability, observability, transfer function matrices, poles and zeros, and minimality. Internal stability of interconnected systems, feedback compensators, state feedback, optimal regulation, observers, and observer-based compensators. Measures of control performance, robustness issues using singular values of transfer functions. Introductory ideas on nonlinear systems.
+
+6.7110 Multivariable Control Systems
+Prereq: 6.7100[J]
+Computer-aided design methodologies for synthesis of multivariable feedback control systems. Performance and robustness trade-offs. Model-based compensators; Q-parameterization; ill-posed optimization problems; dynamic augmentation; linear-quadratic optimization of controllers; H-infinity controller design; Mu-synthesis; model and compensator simplification; nonlinear effects. Computer-aided (MATLAB) design homework using models of physical processes.
+
+6.7120 Principles of Modeling, Computing and Control for Decarbonized Electric Energy Systems
+Prereq: 6.2000 and 6.3100
+Introduces fundamentals of electric energy systems as complex dynamical network systems. Topics include coordinated and distributed modeling and control methods for efficient and reliable power generation, delivery, and consumption; data-enabled algorithms for integrating clean intermittent resources, storage, and flexible demand, including electric vehicles; examples of network congestion management, frequency, and voltage control in electrical grids at various scales; and design and operation of supporting markets. Students taking graduate version complete additional assignments.
+
 6.2300 Electromagnetics Waves and Applications
 Prereq: CalcII, PhysII, 6.2000, 6.3000
 Analysis and design of modern applications that employ electromagnetic phenomena for signals and power transmission in RF, microwaves, optical and wireless communication systems. Fundamentals include dynamic solutions for Maxwell's equations; electromagnetic power and energy, waves in media, metallic and dielectric waveguides, radiation, and diffraction; resonance; filters; and acoustic analogs. Lab activities range from building to testing of devices and systems (e.g., antenna arrays, radars, dielectric waveguides). Students work in teams on self-proposed maker-style design projects with a focus on fostering creativity, teamwork, and debugging skills.
