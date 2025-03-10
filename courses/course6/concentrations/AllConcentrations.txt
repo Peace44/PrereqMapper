@@ -282,6 +282,46 @@ Dynamic programming as a unifying framework for sequential decision-making under
 Prereq: 18.05, 6.3900
 Fundamentals of deep learning, including both theory and applications. Topics include neural net architectures (MLPs, CNNs, RNNs, graph nets, transformers), geometry and invariances in deep learning, backpropagation and automatic differentiation, learning theory and generalization in high-dimensions, and applications to computer vision, natural language processing, and robotics.
 
+6.2500 Nanoelectronics and Computing Systems
+Prereq: 6.2000
+Studies interaction between materials, semiconductor physics, electronic devices, and computing systems. Develops intuition of how transistors operate. Topics range from introductory semiconductor physics to modern state-of-the-art nano-scale devices. Considers how innovations in devices have driven historical progress in computing, and explores ideas for further improvements in devices and computing. Students apply material to understand how building improved computing systems requires knowledge of devices, and how making the correct device requires knowledge of computing systems. Includes a design project for practical application of concepts, and labs for experience building silicon transistors and devices.
+
+6.2530 Introduction to Nanoelectronics
+Prereq: 6.3000
+Transistors at the nanoscale. Quantization, wavefunctions, and Schrodinger's equation. Introduction to electronic properties of molecules, carbon nanotubes, and crystals. Energy band formation and the origin of metals, insulators and semiconductors. Ballistic transport, Ohm's law, ballistic versus traditional MOSFETs, fundamental limits to computation.
+
+6.2540 Nanotechnology: From Atoms to Systems
+Prereq: PhysII
+Introduces the fundamentals of applied quantum mechanics, materials science, and fabrication skills needed to design, engineer, and build emerging nanodevices with diverse applications in energy, memory, display, communications, and sensing. Focuses on the application and outlines the full progression from the fundamentals to the implemented device and functional technology. Closely integrates lectures with design-oriented laboratory modules. 
+
+6.2600[J] Micro/Nano Processing Technology
+Prereq: Chem
+Introduces the theory and technology of micro/nano fabrication. Includes lectures and laboratory sessions on processing techniques: wet and dry etching, chemical and physical deposition, lithography, thermal processes, packaging, and device and materials characterization. Homework uses process simulation tools to build intuition about higher order effects. Emphasizes interrelationships between material properties and processing, device structure, and the electrical, mechanical, optical, chemical or biological behavior of devices. Students fabricate solar cells, and a choice of MEMS cantilevers or microfluidic mixers. Students formulate their own device idea, either based on cantilevers or mixers, then implement and test their designs in the lab. Students engage in extensive written and oral communication exercises. Course provides background for research work related to micro/nano fabrication. Enrollment limited.
+
+6.6500[J] Integrated Microelectronic Devices
+Prereq: 6.2500
+Covers physics of microelectronic semiconductor devices for integrated circuit applications. Topics include semiconductor fundamentals, p-n junction, metal-oxide semiconductor structure, metal-semiconductor junction, MOS field-effect transistor, and bipolar junction transistor.  Emphasizes physical understanding of device operation through energy band diagrams and short-channel MOSFET device design and modern device scaling. Familiarity with MATLAB recommended.
+
+6.6510 Physics for Solid-State Applications
+Prereq: 6.2300, 6.6400
+Classical and quantum models of electrons and lattice vibrations in solids, emphasizing physical models for elastic properties, electronic transport, and heat capacity. Crystal lattices, electronic energy band structures, phonon dispersion relations, effective mass theorem, semiclassical equations of motion, electron scattering and semiconductor optical properties. Band structure and transport properties of selected semiconductors. Connection of quantum theory of solids with quasi-Fermi levels and Boltzmann transport used in device modeling.
+
+6.6520 Semiconductor Optoelectronics: Theory and Design
+Prereq: 6.2500, 6.6400
+Focuses on the physics of the interaction of photons with semiconductor materials. Uses the band theory of solids to calculate the absorption and gain of semiconductor media; and uses rate equation formalism to develop the concepts of laser threshold, population inversion, and modulation response. Presents theory and design for photodetectors, solar cells, modulators, amplifiers, and lasers. Introduces noise models for semiconductor devices, and applications of optoelectronic devices to fiber optic communications.
+
+6.6530 Physics of Solids
+Prereq: 6.6510
+Continuation of 6.6510 emphasizing applications-related physical issues in solids. Topics include: electronic structure and energy band diagrams of semiconductors, metals, and insulators; Fermi surfaces; dynamics of electrons under electric and magnetic fields; classical diffusive transport phenomena such as electrical and thermal conduction and thermoelectric phenomena; quantum transport in tunneling and ballistic devices; optical properties of metals, semiconductors, and insulators; impurities and excitons; photon-lattice interactions; Kramers-Kronig relations; optoelectronic devices based on interband and intersubband transitions; magnetic properties of solids; exchange energy and magnetic ordering; magneto-oscillatory phenomena; quantum Hall effect; superconducting phenomena and simple models.
+
+6.6600[J] Nanostructure Fabrication
+Prereq: 6.2600[J]
+Describes current techniques used to analyze and fabricate nanometer-length-scale structures and devices. Emphasizes imaging and patterning of nanostructures, including fundamentals of optical, electron (scanning, transmission, and tunneling), and atomic-force microscopy; optical, electron, ion, and nanoimprint lithography, templated self-assembly, and resist technology. Surveys substrate characterization and preparation, facilities, and metrology requirements for nanolithography. Addresses nanodevice processing methods, such as liquid and plasma etching, lift-off, electroplating, and ion-implant. Discusses applications in nanoelectronics, nanomaterials, and nanophotonics.
+
+6.6630[J] Control of Manufacturing Processes
+Prereq: 2.008
+Statistical modeling and control in manufacturing processes. Use of experimental design and response surface modeling to understand manufacturing process physics. Defect and parametric yield modeling and optimization. Forms of process control, including statistical process control, run by run and adaptive control, and real-time feedback control. Application contexts include semiconductor manufacturing, conventional metal and polymer processing, and emerging micro-nano manufacturing processes.
+
 6.8610 Quantitative Methods for Natural Language Processing
 Prereq: 6.3900, 18.06
 Introduces the study of human language from a computational perspective, including syntactic, semantic and discourse processing models. Emphasizes machine learning methods and algorithms. Uses these methods and models in applications such as syntactic parsing, information extraction, statistical machine translation, dialogue systems. Students taking graduate version complete additional assignments.
