@@ -1,0 +1,19 @@
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+6.3700 Introduction to Probability
+Prereq: CalcII
+An introduction to probability theory, the modeling and analysis of probabilistic systems, and elements of statistical inference. Probabilistic models, conditional probability. Discrete and continuous random variables. Expectation and conditional expectation, and further topics about random variables. Limit Theorems. Bayesian estimation and hypothesis testing. Elements of classical statistical inference. Bernoulli and Poisson processes. Markov chains. Students taking graduate version complete additional assignments.
+
+6.7710 Discrete Stochastic Processes
+Prereq: 6.3700
+Review of probability and laws of large numbers; Poisson counting process and renewal processes; Markov chains (including Markov decision theory), branching processes, birth-death processes, and semi-Markov processes; continuous-time Markov chains and reversibility; random walks, martingales, and large deviations; applications from queueing, communication, control, and operations research.
+
+2.851[J] System Optimization and Analysis for Operations
+Prereq: CalcII
+Introduction to mathematical modeling, optimization, and simulation, as applied to manufacturing and operations. Specific methods include linear programming, network flow problems, integer and nonlinear programming, discrete-event simulation, heuristics and computer applications for manufacturing processes, operations and systems.

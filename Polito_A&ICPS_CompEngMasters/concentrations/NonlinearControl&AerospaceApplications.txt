@@ -1,0 +1,23 @@
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+16.002 Unified Engineering: Signals and Systems
+Prereq: CalcII
+Presents fundamental principles and methods of signals and systems for aerospace engineering, and engineering analysis and design concepts applied to aerospace systems. Topics include linear and time invariant systems; convolution; Fourier and Laplace transform analysis in continuous and discrete time; modulation, filtering, and sampling; and an introduction to feedback control. Experiential lab and system projects provide additional aerospace context. Labs, projects, and assignments involve the use of software such as MATLAB and/or Python.
+
+16.06 Principles of Automatic Control
+Prereq: 16.002
+Introduction to design of feedback control systems. Properties and advantages of feedback systems. Time-domain and frequency-domain performance measures. Stability and degree of stability. Root locus method, Nyquist criterion, frequency-domain design, and some state space methods. Strong emphasis on the synthesis of classical controllers. Application to a variety of aerospace systems. Hands-on experiments using simple robotic systems.
+
+16.31 Feedback Control Systems
+Prereq: 16.06
+Studies state-space representation of dynamic systems, including model realizations, controllability, and observability. Introduces the state-space approach to multi-input-multi-output control system analysis and synthesis, including full state feedback using pole placement, linear quadratic regulator, stochastic state estimation, and the design of dynamic control laws. Also covers performance limitations and robustness. Extensive use of computer-aided control design tools. Applications to various aerospace systems, including navigation, guidance, and control of vehicles. Laboratory exercises utilize a palm-size drone. Includes additional homework questions, laboratory experiments, and a term project beyond 16.30 with a particular focus on the material associated with state-space realizations of MIMO transfer function (matrices); MIMO zeros, controllability, and observability; stochastic processes and estimation; limitations on performance; design and analysis of dynamic output feedback controllers; and robustness of multivariable control systems.
+
+2.152[J] Nonlinear Control
+Prereq: 16.31
+Introduction to nonlinear control and estimation in physical and biological systems. Nonlinear stability theory, Lyapunov analysis, Barbalat's lemma. Feedback linearization, differential flatness, internal dynamics. Sliding surfaces. Adaptive nonlinear control and estimation. Multiresolution bases, nonlinear system identification. Contraction analysis, differential stability theory. Nonlinear observers. Asynchronous distributed computation and learning. Concurrent synchronization, polyrhythms. Monotone nonlinear systems. Emphasizes application to physical systems (robots, aircraft, spacecraft, underwater vehicles, reaction-diffusion processes, machine vision, oscillators, internet), machine learning, computational neuroscience, and systems biology. Includes term projects.

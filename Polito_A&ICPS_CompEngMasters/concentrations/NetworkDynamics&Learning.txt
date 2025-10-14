@@ -1,0 +1,27 @@
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+18.06 Linear Algebra
+Prereq: CalcII
+Basic subject on matrix theory and linear algebra, emphasizing topics useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, singular value decomposition, and positive definite matrices. Applications to least-squares approximations, stability of differential equations, networks, Fourier transforms, and Markov processes. Uses linear algebra software. Compared with 18.700, more emphasis on matrix algorithms and many applications.
+
+6.3700 Introduction to Probability
+Prereq: CalcII
+An introduction to probability theory, the modeling and analysis of probabilistic systems, and elements of statistical inference. Probabilistic models, conditional probability. Discrete and continuous random variables. Expectation and conditional expectation, and further topics about random variables. Limit Theorems. Bayesian estimation and hypothesis testing. Elements of classical statistical inference. Bernoulli and Poisson processes. Markov chains. Students taking graduate version complete additional assignments.
+
+6.7260 Network Science and Models
+Prereq: 6.3700, 18.06
+Introduces the main mathematical models used to describe large networks and dynamical processes that evolve on networks. Static models of random graphs, preferential attachment, and other graph evolution models. Epidemic propagation, opinion dynamics, social learning, and inference in networks. Applications drawn from social, economic, natural, and infrastructure networks, as well as networked decision systems such as sensor networks.
+
+6.7240 Game Theory with Engineering Applications
+Prereq: 6.3700
+Introduction to fundamentals of game theory and mechanism design with motivations for each topic drawn from engineering applications (including distributed control of wireline/wireless communication networks, transportation networks, pricing). Emphasis on the foundations of the theory, mathematical tools, as well as modeling and the equilibrium notion in different environments. Topics include normal form games, supermodular games, dynamic games, repeated games, games with incomplete/imperfect information, mechanism design, cooperative game theory, and network games.
+
+6.3260[J] Networks
+Prereq: 6.3700
+Highlights common principles that permeate the functioning of diverse technological, economic and social networks. Utilizes three sets of tools for analyzing networks -- random graph models, optimization, and game theory -- to study informational and learning cascades; economic and financial networks; social influence networks; formation of social groups; communication networks and the Internet; consensus and gossiping; spread and control of epidemics; control and use of energy networks; and biological networks. Students taking graduate version complete additional assignments.
