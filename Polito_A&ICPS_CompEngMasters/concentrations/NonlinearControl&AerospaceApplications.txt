@@ -6,6 +6,10 @@ CalcII Calculus II
 Prereq: CalcI
 Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
 
+18.03 Differential Equations
+Prereq: CalcII
+Study of differential equations, including modeling physical systems. Solution of first-order ODEs by analytical, graphical, and numerical methods. Linear ODEs with constant coefficients. Complex numbers and exponentials. Inhomogeneous equations: polynomial, sinusoidal, and exponential inputs. Oscillations, damping, resonance. Fourier series. Matrices, eigenvalues, eigenvectors, diagonalization. First order linear systems: normal modes, matrix exponentials, variation of parameters. Heat equation, wave equation. Nonlinear autonomous systems: critical point analysis, phase plane diagrams.
+
 16.002 Unified Engineering: Signals and Systems
 Prereq: CalcII
 Presents fundamental principles and methods of signals and systems for aerospace engineering, and engineering analysis and design concepts applied to aerospace systems. Topics include linear and time invariant systems; convolution; Fourier and Laplace transform analysis in continuous and discrete time; modulation, filtering, and sampling; and an introduction to feedback control. Experiential lab and system projects provide additional aerospace context. Labs, projects, and assignments involve the use of software such as MATLAB and/or Python.
@@ -21,3 +25,15 @@ Studies state-space representation of dynamic systems, including model realizati
 2.152[J] Nonlinear Control
 Prereq: 16.31
 Introduction to nonlinear control and estimation in physical and biological systems. Nonlinear stability theory, Lyapunov analysis, Barbalat's lemma. Feedback linearization, differential flatness, internal dynamics. Sliding surfaces. Adaptive nonlinear control and estimation. Multiresolution bases, nonlinear system identification. Contraction analysis, differential stability theory. Nonlinear observers. Asynchronous distributed computation and learning. Concurrent synchronization, polyrhythms. Monotone nonlinear systems. Emphasizes application to physical systems (robots, aircraft, spacecraft, underwater vehicles, reaction-diffusion processes, machine vision, oscillators, internet), machine learning, computational neuroscience, and systems biology. Includes term projects.
+
+16.32 Principles of Optimal Control and Estimation
+Prereq: 16.31
+Fundamentals of optimal control and estimation for discrete and continuous systems. Briefly reviews constrained function minimization and stochastic processes. Topics in optimal control theory include dynamic programming, variational calculus, Pontryagin's maximum principle, and numerical algorithms and software. Topics in estimation include least-squares estimation, and the Kalman filter and its extensions for estimating the states of dynamic systems. May include an individual term project.
+
+10.553 Model Predictive Control
+Prereq: 18.03
+Provides an introduction to the multivariable control of dynamical systems with constraints on manipulated, state, and output variables. Covers multiple mathematical formulations that are popular in academia and industry, including dynamic matrix control and state-space model predictive control of uncertain, nonlinear, and large-scale systems. Uses numerous real industrial processes as examples. Students taking graduate version complete additional assignments.
+
+16.851 Introduction to Satellite Engineering
+Prereq: ?
+Covers the principles and governing equations fundamental to the design, launch, and operation of artificial satellites in Earth's orbit and beyond. Material includes the vis-viva equation; the rocket equation; basic orbital maneuvers, including Hohmann transfers; bielliptic trajectories, as well as spiral transfers; the link budget equation; spacecraft power and propulsion; thermal equilibrium and interactions of spacecraft with the space environment, such as aerodynamic drag; electrostatic charging; radiation; and meteorids. Spacecraft are initially treated parametrically as point masses and then as rigid bodies subject to Euler's equations of rotational motion. Serves as a prerequisite for more advanced material in satellite engineering, including the technological implementation of various subsystems. Lectures are offered in a hybrid format, in person and remote.
