@@ -1,0 +1,35 @@
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+PhysI Physics I
+Prereq: None
+Introduces classical mechanics. Space and time: straight-line kinematics; motion in a plane; forces and static equilibrium; particle dynamics, with force and conservation of momentum; relative inertial frames and non-inertial force; work, potential energy and conservation of energy; kinetic theory and the ideal gas; rigid bodies and rotational dynamics; vibrational motion; conservation of angular momentum; central force motions; fluid mechanics. Subject taught using the TEAL (Technology-Enabled Active Learning) format which features students working in groups of three, discussing concepts, solving problems, and doing table-top experiments with the aid of computer data acquisition and analysis.
+
+PhysII Physics II
+Prereq: CalcII, PhysI
+Covers Maxwell's equations in both differential and integral form, electrostatic and magnetic vector potential, and the properties of dielectrics and magnetic materials. Topics include electric charge, Coulomb's law, electrostatic fields and potentials, electric currents, magnetic fields, Ampere's law, Faraday's law of induction, basic electric circuits, and electromagnetic waves. The course utilizes the TEAL (Technology Enabled Active Learning) format for small group interactions and practical experiments in electricity and magnetism. Some knowledge of vector calculus is assumed.
+
+6.100A Introduction to Computer Science Programming in Python
+Prereq: None
+Introduction to computer science and programming for students with little or no programming experience. Students develop skills to program and use computational techniques to solve problems. Topics include the notion of computation, Python, simple algorithms and data structures, testing and debugging, and algorithmic complexity. Combination of 6.100A and 6.100B or 16.C20[J] counts as REST subject. Final given in the seventh week of the term.
+
+6.1903 Introduction to Low-level Programming in C and Assembly
+Prereq: 6.100A
+Introduction to C and assembly language for students coming from a Python background (6.100A). Studies the C language, focusing on memory and associated topics including pointers, how different data structures are stored in memory, the stack, and the heap in order to build a strong understanding of the constraints involved in manipulating complex data structures in modern computational systems. Studies assembly language to facilitate a firm understanding of how high-level languages are translated to machine-level instructions.
+
+6.1910 Computation Structures
+Prereq: PhysII, 6.100A, 6.1903
+Provides an introduction to the design of digital systems and computer architecture. Emphasizes expressing all hardware designs in a high-level hardware description language and synthesizing the designs. Topics include combinational and sequential circuits, instruction set abstraction for programmable hardware, single-cycle and pipelined processor implementations, multi-level memory hierarchies, virtual memory, exceptions and I/O, and parallel systems.
+
+6.5900 Computer System Architecture
+Prereq: 6.1910
+Introduction to the principles underlying modern computer architecture. Emphasizes the relationship among technology, hardware organization, and programming systems in the evolution of computer architecture. Topics include pipelined, out-of-order, and speculative execution; caches, virtual memory and exception handling, superscalar, very long instruction word (VLIW), vector, and multithreaded processors; on-chip networks, memory models, synchronization, and cache coherence protocols for multiprocessors.
+
+6.2060 Microcomputer Project Laboratory
+Prereq: 6.1910
+Introduces analysis and design of embedded systems. Microcontrollers provide adaptation, flexibility, and real-time control. Emphasizes construction of complete systems, including a five-axis robot arm, a fluorescent lamp ballast, a tomographic imaging station (e.g., a CAT scan), and a simple calculator. Presents a wide range of basic tools, including software and development tools, programmable system on chip, peripheral components such as A/D converters, communication schemes, signal processing techniques, closed-loop digital feedback control, interface and power electronics, and modeling of electromechanical systems. Includes a sequence of assigned projects, followed by a final project of the student's choice, emphasizing creativity and uniqueness. Provides instruction in written and oral communication. To satisfy the independent inquiry component of this subject, students expand the scope of their laboratory project.

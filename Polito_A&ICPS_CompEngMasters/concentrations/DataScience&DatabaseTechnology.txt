@@ -1,0 +1,59 @@
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+PhysI Physics I
+Prereq: None
+Introduces classical mechanics. Space and time: straight-line kinematics; motion in a plane; forces and static equilibrium; particle dynamics, with force and conservation of momentum; relative inertial frames and non-inertial force; work, potential energy and conservation of energy; kinetic theory and the ideal gas; rigid bodies and rotational dynamics; vibrational motion; conservation of angular momentum; central force motions; fluid mechanics. Subject taught using the TEAL (Technology-Enabled Active Learning) format which features students working in groups of three, discussing concepts, solving problems, and doing table-top experiments with the aid of computer data acquisition and analysis.
+
+PhysII Physics II
+Prereq: CalcII, PhysI
+Covers Maxwell's equations in both differential and integral form, electrostatic and magnetic vector potential, and the properties of dielectrics and magnetic materials. Topics include electric charge, Coulomb's law, electrostatic fields and potentials, electric currents, magnetic fields, Ampere's law, Faraday's law of induction, basic electric circuits, and electromagnetic waves. The course utilizes the TEAL (Technology Enabled Active Learning) format for small group interactions and practical experiments in electricity and magnetism. Some knowledge of vector calculus is assumed.
+
+6.1200[J] Mathematics for Computer Science
+Prereq: CalcI
+Elementary discrete mathematics for science and engineering, with a focus on mathematical tools and proof techniques useful in computer science. Topics include logical notation, sets, relations, elementary graph theory, state machines and invariants, induction and proofs by contradiction, recurrences, asymptotic notation, elementary analysis of algorithms, elementary number theory and cryptography, permutations and combinations, counting tools, and discrete probability.
+
+6.100A Introduction to Computer Science Programming in Python
+Prereq: None
+Introduction to computer science and programming for students with little or no programming experience. Students develop skills to program and use computational techniques to solve problems. Topics include the notion of computation, Python, simple algorithms and data structures, testing and debugging, and algorithmic complexity. Combination of 6.100A and 6.100B or 16.C20[J] counts as REST subject. Final given in the seventh week of the term.
+
+6.1210 Introduction to Algorithms
+Prereq: 6.100A, 6.1200[J]
+Introduction to mathematical modeling of computational problems, as well as common algorithms, algorithmic paradigms, and data structures used to solve these problems. Emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems. Enrollment may be limited.
+
+6.1903 Introduction to Low-level Programming in C and Assembly
+Prereq: 6.100A
+Introduction to C and assembly language for students coming from a Python background (6.100A). Studies the C language, focusing on memory and associated topics including pointers, how different data structures are stored in memory, the stack, and the heap in order to build a strong understanding of the constraints involved in manipulating complex data structures in modern computational systems. Studies assembly language to facilitate a firm understanding of how high-level languages are translated to machine-level instructions.
+
+6.1910 Computation Structures
+Prereq: PhysII, 6.100A, 6.1903
+Provides an introduction to the design of digital systems and computer architecture. Emphasizes expressing all hardware designs in a high-level hardware description language and synthesizing the designs. Topics include combinational and sequential circuits, instruction set abstraction for programmable hardware, single-cycle and pipelined processor implementations, multi-level memory hierarchies, virtual memory, exceptions and I/O, and parallel systems.
+
+6.1800 Computer Systems Engineering
+Prereq: 6.1910
+Topics on the engineering of computer software and hardware systems: techniques for controlling complexity; strong modularity using client-server design, operating systems; performance, networks; naming; security and privacy; fault-tolerant systems, atomicity and coordination of concurrent activities, and recovery; impact of computer systems on society. Case studies of working systems and readings from the current literature provide comparisons and contrasts. Includes a single, semester-long design project. Students engage in extensive written communication exercises. Enrollment may be limited.
+
+6.5830 Database Systems
+Prereq: 6.1210, 6.1800
+Topics related to the engineering and design of database systems, including data models; database and schema design; schema normalization and integrity constraints; query processing; query optimization and cost estimation; transactions; recovery; concurrency control; isolation and consistency; distributed, parallel and heterogeneous databases; adaptive databases; trigger systems; pub-sub systems; semi structured data and XML querying. Lecture and readings from original research papers. Semester-long project and paper. Students taking graduate version complete different assignments. Enrollment may be limited.
+
+SCM.264 Databases and Data Analysis for Supply Chain Management
+Prereq: None
+Introduces databases, data analysis, and machine learning topics. Covers data modeling, relational databases, SQL queries, data mining, non-relational databases, and data warehouses. Introduces data analysis tools for visualization, regression, supervised and unsupervised techniques including principal component analysis and clustering. Term project includes implementation of data model, database, visualization and data analysis.
+
+15.069 Applied Probability and Statistics
+Prereq: CalcI
+Presents probability from the perspective of applied mathematics, with strong emphasis on an intuitive overview of key theorems and continuing demonstrations of their usefulness. Covers the laws of probability and numerous important discrete and continuous random variables, both individually and in combination. Introduces simulation. Offers an introduction to statistics that emphasizes its probabilistic foundations and the fact that statistical reasoning is applied common sense. Covers hypothesis testing, statistical sampling, and various forms of regression analysis. Draws applications from economics, finance, engineering, marketing, public policy, operations management, and operations research.
+
+15.075[J] Statistical Thinking and Data Analysis
+Prereq: 15.069
+Introduces a rigorous treatment of statistical data analysis while helping students develop a strong intuition for the strengths and limitations of various methods. Topics include statistical sampling and uncertainty, estimation, hypothesis testing, linear regression, classification, analysis of variation, and elements of data mining. Involves empirical use of hypothesis testing and other statistical methodologies in several domains, including the assessment of A-B experiments on the web and the identification of genes correlated with diseases.
+
+15.062[J] Data Mining: Finding the Models and Predictions that Create Value
+Prereq: 15.075[J]
+Introduction to data mining, data science, and machine learning for recognizing patterns, developing models and predictive analytics, and making intelligent use of massive amounts of data collected via the internet, e-commerce, electronic banking, medical databases, etc. Topics include logistic regression, association rules, tree-structured classification and regression, cluster analysis, discriminant analysis, and neural network methods. Presents examples of successful applications in credit ratings, fraud detection, marketing, customer relationship management, investments, and synthetic clinical trials. Introduces data-mining software (R and Python). Grading based on homework, cases, and a term project. Expectations and evaluation criteria differ for students taking the undergraduate version; consult syllabus or instructor for specific details.
