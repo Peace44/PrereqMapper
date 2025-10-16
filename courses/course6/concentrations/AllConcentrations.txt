@@ -611,7 +611,7 @@ Prereq: 6.1400[J], 6.5400[J], 6.6410[J]
 Introduction to quantum computational complexity theory, the study of the fundamental capabilities and limitations of quantum computers. Topics include complexity classes, lower bounds, communication complexity, proofs and advice, and interactive proof systems in the quantum world; classical simulation of quantum circuits. The objective is to bring students to the research frontier.
 
 6.8300 Advances in Computer Vision
-Prereq: 6.3700, 18.06
+Prereq: 6.4300
 Advanced topics in computer vision with a focus on the use of machine learning techniques and applications in graphics and human-computer interface. Covers image representations, texture models, structure-from-motion algorithms, Bayesian techniques, object and scene recognition, tracking, shape modeling, and image databases. Applications may include face recognition, multimodal interaction, interactive systems, cinematic special effects, and photorealistic rendering. Includes instruction and practice in written and oral communication. Students taking graduate version complete additional assignments.
 
 6.8320 Advanced Topics in Computer Vision

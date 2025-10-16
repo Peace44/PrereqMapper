@@ -38,10 +38,6 @@ Fundamentals of deep learning, including both theory and applications. Topics in
 Prereq: 6.3900, 18.06, 18.05
 Provides an introduction to computer vision, covering topics from early vision to mid- and high-level vision, including low-level image analysis, edge detection, image transformations for image synthesis, methods for 3D scene reconstruction, motion analysis and tracking. Additionally, presents basics of machine learning, convolutional neural networks, and transformers in the context of image and video data for object classification, detection, and segmentation.
 
-6.8300 Advances in Computer Vision
-Prereq: 6.4300
-Advanced topics in computer vision with a focus on the use of machine learning techniques and applications in graphics and human-computer interface. Covers image representations, texture models, structure-from-motion algorithms, Bayesian techniques, object and scene recognition, tracking, shape modeling, and image databases. Applications may include face recognition, multimodal interaction, interactive systems, cinematic special effects, and photorealistic rendering.
-
 18.03 Differential Equations
 Prereq: CalcII
 Study of differential equations, including modeling physical systems. Solution of first-order ODEs by analytical, graphical, and numerical methods. Linear ODEs with constant coefficients. Complex numbers and exponentials. Inhomogeneous equations: polynomial, sinusoidal, and exponential inputs. Oscillations, damping, resonance. Fourier series. Matrices, eigenvalues, eigenvectors, diagonalization. First order linear systems: normal modes, matrix exponentials, variation of parameters. Heat equation, wave equation. Nonlinear autonomous systems: critical point analysis, phase plane diagrams.
