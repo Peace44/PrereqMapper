@@ -1,0 +1,30 @@
+Layer 0:
+None
+
+Layer 1:
+None ==> 6.100A
+None ==> CalcI
+None ==> PhysI
+None ==> SCM.264
+
+Layer 2:
+None ==> CalcI ==> 15.069
+None ==> CalcI ==> 6.1200[J]
+None ==> 6.100A ==> 6.1903
+None ==> CalcI ==> CalcII
+
+Layer 3:
+None ==> CalcI ==> 15.069 ==> 15.075[J]
+None ==> 6.100A ==> 6.1210; None ==> CalcI ==> 6.1200[J] ==> 6.1210
+None ==> PhysI ==> PhysII; None ==> CalcI ==> CalcII ==> PhysII
+
+Layer 4:
+None ==> CalcI ==> 15.069 ==> 15.075[J] ==> 15.062[J]
+None ==> PhysI ==> PhysII ==> 6.1910; None ==> 6.100A ==> 6.1903 ==> 6.1910; None ==> CalcI ==> CalcII ==> PhysII ==> 6.1910
+
+Layer 5:
+None ==> PhysI ==> PhysII ==> 6.1910 ==> 6.1800; None ==> 6.100A ==> 6.1903 ==> 6.1910 ==> 6.1800; None ==> CalcI ==> CalcII ==> PhysII ==> 6.1910 ==> 6.1800
+
+Layer 6:
+None ==> 6.100A ==> 6.1210 ==> 6.5830; None ==> CalcI ==> 6.1200[J] ==> 6.1210 ==> 6.5830; None ==> PhysI ==> PhysII ==> 6.1910 ==> 6.1800 ==> 6.5830; None ==> 6.100A ==> 6.1903 ==> 6.1910 ==> 6.1800 ==> 6.5830; None ==> CalcI ==> CalcII ==> PhysII ==> 6.1910 ==> 6.1800 ==> 6.5830
+

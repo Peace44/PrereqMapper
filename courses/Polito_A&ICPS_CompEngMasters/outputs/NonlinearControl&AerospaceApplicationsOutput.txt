@@ -1,0 +1,26 @@
+Layer 0:
+?
+None
+
+Layer 1:
+? ==> 16.851
+None ==> CalcI
+
+Layer 2:
+None ==> CalcI ==> CalcII
+
+Layer 3:
+None ==> CalcI ==> CalcII ==> 16.002
+None ==> CalcI ==> CalcII ==> 18.03
+
+Layer 4:
+None ==> CalcI ==> CalcII ==> 18.03 ==> 10.553
+None ==> CalcI ==> CalcII ==> 16.002 ==> 16.06
+
+Layer 5:
+None ==> CalcI ==> CalcII ==> 16.002 ==> 16.06 ==> 16.31
+
+Layer 6:
+None ==> CalcI ==> CalcII ==> 16.002 ==> 16.06 ==> 16.31 ==> 16.32
+None ==> CalcI ==> CalcII ==> 16.002 ==> 16.06 ==> 16.31 ==> 2.152[J]
+

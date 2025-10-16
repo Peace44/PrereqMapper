@@ -1,0 +1,635 @@
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+PhysI Physics I
+Prereq: None
+Introduces classical mechanics. Space and time: straight-line kinematics; motion in a plane; forces and static equilibrium; particle dynamics, with force and conservation of momentum; relative inertial frames and non-inertial force; work, potential energy and conservation of energy; kinetic theory and the ideal gas; rigid bodies and rotational dynamics; vibrational motion; conservation of angular momentum; central force motions; fluid mechanics. Subject taught using the TEAL (Technology-Enabled Active Learning) format which features students working in groups of three, discussing concepts, solving problems, and doing table-top experiments with the aid of computer data acquisition and analysis.
+
+PhysII Physics II
+Prereq: CalcII, PhysI
+Covers Maxwell's equations in both differential and integral form, electrostatic and magnetic vector potential, and the properties of dielectrics and magnetic materials. Topics include electric charge, Coulomb's law, electrostatic fields and potentials, electric currents, magnetic fields, Ampere's law, Faraday's law of induction, basic electric circuits, and electromagnetic waves. The course utilizes the TEAL (Technology Enabled Active Learning) format for small group interactions and practical experiments in electricity and magnetism. Some knowledge of vector calculus is assumed.
+
+18.06 Linear Algebra
+Prereq: CalcII
+Basic subject on matrix theory and linear algebra, emphasizing topics useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, singular value decomposition, and positive definite matrices. Applications to least-squares approximations, stability of differential equations, networks, Fourier transforms, and Markov processes. Uses linear algebra software. Compared with 18.700, more emphasis on matrix algorithms and many applications.
+
+6.3100 Dynamical System Modeling and Control Design
+Prereq: PhysII, 18.06
+A learn-by-design introduction to modeling and control of discrete- and continuous-time systems, from intuition-building analytical techniques to more computational and data-centric strategies. Topics include: linear difference/differential equations (natural frequencies, transfer functions); controller metrics (stability, tracking, disturbance rejection); analytical techniques (PID, root-loci, lead-lag, phase margin); computational strategies (state-space, eigen-placement, LQR); and data-centric approaches (state estimation, regression, and identification). Concepts are introduced with lectures and online problems, and then mastered during weekly labs. In lab, students model, design, test, and explain systems and controllers involving sensors, actuators, and a microcontroller (e.g., optimizing thrust-driven positioners or stabilizing magnetic levitators).
+
+6.7100[J] Dynamic Systems and Control
+Prereq: 6.3100
+Linear, discrete- and continuous-time, multi-input-output systems in control, related areas. Least squares and matrix perturbation problems. State-space models, modes, stability, controllability, observability, transfer function matrices, poles and zeros, and minimality. Internal stability of interconnected systems, feedback compensators, state feedback, optimal regulation, observers, and observer-based compensators. Measures of control performance, robustness issues using singular values of transfer functions. Introductory ideas on nonlinear systems.
+
+2.160 Identification, Estimation, and Learning
+Prereq: 6.7100[J]
+Provides a broad theoretical basis for estimation, identification, and learning of linear and nonlinear systems at the cross-disciplinary area of system dynamics and control, machine learning, and statistics. Recursive least squares estimate, partial least squares, Kalman filter and extended Kalman filter, Bayes filter and particle filter; parametric and non-parametric system identification, Wiener-Hopf equation, persistent excitation, unbiased estimates, asymptotic variance, experiment design; function approximation theory, neural nets, radial basis functions, Koopman operator for exact linearization of nonlinear systems, and dynamic mode decomposition. Context-oriented mini-projects: robotics, self-driving cars, biomedical engineering, wearable sensors.
+
+6.3700 Introduction to Probability
+Prereq: CalcII
+An introduction to probability theory, the modeling and analysis of probabilistic systems, and elements of statistical inference. Probabilistic models, conditional probability. Discrete and continuous random variables. Expectation and conditional expectation, and further topics about random variables. Limit Theorems. Bayesian estimation and hypothesis testing. Elements of classical statistical inference. Bernoulli and Poisson processes. Markov chains. Students taking graduate version complete additional assignments.
+
+6.3260[J] Networks
+Prereq: 6.3700
+Highlights common principles that permeate the functioning of diverse technological, economic and social networks. Utilizes three sets of tools for analyzing networks -- random graph models, optimization, and game theory -- to study informational and learning cascades; economic and financial networks; social influence networks; formation of social groups; communication networks and the Internet; consensus and gossiping; spread and control of epidemics; control and use of energy networks; and biological networks. Students taking graduate version complete additional assignments.
+
+18.06 Linear Algebra
+Prereq: CalcII
+Basic subject on matrix theory and linear algebra, emphasizing topics useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, singular value decomposition, and positive definite matrices. Applications to least-squares approximations, stability of differential equations, networks, Fourier transforms, and Markov processes. Uses linear algebra software. Compared with 18.700, more emphasis on matrix algorithms and many applications.
+
+6.7210[J] Introduction to Mathematical Programming
+Prereq: 18.06
+Introduction to linear optimization and its extensions emphasizing both methodology and the underlying mathematical structures and geometrical ideas. Covers classical theory of linear programming as well as some recent advances in the field. Topics: simplex method; duality theory; sensitivity analysis; network flow problems; decomposition; robust optimization; integer programming; interior point algorithms for linear programming; and introduction to combinatorial optimization and NP-completeness.
+
+15.095 Machine Learning Under a Modern Optimization Lens
+Prereq: 6.7210[J]
+Develops algorithms for central problems in machine learning from a modern optimization perspective. Topics include sparse, convex, robust and median regression; an algorithmic framework for regression; optimal classification and regression trees, and their relationship with neural networks; how to transform predictive algorithms to prescriptive algorithms; optimal prescriptive trees; and robust classification.  Also covers design of experiments, missing data imputations, mixture of Gaussian models, exact bootstrap, and sparse matrix estimation, including principal component analysis, factor analysis, inverse co-variance matrix estimation, and matrix completion.
+
+16.332 Formal Methods for Safe Autonomous Systems
+Prereq: ?
+Covers formal methods for designing and analyzing autonomous systems. Focuses on both classical and state-of-the-art rigorous methods for specifying, modeling, verifying, and synthesizing various behaviors for systems where embedded computing units monitor and control physical processes. Additionally, covers advanced material on combining formal methods with control theory and machine learning theory for modern safety critical autonomous systems powered by AI techniques such as robots, self-driving cars, and drones. Strong emphasis on the use of various mathematical and software tools to provide safety, soundness, and completeness guarantees for system models with different levels of fidelity.
+
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+15.066[J] System Optimization and Analysis for Operations
+Prereq: CalcII
+Introduction to mathematical modeling, optimization, and simulation, as applied to manufacturing and operations. Specific methods include linear programming, network flow problems, integer and nonlinear programming, discrete-event simulation, heuristics and computer applications for manufacturing processes, operations and systems.
+
+18.03 Differential Equations
+Prereq: CalcII
+Study of differential equations, including modeling physical systems. Solution of first-order ODEs by analytical, graphical, and numerical methods. Linear ODEs with constant coefficients. Complex numbers and exponentials. Inhomogeneous equations: polynomial, sinusoidal, and exponential inputs. Oscillations, damping, resonance. Fourier series. Matrices, eigenvalues, eigenvectors, diagonalization. First order linear systems: normal modes, matrix exponentials, variation of parameters. Heat equation, wave equation. Nonlinear autonomous systems: critical point analysis, phase plane diagrams.
+
+1.000 Introduction to Computer Programming and Numerical Methods for Engineering Applications
+Prereq: 18.03
+Presents the fundamentals of computing and computer programming (procedural and object-oriented programming) in an engineering context. Introduces logical operations, floating-point arithmetic, data structures, induction, iteration, and recursion. Computational methods for interpolation, regression, root finding, sorting, searching, and the solution of linear systems of equations and ordinary differential equations. Control of sensors and visualization of scientific data. Draws examples from engineering and scientific applications. Students use the Python programming environment to complete weekly assignments.
+
+15.053 Optimization Methods in Business Analytics
+Prereq: 1.000
+Introduces optimization methods with a focus on modeling, solution techniques, and analysis. Covers linear programming, network optimization, integer programming, nonlinear programming, and heuristics. Applications to logistics, manufacturing, statistics, machine learning, transportation, game theory, marketing, project management, and finance. Includes projects in which student teams solve optimization problems of practical interest.
+
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+PhysI Physics I
+Prereq: None
+Introduces classical mechanics. Space and time: straight-line kinematics; motion in a plane; forces and static equilibrium; particle dynamics, with force and conservation of momentum; relative inertial frames and non-inertial force; work, potential energy and conservation of energy; kinetic theory and the ideal gas; rigid bodies and rotational dynamics; vibrational motion; conservation of angular momentum; central force motions; fluid mechanics. Subject taught using the TEAL (Technology-Enabled Active Learning) format which features students working in groups of three, discussing concepts, solving problems, and doing table-top experiments with the aid of computer data acquisition and analysis.
+
+PhysII Physics II
+Prereq: CalcII, PhysI
+Covers Maxwell's equations in both differential and integral form, electrostatic and magnetic vector potential, and the properties of dielectrics and magnetic materials. Topics include electric charge, Coulomb's law, electrostatic fields and potentials, electric currents, magnetic fields, Ampere's law, Faraday's law of induction, basic electric circuits, and electromagnetic waves. The course utilizes the TEAL (Technology Enabled Active Learning) format for small group interactions and practical experiments in electricity and magnetism. Some knowledge of vector calculus is assumed.
+
+2.087 Engineering Mathematics: Linear Algebra and ODEs
+Prereq: CalcII, PhysI
+Introduction to linear algebra and ordinary differential equations (ODEs), including general numerical approaches to solving systems of equations. Linear systems of equations, existence and uniqueness of solutions, Gaussian elimination. Initial value problems, 1st and 2nd order systems, forward and backward Euler, RK4. Eigenproblems, eigenvalues and eigenvectors, including complex numbers, functions, vectors and matrices.
+
+2.003[J] Dynamics and Control I
+Prereq: PhysII, 2.087
+Introduction to the dynamics and vibrations of lumped-parameter models of mechanical systems. Kinematics. Force-momentum formulation for systems of particles and rigid bodies in planar motion. Work-energy concepts. Virtual displacements and virtual work. Lagrange's equations for systems of particles and rigid bodies in planar motion. Linearization of equations of motion. Linear stability analysis of mechanical systems. Free and forced vibration of linear multi-degree of freedom models of mechanical systems; matrix eigenvalue problems.
+
+2.004 Dynamics and Control II
+Prereq: PhysII, 2.003[J]
+Modeling, analysis, and control of dynamic systems. System modeling: lumped parameter models of mechanical, electrical, and electromechanical systems; interconnection laws; actuators and sensors. Linear systems theory: linear algebra; Laplace transform; transfer functions, time response and frequency response, poles and zeros; block diagrams; solutions via analytical and numerical techniques; stability. Introduction to feedback control: closed-loop response; PID compensation; steady-state characteristics, root-locus design concepts, frequency-domain design concepts. Laboratory experiments and control design projects. 
+
+2.12 Introduction to Robotics
+Prereq: 2.004
+Cross-disciplinary studies in robot mechanics and intelligence. Emphasizes physical understanding of robot kinematics and dynamics, differential motion and energy method, design and control of robotic arms and mobile robots, and actuators, drives, and transmission. Second half of course focuses on algorithmic thinking and computation, computer vision and perception, planning and control for manipulation, localization and navigation, machine learning for robotics, and human-robot systems. Weekly laboratories include brushless DC motor control, design and fabrication of robotic arms and vehicles, robot vision and navigation, and programming and system integration using Robot Operating System (ROS). Group term project builds intelligent robots for specific applications of interest.
+
+6.100A Introduction to Computer Science Programming in Python
+Prereq: None
+Introduction to computer science and programming for students with little or no programming experience. Students develop skills to program and use computational techniques to solve problems. Topics include the notion of computation, Python, simple algorithms and data structures, testing and debugging, and algorithmic complexity. Combination of 6.100A and 6.100B or 16.C20[J] counts as REST subject. Final given in the seventh week of the term.
+
+6.4200[J] Robotics: Science and Systems
+Prereq: 6.100A, 2.003[J]
+Presents concepts, principles, and algorithmic foundations for robots and autonomous vehicles operating in the physical world. Topics include sensing, kinematics and dynamics, state estimation, computer vision, perception, learning, control, motion planning, and embedded system development. Students design and implement advanced algorithms on complex robotic platforms capable of agile autonomous navigation and real-time interaction with the physical word. Students engage in extensive written and oral communication exercises. Enrollment limited.
+
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+18.03 Differential Equations
+Prereq: CalcII
+Study of differential equations, including modeling physical systems. Solution of first-order ODEs by analytical, graphical, and numerical methods. Linear ODEs with constant coefficients. Complex numbers and exponentials. Inhomogeneous equations: polynomial, sinusoidal, and exponential inputs. Oscillations, damping, resonance. Fourier series. Matrices, eigenvalues, eigenvectors, diagonalization. First order linear systems: normal modes, matrix exponentials, variation of parameters. Heat equation, wave equation. Nonlinear autonomous systems: critical point analysis, phase plane diagrams.
+
+16.002 Unified Engineering: Signals and Systems
+Prereq: CalcII
+Presents fundamental principles and methods of signals and systems for aerospace engineering, and engineering analysis and design concepts applied to aerospace systems. Topics include linear and time invariant systems; convolution; Fourier and Laplace transform analysis in continuous and discrete time; modulation, filtering, and sampling; and an introduction to feedback control. Experiential lab and system projects provide additional aerospace context. Labs, projects, and assignments involve the use of software such as MATLAB and/or Python.
+
+16.06 Principles of Automatic Control
+Prereq: 16.002
+Introduction to design of feedback control systems. Properties and advantages of feedback systems. Time-domain and frequency-domain performance measures. Stability and degree of stability. Root locus method, Nyquist criterion, frequency-domain design, and some state space methods. Strong emphasis on the synthesis of classical controllers. Application to a variety of aerospace systems. Hands-on experiments using simple robotic systems.
+
+16.31 Feedback Control Systems
+Prereq: 16.06
+Studies state-space representation of dynamic systems, including model realizations, controllability, and observability. Introduces the state-space approach to multi-input-multi-output control system analysis and synthesis, including full state feedback using pole placement, linear quadratic regulator, stochastic state estimation, and the design of dynamic control laws. Also covers performance limitations and robustness. Extensive use of computer-aided control design tools. Applications to various aerospace systems, including navigation, guidance, and control of vehicles. Laboratory exercises utilize a palm-size drone. Includes additional homework questions, laboratory experiments, and a term project beyond 16.30 with a particular focus on the material associated with state-space realizations of MIMO transfer function (matrices); MIMO zeros, controllability, and observability; stochastic processes and estimation; limitations on performance; design and analysis of dynamic output feedback controllers; and robustness of multivariable control systems.
+
+2.152[J] Nonlinear Control
+Prereq: 16.31
+Introduction to nonlinear control and estimation in physical and biological systems. Nonlinear stability theory, Lyapunov analysis, Barbalat's lemma. Feedback linearization, differential flatness, internal dynamics. Sliding surfaces. Adaptive nonlinear control and estimation. Multiresolution bases, nonlinear system identification. Contraction analysis, differential stability theory. Nonlinear observers. Asynchronous distributed computation and learning. Concurrent synchronization, polyrhythms. Monotone nonlinear systems. Emphasizes application to physical systems (robots, aircraft, spacecraft, underwater vehicles, reaction-diffusion processes, machine vision, oscillators, internet), machine learning, computational neuroscience, and systems biology. Includes term projects.
+
+16.32 Principles of Optimal Control and Estimation
+Prereq: 16.31
+Fundamentals of optimal control and estimation for discrete and continuous systems. Briefly reviews constrained function minimization and stochastic processes. Topics in optimal control theory include dynamic programming, variational calculus, Pontryagin's maximum principle, and numerical algorithms and software. Topics in estimation include least-squares estimation, and the Kalman filter and its extensions for estimating the states of dynamic systems. May include an individual term project.
+
+10.553 Model Predictive Control
+Prereq: 18.03
+Provides an introduction to the multivariable control of dynamical systems with constraints on manipulated, state, and output variables. Covers multiple mathematical formulations that are popular in academia and industry, including dynamic matrix control and state-space model predictive control of uncertain, nonlinear, and large-scale systems. Uses numerous real industrial processes as examples. Students taking graduate version complete additional assignments.
+
+16.851 Introduction to Satellite Engineering
+Prereq: ?
+Covers the principles and governing equations fundamental to the design, launch, and operation of artificial satellites in Earth's orbit and beyond. Material includes the vis-viva equation; the rocket equation; basic orbital maneuvers, including Hohmann transfers; bielliptic trajectories, as well as spiral transfers; the link budget equation; spacecraft power and propulsion; thermal equilibrium and interactions of spacecraft with the space environment, such as aerodynamic drag; electrostatic charging; radiation; and meteorids. Spacecraft are initially treated parametrically as point masses and then as rigid bodies subject to Euler's equations of rotational motion. Serves as a prerequisite for more advanced material in satellite engineering, including the technological implementation of various subsystems. Lectures are offered in a hybrid format, in person and remote.
+
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+6.3700 Introduction to Probability
+Prereq: CalcII
+An introduction to probability theory, the modeling and analysis of probabilistic systems, and elements of statistical inference. Probabilistic models, conditional probability. Discrete and continuous random variables. Expectation and conditional expectation, and further topics about random variables. Limit Theorems. Bayesian estimation and hypothesis testing. Elements of classical statistical inference. Bernoulli and Poisson processes. Markov chains. Students taking graduate version complete additional assignments.
+
+6.7920[J] Reinforcement Learning: Foundations and Methods
+Prereq: 6.3700
+Examines reinforcement learning (RL) as a methodology for approximately solving sequential decision-making under uncertainty, with foundations in optimal control and machine learning. Provides a mathematical introduction to RL, including dynamic programming, statistical, and empirical perspectives, and special topics. Core topics include: dynamic programming, special structures, finite and infinite horizon Markov Decision Processes, value and policy iteration, Monte Carlo methods, temporal differences, Q-learning, stochastic approximation, and bandits. Also covers approximate dynamic programming, including value-based methods and policy space methods. Applications and examples drawn from diverse domains. Focus is mathematical, but is supplemented with computational exercises. An analysis prerequisite is suggested but not required; mathematical maturity is necessary.
+
+PhysI Physics I
+Prereq: None
+Introduces classical mechanics. Space and time: straight-line kinematics; motion in a plane; forces and static equilibrium; particle dynamics, with force and conservation of momentum; relative inertial frames and non-inertial force; work, potential energy and conservation of energy; kinetic theory and the ideal gas; rigid bodies and rotational dynamics; vibrational motion; conservation of angular momentum; central force motions; fluid mechanics. Subject taught using the TEAL (Technology-Enabled Active Learning) format which features students working in groups of three, discussing concepts, solving problems, and doing table-top experiments with the aid of computer data acquisition and analysis.
+
+PhysII Physics II
+Prereq: CalcII, PhysI
+Covers Maxwell's equations in both differential and integral form, electrostatic and magnetic vector potential, and the properties of dielectrics and magnetic materials. Topics include electric charge, Coulomb's law, electrostatic fields and potentials, electric currents, magnetic fields, Ampere's law, Faraday's law of induction, basic electric circuits, and electromagnetic waves. The course utilizes the TEAL (Technology Enabled Active Learning) format for small group interactions and practical experiments in electricity and magnetism. Some knowledge of vector calculus is assumed.
+
+2.087 Engineering Mathematics: Linear Algebra and ODEs
+Prereq: CalcII, PhysI
+Introduction to linear algebra and ordinary differential equations (ODEs), including general numerical approaches to solving systems of equations. Linear systems of equations, existence and uniqueness of solutions, Gaussian elimination. Initial value problems, 1st and 2nd order systems, forward and backward Euler, RK4. Eigenproblems, eigenvalues and eigenvectors, including complex numbers, functions, vectors and matrices.
+
+2.003[J] Dynamics and Control I
+Prereq: PhysII, 2.087
+Introduction to the dynamics and vibrations of lumped-parameter models of mechanical systems. Kinematics. Force-momentum formulation for systems of particles and rigid bodies in planar motion. Work-energy concepts. Virtual displacements and virtual work. Lagrange's equations for systems of particles and rigid bodies in planar motion. Linearization of equations of motion. Linear stability analysis of mechanical systems. Free and forced vibration of linear multi-degree of freedom models of mechanical systems; matrix eigenvalue problems.
+
+2.004 Dynamics and Control II
+Prereq: PhysII, 2.003[J]
+Modeling, analysis, and control of dynamic systems. System modeling: lumped parameter models of mechanical, electrical, and electromechanical systems; interconnection laws; actuators and sensors. Linear systems theory: linear algebra; Laplace transform; transfer functions, time response and frequency response, poles and zeros; block diagrams; solutions via analytical and numerical techniques; stability. Introduction to feedback control: closed-loop response; PID compensation; steady-state characteristics, root-locus design concepts, frequency-domain design concepts. Laboratory experiments and control design projects. 
+
+2.151 Advanced System Dynamics and Control
+Prereq: 2.004
+Analytical descriptions of state-determined dynamic physical systems; time and frequency domain representations; system characteristics - controllability, observability, stability; linear and nonlinear system responses. Modification of system characteristics using feedback. State observers, Kalman filters. Modeling/performance trade-offs in control system design. Basic optimization tools. Positive systems. Emphasizes applications to physical systems.
+
+2.165[J] Robotics
+Prereq: 2.151
+Introduction to robotics and learning in machines. Kinematics and dynamics of rigid body systems. Adaptive control, system identification, sparse representations. Force control, adaptive visual servoing. Task planning, teleoperation, imitation learning. Navigation. Underactuated systems, approximate optimization and control. Dynamics of learning and optimization in networks. Elements of biological planning and control. Motor primitives, entrainment, active sensing, binding models. Term projects.
+
+18.06 Linear Algebra
+Prereq: CalcII
+Basic subject on matrix theory and linear algebra, emphasizing topics useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, singular value decomposition, and positive definite matrices. Applications to least-squares approximations, stability of differential equations, networks, Fourier transforms, and Markov processes. Uses linear algebra software. Compared with 18.700, more emphasis on matrix algorithms and many applications.
+
+6.3100 Dynamical System Modeling and Control Design
+Prereq: PhysII, 18.06
+A learn-by-design introduction to modeling and control of discrete- and continuous-time systems, from intuition-building analytical techniques to more computational and data-centric strategies. Topics include: linear difference/differential equations (natural frequencies, transfer functions); controller metrics (stability, tracking, disturbance rejection); analytical techniques (PID, root-loci, lead-lag, phase margin); computational strategies (state-space, eigen-placement, LQR); and data-centric approaches (state estimation, regression, and identification). Concepts are introduced with lectures and online problems, and then mastered during weekly labs. In lab, students model, design, test, and explain systems and controllers involving sensors, actuators, and a microcontroller (e.g., optimizing thrust-driven positioners or stabilizing magnetic levitators).
+
+6.7100[J] Dynamic Systems and Control
+Prereq: 6.3100
+Linear, discrete- and continuous-time, multi-input-output systems in control, related areas. Least squares and matrix perturbation problems. State-space models, modes, stability, controllability, observability, transfer function matrices, poles and zeros, and minimality. Internal stability of interconnected systems, feedback compensators, state feedback, optimal regulation, observers, and observer-based compensators. Measures of control performance, robustness issues using singular values of transfer functions. Introductory ideas on nonlinear systems.
+
+2.160 Identification, Estimation, and Learning
+Prereq: 6.7100[J]
+Provides a broad theoretical basis for estimation, identification, and learning of linear and nonlinear systems at the cross-disciplinary area of system dynamics and control, machine learning, and statistics. Recursive least squares estimate, partial least squares, Kalman filter and extended Kalman filter, Bayes filter and particle filter; parametric and non-parametric system identification, Wiener-Hopf equation, persistent excitation, unbiased estimates, asymptotic variance, experiment design; function approximation theory, neural nets, radial basis functions, Koopman operator for exact linearization of nonlinear systems, and dynamic mode decomposition. Context-oriented mini-projects: robotics, self-driving cars, biomedical engineering, wearable sensors.
+
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+PhysI Physics I
+Prereq: None
+Introduces classical mechanics. Space and time: straight-line kinematics; motion in a plane; forces and static equilibrium; particle dynamics, with force and conservation of momentum; relative inertial frames and non-inertial force; work, potential energy and conservation of energy; kinetic theory and the ideal gas; rigid bodies and rotational dynamics; vibrational motion; conservation of angular momentum; central force motions; fluid mechanics. Subject taught using the TEAL (Technology-Enabled Active Learning) format which features students working in groups of three, discussing concepts, solving problems, and doing table-top experiments with the aid of computer data acquisition and analysis.
+
+PhysII Physics II
+Prereq: CalcII, PhysI
+Covers Maxwell's equations in both differential and integral form, electrostatic and magnetic vector potential, and the properties of dielectrics and magnetic materials. Topics include electric charge, Coulomb's law, electrostatic fields and potentials, electric currents, magnetic fields, Ampere's law, Faraday's law of induction, basic electric circuits, and electromagnetic waves. The course utilizes the TEAL (Technology Enabled Active Learning) format for small group interactions and practical experiments in electricity and magnetism. Some knowledge of vector calculus is assumed.
+
+18.06 Linear Algebra
+Prereq: CalcII
+Basic subject on matrix theory and linear algebra, emphasizing topics useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, singular value decomposition, and positive definite matrices. Applications to least-squares approximations, stability of differential equations, networks, Fourier transforms, and Markov processes. Uses linear algebra software. Compared with 18.700, more emphasis on matrix algorithms and many applications.
+
+6.3100 Dynamical System Modeling and Control Design
+Prereq: PhysII, 18.06
+A learn-by-design introduction to modeling and control of discrete- and continuous-time systems, from intuition-building analytical techniques to more computational and data-centric strategies. Topics include: linear difference/differential equations (natural frequencies, transfer functions); controller metrics (stability, tracking, disturbance rejection); analytical techniques (PID, root-loci, lead-lag, phase margin); computational strategies (state-space, eigen-placement, LQR); and data-centric approaches (state estimation, regression, and identification). Concepts are introduced with lectures and online problems, and then mastered during weekly labs. In lab, students model, design, test, and explain systems and controllers involving sensors, actuators, and a microcontroller (e.g., optimizing thrust-driven positioners or stabilizing magnetic levitators).
+
+6.7100[J] Dynamic Systems and Control
+Prereq: 6.3100
+Linear, discrete- and continuous-time, multi-input-output systems in control, related areas. Least squares and matrix perturbation problems. State-space models, modes, stability, controllability, observability, transfer function matrices, poles and zeros, and minimality. Internal stability of interconnected systems, feedback compensators, state feedback, optimal regulation, observers, and observer-based compensators. Measures of control performance, robustness issues using singular values of transfer functions. Introductory ideas on nonlinear systems.
+
+2.160 Identification, Estimation, and Learning
+Prereq: 6.7100[J]
+Provides a broad theoretical basis for estimation, identification, and learning of linear and nonlinear systems at the cross-disciplinary area of system dynamics and control, machine learning, and statistics. Recursive least squares estimate, partial least squares, Kalman filter and extended Kalman filter, Bayes filter and particle filter; parametric and non-parametric system identification, Wiener-Hopf equation, persistent excitation, unbiased estimates, asymptotic variance, experiment design; function approximation theory, neural nets, radial basis functions, Koopman operator for exact linearization of nonlinear systems, and dynamic mode decomposition. Context-oriented mini-projects: robotics, self-driving cars, biomedical engineering, wearable sensors.
+
+15.094[J] Robust Modeling, Optimization, and Computation
+Prereq: 18.06
+Introduces modern robust optimization, including theory, applications, and computation. Presents formulations and their connection to probability, information and risk theory for conic optimization (linear, second-order, and semidefinite cones) and integer optimization. Application domains include analysis and optimization of stochastic networks, optimal mechanism design, network information theory, transportation, pattern classification, structural and engineering design, and financial engineering. Students formulate and solve a problem aligned with their interests in a final project.
+
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+PhysI Physics I
+Prereq: None
+Introduces classical mechanics. Space and time: straight-line kinematics; motion in a plane; forces and static equilibrium; particle dynamics, with force and conservation of momentum; relative inertial frames and non-inertial force; work, potential energy and conservation of energy; kinetic theory and the ideal gas; rigid bodies and rotational dynamics; vibrational motion; conservation of angular momentum; central force motions; fluid mechanics. Subject taught using the TEAL (Technology-Enabled Active Learning) format which features students working in groups of three, discussing concepts, solving problems, and doing table-top experiments with the aid of computer data acquisition and analysis.
+
+PhysII Physics II
+Prereq: CalcII, PhysI
+Covers Maxwell's equations in both differential and integral form, electrostatic and magnetic vector potential, and the properties of dielectrics and magnetic materials. Topics include electric charge, Coulomb's law, electrostatic fields and potentials, electric currents, magnetic fields, Ampere's law, Faraday's law of induction, basic electric circuits, and electromagnetic waves. The course utilizes the TEAL (Technology Enabled Active Learning) format for small group interactions and practical experiments in electricity and magnetism. Some knowledge of vector calculus is assumed.
+
+6.1200[J] Mathematics for Computer Science
+Prereq: CalcI
+Elementary discrete mathematics for science and engineering, with a focus on mathematical tools and proof techniques useful in computer science. Topics include logical notation, sets, relations, elementary graph theory, state machines and invariants, induction and proofs by contradiction, recurrences, asymptotic notation, elementary analysis of algorithms, elementary number theory and cryptography, permutations and combinations, counting tools, and discrete probability.
+
+6.100A Introduction to Computer Science Programming in Python
+Prereq: None
+Introduction to computer science and programming for students with little or no programming experience. Students develop skills to program and use computational techniques to solve problems. Topics include the notion of computation, Python, simple algorithms and data structures, testing and debugging, and algorithmic complexity. Combination of 6.100A and 6.100B or 16.C20[J] counts as REST subject. Final given in the seventh week of the term.
+
+6.1210 Introduction to Algorithms
+Prereq: 6.100A, 6.1200[J]
+Introduction to mathematical modeling of computational problems, as well as common algorithms, algorithmic paradigms, and data structures used to solve these problems. Emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems. Enrollment may be limited.
+
+6.1903 Introduction to Low-level Programming in C and Assembly
+Prereq: 6.100A
+Introduction to C and assembly language for students coming from a Python background (6.100A). Studies the C language, focusing on memory and associated topics including pointers, how different data structures are stored in memory, the stack, and the heap in order to build a strong understanding of the constraints involved in manipulating complex data structures in modern computational systems. Studies assembly language to facilitate a firm understanding of how high-level languages are translated to machine-level instructions.
+
+6.1910 Computation Structures
+Prereq: PhysII, 6.100A, 6.1903
+Provides an introduction to the design of digital systems and computer architecture. Emphasizes expressing all hardware designs in a high-level hardware description language and synthesizing the designs. Topics include combinational and sequential circuits, instruction set abstraction for programmable hardware, single-cycle and pipelined processor implementations, multi-level memory hierarchies, virtual memory, exceptions and I/O, and parallel systems.
+
+6.1800 Computer Systems Engineering
+Prereq: 6.1910
+Topics on the engineering of computer software and hardware systems: techniques for controlling complexity; strong modularity using client-server design, operating systems; performance, networks; naming; security and privacy; fault-tolerant systems, atomicity and coordination of concurrent activities, and recovery; impact of computer systems on society. Case studies of working systems and readings from the current literature provide comparisons and contrasts. Includes a single, semester-long design project. Students engage in extensive written communication exercises. Enrollment may be limited.
+
+6.5830 Database Systems
+Prereq: 6.1210, 6.1800
+Topics related to the engineering and design of database systems, including data models; database and schema design; schema normalization and integrity constraints; query processing; query optimization and cost estimation; transactions; recovery; concurrency control; isolation and consistency; distributed, parallel and heterogeneous databases; adaptive databases; trigger systems; pub-sub systems; semi structured data and XML querying. Lecture and readings from original research papers. Semester-long project and paper. Students taking graduate version complete different assignments. Enrollment may be limited.
+
+SCM.264 Databases and Data Analysis for Supply Chain Management
+Prereq: None
+Introduces databases, data analysis, and machine learning topics. Covers data modeling, relational databases, SQL queries, data mining, non-relational databases, and data warehouses. Introduces data analysis tools for visualization, regression, supervised and unsupervised techniques including principal component analysis and clustering. Term project includes implementation of data model, database, visualization and data analysis.
+
+15.069 Applied Probability and Statistics
+Prereq: CalcI
+Presents probability from the perspective of applied mathematics, with strong emphasis on an intuitive overview of key theorems and continuing demonstrations of their usefulness. Covers the laws of probability and numerous important discrete and continuous random variables, both individually and in combination. Introduces simulation. Offers an introduction to statistics that emphasizes its probabilistic foundations and the fact that statistical reasoning is applied common sense. Covers hypothesis testing, statistical sampling, and various forms of regression analysis. Draws applications from economics, finance, engineering, marketing, public policy, operations management, and operations research.
+
+15.075[J] Statistical Thinking and Data Analysis
+Prereq: 15.069
+Introduces a rigorous treatment of statistical data analysis while helping students develop a strong intuition for the strengths and limitations of various methods. Topics include statistical sampling and uncertainty, estimation, hypothesis testing, linear regression, classification, analysis of variation, and elements of data mining. Involves empirical use of hypothesis testing and other statistical methodologies in several domains, including the assessment of A-B experiments on the web and the identification of genes correlated with diseases.
+
+15.062[J] Data Mining: Finding the Models and Predictions that Create Value
+Prereq: 15.075[J]
+Introduction to data mining, data science, and machine learning for recognizing patterns, developing models and predictive analytics, and making intelligent use of massive amounts of data collected via the internet, e-commerce, electronic banking, medical databases, etc. Topics include logistic regression, association rules, tree-structured classification and regression, cluster analysis, discriminant analysis, and neural network methods. Presents examples of successful applications in credit ratings, fraud detection, marketing, customer relationship management, investments, and synthetic clinical trials. Introduces data-mining software (R and Python). Grading based on homework, cases, and a term project. Expectations and evaluation criteria differ for students taking the undergraduate version; consult syllabus or instructor for specific details.
+
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+PhysI Physics I
+Prereq: None
+Introduces classical mechanics. Space and time: straight-line kinematics; motion in a plane; forces and static equilibrium; particle dynamics, with force and conservation of momentum; relative inertial frames and non-inertial force; work, potential energy and conservation of energy; kinetic theory and the ideal gas; rigid bodies and rotational dynamics; vibrational motion; conservation of angular momentum; central force motions; fluid mechanics. Subject taught using the TEAL (Technology-Enabled Active Learning) format which features students working in groups of three, discussing concepts, solving problems, and doing table-top experiments with the aid of computer data acquisition and analysis.
+
+PhysII Physics II
+Prereq: CalcII, PhysI
+Covers Maxwell's equations in both differential and integral form, electrostatic and magnetic vector potential, and the properties of dielectrics and magnetic materials. Topics include electric charge, Coulomb's law, electrostatic fields and potentials, electric currents, magnetic fields, Ampere's law, Faraday's law of induction, basic electric circuits, and electromagnetic waves. The course utilizes the TEAL (Technology Enabled Active Learning) format for small group interactions and practical experiments in electricity and magnetism. Some knowledge of vector calculus is assumed.
+
+6.100A Introduction to Computer Science Programming in Python
+Prereq: None
+Introduction to computer science and programming for students with little or no programming experience. Students develop skills to program and use computational techniques to solve problems. Topics include the notion of computation, Python, simple algorithms and data structures, testing and debugging, and algorithmic complexity. Combination of 6.100A and 6.100B or 16.C20[J] counts as REST subject. Final given in the seventh week of the term.
+
+6.1903 Introduction to Low-level Programming in C and Assembly
+Prereq: 6.100A
+Introduction to C and assembly language for students coming from a Python background (6.100A). Studies the C language, focusing on memory and associated topics including pointers, how different data structures are stored in memory, the stack, and the heap in order to build a strong understanding of the constraints involved in manipulating complex data structures in modern computational systems. Studies assembly language to facilitate a firm understanding of how high-level languages are translated to machine-level instructions.
+
+6.1910 Computation Structures
+Prereq: PhysII, 6.100A, 6.1903
+Provides an introduction to the design of digital systems and computer architecture. Emphasizes expressing all hardware designs in a high-level hardware description language and synthesizing the designs. Topics include combinational and sequential circuits, instruction set abstraction for programmable hardware, single-cycle and pipelined processor implementations, multi-level memory hierarchies, virtual memory, exceptions and I/O, and parallel systems.
+
+6.1810 Operating System Engineering I
+Prereq: 6.1910
+Design and implementation of operating systems, and their use as a foundation for systems programming. Topics include virtual memory, file systems, threads, context switches, kernels, interrupts, system calls, interprocess communication, coordination, and interaction between software and hardware. A multi-processor operating system for RISC-V, xv6, is used to illustrate these topics. Individual laboratory assignments involve extending the xv6 operating system, for example to support sophisticated virtual memory features and networking.
+
+6.1010 Fundamentals of Programming
+Prereq: 6.100A
+Introduces fundamental concepts of programming. Designed to develop skills in applying basic methods from programming languages to abstract problems. Topics include programming and Python basics, computational concepts, software engineering, algorithmic techniques, data types, and recursion.  Lab component consists of software design, construction, and implementation of design. Enrollment may be limited.
+
+6.1020 Software Construction
+Prereq: 6.1010
+Introduces fundamental principles and techniques of software development: how to write software that is safe from bugs, easy to understand, and ready for change. Topics include specifications and invariants; testing, test-case generation, and coverage; abstract data types and representation independence; design patterns for object-oriented programming; concurrent programming, including message passing and shared memory concurrency, and defending against races and deadlock; and functional programming with immutable data and higher-order functions. Includes weekly programming exercises and larger group programming projects.
+
+6.1200[J] Mathematics for Computer Science
+Prereq: CalcI
+Elementary discrete mathematics for science and engineering, with a focus on mathematical tools and proof techniques useful in computer science. Topics include logical notation, sets, relations, elementary graph theory, state machines and invariants, induction and proofs by contradiction, recurrences, asymptotic notation, elementary analysis of algorithms, elementary number theory and cryptography, permutations and combinations, counting tools, and discrete probability.
+
+6.1210 Introduction to Algorithms
+Prereq: 6.100A, 6.1200[J]
+Introduction to mathematical modeling of computational problems, as well as common algorithms, algorithmic paradigms, and data structures used to solve these problems. Emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems. Enrollment may be limited.
+
+6.1060 Software Performance Engineering
+Prereq: 6.1020, 6.1210, 6.1910
+Project-based introduction to building efficient, high-performance and scalable software systems. Topics include performance analysis, algorithmic techniques for high performance, instruction-level optimizations, vectorization, cache and memory hierarchy optimization, and parallel programming.
+
+6.9570 Introduction to C and C++
+Prereq: None
+Fast-paced introduction to the C and C++ programming languages. Intended for those with experience in other languages who have never used C or C++. Students complete daily assignments, a small-scale individual project, and a mandatory online diagnostic test. Enrollment limited.
+
+6.S894: Accelerated Computing
+Prereq: 6.1060
+This course aims to teach you how to write fast code for the specialized hardware and accelerators proliferating in modern computers. In MIT terms, it is a spiritual follow-on to 6.1060 Software Performance Engineering, where we graduate from mainstream CPUs to things like GPUs. Visit https://accelerated-computing.academy/fall25/ for more info.
+
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+PhysI Physics I
+Prereq: None
+Introduces classical mechanics. Space and time: straight-line kinematics; motion in a plane; forces and static equilibrium; particle dynamics, with force and conservation of momentum; relative inertial frames and non-inertial force; work, potential energy and conservation of energy; kinetic theory and the ideal gas; rigid bodies and rotational dynamics; vibrational motion; conservation of angular momentum; central force motions; fluid mechanics. Subject taught using the TEAL (Technology-Enabled Active Learning) format which features students working in groups of three, discussing concepts, solving problems, and doing table-top experiments with the aid of computer data acquisition and analysis.
+
+PhysII Physics II
+Prereq: CalcII, PhysI
+Covers Maxwell's equations in both differential and integral form, electrostatic and magnetic vector potential, and the properties of dielectrics and magnetic materials. Topics include electric charge, Coulomb's law, electrostatic fields and potentials, electric currents, magnetic fields, Ampere's law, Faraday's law of induction, basic electric circuits, and electromagnetic waves. The course utilizes the TEAL (Technology Enabled Active Learning) format for small group interactions and practical experiments in electricity and magnetism. Some knowledge of vector calculus is assumed.
+
+2.087 Engineering Mathematics: Linear Algebra and ODEs
+Prereq: CalcII, PhysI
+Introduction to linear algebra and ordinary differential equations (ODEs), including general numerical approaches to solving systems of equations. Linear systems of equations, existence and uniqueness of solutions, Gaussian elimination. Initial value problems, 1st and 2nd order systems, forward and backward Euler, RK4. Eigenproblems, eigenvalues and eigenvectors, including complex numbers, functions, vectors and matrices.
+
+2.003[J] Dynamics and Control I
+Prereq: PhysII, 2.087
+Introduction to the dynamics and vibrations of lumped-parameter models of mechanical systems. Kinematics. Force-momentum formulation for systems of particles and rigid bodies in planar motion. Work-energy concepts. Virtual displacements and virtual work. Lagrange's equations for systems of particles and rigid bodies in planar motion. Linearization of equations of motion. Linear stability analysis of mechanical systems. Free and forced vibration of linear multi-degree of freedom models of mechanical systems; matrix eigenvalue problems.
+
+2.004 Dynamics and Control II
+Prereq: PhysII, 2.003[J]
+Modeling, analysis, and control of dynamic systems. System modeling: lumped parameter models of mechanical, electrical, and electromechanical systems; interconnection laws; actuators and sensors. Linear systems theory: linear algebra; Laplace transform; transfer functions, time response and frequency response, poles and zeros; block diagrams; solutions via analytical and numerical techniques; stability. Introduction to feedback control: closed-loop response; PID compensation; steady-state characteristics, root-locus design concepts, frequency-domain design concepts. Laboratory experiments and control design projects. 
+
+2.140 Analysis and Design of Feedback Control Systems
+Prereq: 2.004
+Develops the fundamentals of feedback control using linear transfer function system models. Analysis in time and frequency domains. Design in the s-plane (root locus) and in the frequency domain (loop shaping). Describing functions for stability of certain non-linear systems. Extension to state variable systems and multivariable control with observers. Discrete and digital hybrid systems and use of z-plane design. Extended design case studies and capstone group projects.
+
+18.03 Differential Equations
+Prereq: CalcII
+Study of differential equations, including modeling physical systems. Solution of first-order ODEs by analytical, graphical, and numerical methods. Linear ODEs with constant coefficients. Complex numbers and exponentials. Inhomogeneous equations: polynomial, sinusoidal, and exponential inputs. Oscillations, damping, resonance. Fourier series. Matrices, eigenvalues, eigenvectors, diagonalization. First order linear systems: normal modes, matrix exponentials, variation of parameters. Heat equation, wave equation. Nonlinear autonomous systems: critical point analysis, phase plane diagrams.
+
+10.553 Model Predictive Control
+Prereq: 18.03
+Provides an introduction to the multivariable control of dynamical systems with constraints on manipulated, state, and output variables. Covers multiple mathematical formulations that are popular in academia and industry, including dynamic matrix control and state-space model predictive control of uncertain, nonlinear, and large-scale systems. Uses numerous real industrial processes as examples. Students taking graduate version complete additional assignments.
+
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+PhysI Physics I
+Prereq: None
+Introduces classical mechanics. Space and time: straight-line kinematics; motion in a plane; forces and static equilibrium; particle dynamics, with force and conservation of momentum; relative inertial frames and non-inertial force; work, potential energy and conservation of energy; kinetic theory and the ideal gas; rigid bodies and rotational dynamics; vibrational motion; conservation of angular momentum; central force motions; fluid mechanics. Subject taught using the TEAL (Technology-Enabled Active Learning) format which features students working in groups of three, discussing concepts, solving problems, and doing table-top experiments with the aid of computer data acquisition and analysis.
+
+PhysII Physics II
+Prereq: CalcII, PhysI
+Covers Maxwell's equations in both differential and integral form, electrostatic and magnetic vector potential, and the properties of dielectrics and magnetic materials. Topics include electric charge, Coulomb's law, electrostatic fields and potentials, electric currents, magnetic fields, Ampere's law, Faraday's law of induction, basic electric circuits, and electromagnetic waves. The course utilizes the TEAL (Technology Enabled Active Learning) format for small group interactions and practical experiments in electricity and magnetism. Some knowledge of vector calculus is assumed.
+
+6.100A Introduction to Computer Science Programming in Python
+Prereq: None
+Introduction to computer science and programming for students with little or no programming experience. Students develop skills to program and use computational techniques to solve problems. Topics include the notion of computation, Python, simple algorithms and data structures, testing and debugging, and algorithmic complexity. Combination of 6.100A and 6.100B or 16.C20[J] counts as REST subject. Final given in the seventh week of the term.
+
+6.1903 Introduction to Low-level Programming in C and Assembly
+Prereq: 6.100A
+Introduction to C and assembly language for students coming from a Python background (6.100A). Studies the C language, focusing on memory and associated topics including pointers, how different data structures are stored in memory, the stack, and the heap in order to build a strong understanding of the constraints involved in manipulating complex data structures in modern computational systems. Studies assembly language to facilitate a firm understanding of how high-level languages are translated to machine-level instructions.
+
+6.1910 Computation Structures
+Prereq: PhysII, 6.100A, 6.1903
+Provides an introduction to the design of digital systems and computer architecture. Emphasizes expressing all hardware designs in a high-level hardware description language and synthesizing the designs. Topics include combinational and sequential circuits, instruction set abstraction for programmable hardware, single-cycle and pipelined processor implementations, multi-level memory hierarchies, virtual memory, exceptions and I/O, and parallel systems.
+
+6.5900 Computer System Architecture
+Prereq: 6.1910
+Introduction to the principles underlying modern computer architecture. Emphasizes the relationship among technology, hardware organization, and programming systems in the evolution of computer architecture. Topics include pipelined, out-of-order, and speculative execution; caches, virtual memory and exception handling, superscalar, very long instruction word (VLIW), vector, and multithreaded processors; on-chip networks, memory models, synchronization, and cache coherence protocols for multiprocessors.
+
+6.2060 Microcomputer Project Laboratory
+Prereq: 6.1910
+Introduces analysis and design of embedded systems. Microcontrollers provide adaptation, flexibility, and real-time control. Emphasizes construction of complete systems, including a five-axis robot arm, a fluorescent lamp ballast, a tomographic imaging station (e.g., a CAT scan), and a simple calculator. Presents a wide range of basic tools, including software and development tools, programmable system on chip, peripheral components such as A/D converters, communication schemes, signal processing techniques, closed-loop digital feedback control, interface and power electronics, and modeling of electromechanical systems. Includes a sequence of assigned projects, followed by a final project of the student's choice, emphasizing creativity and uniqueness. Provides instruction in written and oral communication. To satisfy the independent inquiry component of this subject, students expand the scope of their laboratory project.
+
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+18.100A Real Analysis
+Prereq: CalcII
+Covers fundamentals of mathematical analysis: convergence of sequences and series, continuity, differentiability, Riemann integral, sequences and series of functions, uniformity, interchange of limit operations. Shows the utility of abstract concepts and teaches understanding and construction of proofs. Proofs and definitions are less abstract than in 18.100B. Gives applications where possible. Concerned primarily with the real line.
+
+18.06 Linear Algebra
+Prereq: CalcII
+Basic subject on matrix theory and linear algebra, emphasizing topics useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, singular value decomposition, and positive definite matrices. Applications to least-squares approximations, stability of differential equations, networks, Fourier transforms, and Markov processes. Uses linear algebra software. Compared with 18.700, more emphasis on matrix algorithms and many applications.
+
+6.7220[J] Nonlinear Optimization
+Prereq: 18.06, 18.100A
+Unified analytical and computational approach to nonlinear optimization problems. Unconstrained optimization methods include gradient, conjugate direction, Newton, sub-gradient and first-order methods. Constrained optimization methods include feasible directions, projection, interior point methods, and Lagrange multiplier methods. Convex analysis, Lagrangian relaxation, nondifferentiable optimization, and applications in integer programming. Comprehensive treatment of optimality conditions and Lagrange multipliers. Geometric approach to duality theory. Applications drawn from control, communications, machine learning, and resource allocation problems.
+
+6.3700 Introduction to Probability
+Prereq: CalcII
+An introduction to probability theory, the modeling and analysis of probabilistic systems, and elements of statistical inference. Probabilistic models, conditional probability. Discrete and continuous random variables. Expectation and conditional expectation, and further topics about random variables. Limit Theorems. Bayesian estimation and hypothesis testing. Elements of classical statistical inference. Bernoulli and Poisson processes. Markov chains. Students taking graduate version complete additional assignments.
+
+6.7810 Algorithms for Inference
+Prereq: 18.06, 6.3700
+Introduction to computational aspects of statistical inference via probabilistic graphical models. Directed and undirected graphical models, and factor graphs, over discrete and Gaussian distributions; hidden Markov models, linear dynamical systems. Sum-product and junction tree algorithms; forward-backward algorithm, Kalman filtering and smoothing. Min-sum and Viterbi algorithms. Variational methods, mean-field theory, and loopy belief propagation. Sampling methods; Glauber dynamics and mixing time analysis. Parameter structure learning for graphical models; Baum-Welch and Chow-Liu algorithms. Selected topics such as causal inference, particle filtering, restricted Boltzmann machines, and graph neural networks.
+
+6.7240 Game Theory with Engineering Applications
+Prereq: 6.3700
+Introduction to fundamentals of game theory and mechanism design with motivations for each topic drawn from engineering applications (including distributed control of wireline/wireless communication networks, transportation networks, pricing). Emphasis on the foundations of the theory, mathematical tools, as well as modeling and the equilibrium notion in different environments. Topics include normal form games, supermodular games, dynamic games, repeated games, games with incomplete/imperfect information, mechanism design, cooperative game theory, and network games.
+
+6.3260[J] Networks
+Prereq: 6.3700
+Highlights common principles that permeate the functioning of diverse technological, economic and social networks. Utilizes three sets of tools for analyzing networks -- random graph models, optimization, and game theory -- to study informational and learning cascades; economic and financial networks; social influence networks; formation of social groups; communication networks and the Internet; consensus and gossiping; spread and control of epidemics; control and use of energy networks; and biological networks. Students taking graduate version complete additional assignments.
+
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+6.3700 Introduction to Probability
+Prereq: CalcII
+An introduction to probability theory, the modeling and analysis of probabilistic systems, and elements of statistical inference. Probabilistic models, conditional probability. Discrete and continuous random variables. Expectation and conditional expectation, and further topics about random variables. Limit Theorems. Bayesian estimation and hypothesis testing. Elements of classical statistical inference. Bernoulli and Poisson processes. Markov chains. Students taking graduate version complete additional assignments.
+
+6.7710 Discrete Stochastic Processes
+Prereq: 6.3700
+Review of probability and laws of large numbers; Poisson counting process and renewal processes; Markov chains (including Markov decision theory), branching processes, birth-death processes, and semi-Markov processes; continuous-time Markov chains and reversibility; random walks, martingales, and large deviations; applications from queueing, communication, control, and operations research.
+
+2.851[J] System Optimization and Analysis for Operations
+Prereq: CalcII
+Introduction to mathematical modeling, optimization, and simulation, as applied to manufacturing and operations. Specific methods include linear programming, network flow problems, integer and nonlinear programming, discrete-event simulation, heuristics and computer applications for manufacturing processes, operations and systems.
+
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+18.100A Real Analysis
+Prereq: CalcII
+Covers fundamentals of mathematical analysis: convergence of sequences and series, continuity, differentiability, Riemann integral, sequences and series of functions, uniformity, interchange of limit operations. Shows the utility of abstract concepts and teaches understanding and construction of proofs. Proofs and definitions are less abstract than in 18.100B. Gives applications where possible. Concerned primarily with the real line.
+
+18.06 Linear Algebra
+Prereq: CalcII
+Basic subject on matrix theory and linear algebra, emphasizing topics useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, singular value decomposition, and positive definite matrices. Applications to least-squares approximations, stability of differential equations, networks, Fourier transforms, and Markov processes. Uses linear algebra software. Compared with 18.700, more emphasis on matrix algorithms and many applications.
+
+18.03 Differential Equations
+Prereq: CalcII
+Study of differential equations, including modeling physical systems. Solution of first-order ODEs by analytical, graphical, and numerical methods. Linear ODEs with constant coefficients. Complex numbers and exponentials. Inhomogeneous equations: polynomial, sinusoidal, and exponential inputs. Oscillations, damping, resonance. Fourier series. Matrices, eigenvalues, eigenvectors, diagonalization. First order linear systems: normal modes, matrix exponentials, variation of parameters. Heat equation, wave equation. Nonlinear autonomous systems: critical point analysis, phase plane diagrams.
+
+18.085 Computational Science and Engineering I
+Prereq: CalcII, 18.03
+Review of linear algebra, applications to networks, structures, and estimation, finite difference and finite element solution of differential equations, Laplace's equation and potential flow, boundary-value problems, Fourier series, discrete Fourier transform, convolution. Frequent use of MATLAB in a wide range of scientific and engineering applications.
+
+16.888[J] Multidisciplinary Design Optimization
+Prereq: 18.085
+Systems modeling for design and optimization. Selection of design variables, objective functions and constraints. Overview of principles, methods and tools in multidisciplinary design optimization (MDO). Subsystem identification, development and interface design. Design of experiments (DOE). Review of linear (LP) and non-linear (NLP) constrained optimization formulations. Scalar versus vector optimization problems. Karush-Kuhn-Tucker (KKT) conditions of optimality, Lagrange multipliers, adjoints, gradient search methods, sensitivity analysis, geometric programming, simulated annealing, genetic algorithms and particle swarm optimization. Constraint satisfaction problems and isoperformance. Non-dominance and Pareto frontiers. Surrogate models and multifidelity optimization strategies. System design for value. Students execute a term project in small teams related to their area of interest. 
+
+6.7220[J] Nonlinear Optimization
+Prereq: 18.06, 18.100A
+Unified analytical and computational approach to nonlinear optimization problems. Unconstrained optimization methods include gradient, conjugate direction, Newton, sub-gradient and first-order methods. Constrained optimization methods include feasible directions, projection, interior point methods, and Lagrange multiplier methods. Convex analysis, Lagrangian relaxation, nondifferentiable optimization, and applications in integer programming. Comprehensive treatment of optimality conditions and Lagrange multipliers. Geometric approach to duality theory. Applications drawn from control, communications, machine learning, and resource allocation problems.
+
+6.7210[J] Introduction to Mathematical Programming
+Prereq: 18.06
+Introduction to linear optimization and its extensions emphasizing both methodology and the underlying mathematical structures and geometrical ideas. Covers classical theory of linear programming as well as some recent advances in the field. Topics: simplex method; duality theory; sensitivity analysis; network flow problems; decomposition; robust optimization; integer programming; interior point algorithms for linear programming; and introduction to combinatorial optimization and NP-completeness.
+
+6.7230[J] Algebraic Techniques and Semidefinite Optimization
+Prereq: 6.7210[J]
+Theory and computational techniques for optimization problems involving polynomial equations and inequalities with particular, emphasis on the connections with semidefinite optimization. Develops algebraic and numerical approaches of general applicability, with a view towards methods that simultaneously incorporate both elements, stressing convexity-based ideas, complexity results, and efficient implementations. Examples from several engineering areas, in particular systems and control applications. Topics include semidefinite programming, resultants/discriminants, hyperbolic polynomials, Groebner bases, quantifier elimination, and sum of squares.
+
+15.094[J] Robust Modeling, Optimization, and Computation
+Prereq: 18.06
+Introduces modern robust optimization, including theory, applications, and computation. Presents formulations and their connection to probability, information and risk theory for conic optimization (linear, second-order, and semidefinite cones) and integer optimization. Application domains include analysis and optimization of stochastic networks, optimal mechanism design, network information theory, transportation, pattern classification, structural and engineering design, and financial engineering. Students formulate and solve a problem aligned with their interests in a final project.
+
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+PhysI Physics I
+Prereq: None
+Introduces classical mechanics. Space and time: straight-line kinematics; motion in a plane; forces and static equilibrium; particle dynamics, with force and conservation of momentum; relative inertial frames and non-inertial force; work, potential energy and conservation of energy; kinetic theory and the ideal gas; rigid bodies and rotational dynamics; vibrational motion; conservation of angular momentum; central force motions; fluid mechanics. Subject taught using the TEAL (Technology-Enabled Active Learning) format which features students working in groups of three, discussing concepts, solving problems, and doing table-top experiments with the aid of computer data acquisition and analysis.
+
+PhysII Physics II
+Prereq: CalcII, PhysI
+Covers Maxwell's equations in both differential and integral form, electrostatic and magnetic vector potential, and the properties of dielectrics and magnetic materials. Topics include electric charge, Coulomb's law, electrostatic fields and potentials, electric currents, magnetic fields, Ampere's law, Faraday's law of induction, basic electric circuits, and electromagnetic waves. The course utilizes the TEAL (Technology Enabled Active Learning) format for small group interactions and practical experiments in electricity and magnetism. Some knowledge of vector calculus is assumed.
+
+18.06 Linear Algebra
+Prereq: CalcII
+Basic subject on matrix theory and linear algebra, emphasizing topics useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, singular value decomposition, and positive definite matrices. Applications to least-squares approximations, stability of differential equations, networks, Fourier transforms, and Markov processes. Uses linear algebra software. Compared with 18.700, more emphasis on matrix algorithms and many applications.
+
+6.3100 Dynamical System Modeling and Control Design
+Prereq: PhysII, 18.06
+A learn-by-design introduction to modeling and control of discrete- and continuous-time systems, from intuition-building analytical techniques to more computational and data-centric strategies. Topics include: linear difference/differential equations (natural frequencies, transfer functions); controller metrics (stability, tracking, disturbance rejection); analytical techniques (PID, root-loci, lead-lag, phase margin); computational strategies (state-space, eigen-placement, LQR); and data-centric approaches (state estimation, regression, and identification). Concepts are introduced with lectures and online problems, and then mastered during weekly labs. In lab, students model, design, test, and explain systems and controllers involving sensors, actuators, and a microcontroller (e.g., optimizing thrust-driven positioners or stabilizing magnetic levitators).
+
+6.7100[J] Dynamic Systems and Control
+Prereq: 6.3100
+Linear, discrete- and continuous-time, multi-input-output systems in control, related areas. Least squares and matrix perturbation problems. State-space models, modes, stability, controllability, observability, transfer function matrices, poles and zeros, and minimality. Internal stability of interconnected systems, feedback compensators, state feedback, optimal regulation, observers, and observer-based compensators. Measures of control performance, robustness issues using singular values of transfer functions. Introductory ideas on nonlinear systems.
+
+6.7110 Multivariable Control Systems
+Prereq: 6.7100[J]
+Computer-aided design methodologies for synthesis of multivariable feedback control systems. Performance and robustness trade-offs. Model-based compensators; Q-parameterization; ill-posed optimization problems; dynamic augmentation; linear-quadratic optimization of controllers; H-infinity controller design; Mu-synthesis; model and compensator simplification; nonlinear effects. Computer-aided (MATLAB) design homework using models of physical processes.
+
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+18.05 Introduction to Probability and Statistics
+Prereq: CalcII
+Elementary introduction with applications. Basic probability models. Combinatorics. Random variables. Discrete and continuous probability distributions. Statistical estimation and testing. Confidence intervals. Introduction to linear regression.
+
+6.100A Introduction to Computer Science Programming in Python
+Prereq: None
+Introduction to computer science and programming for students with little or no programming experience. Students develop skills to program and use computational techniques to solve problems. Topics include the notion of computation, Python, simple algorithms and data structures, testing and debugging, and algorithmic complexity. Combination of 6.100A and 6.100B or 16.C20[J] counts as REST subject. Final given in the seventh week of the term.
+
+6.1200[J] Mathematics for Computer Science
+Prereq: CalcI
+Elementary discrete mathematics for science and engineering, with a focus on mathematical tools and proof techniques useful in computer science. Topics include logical notation, sets, relations, elementary graph theory, state machines and invariants, induction and proofs by contradiction, recurrences, asymptotic notation, elementary analysis of algorithms, elementary number theory and cryptography, permutations and combinations, counting tools, and discrete probability.
+
+6.1210 Introduction to Algorithms
+Prereq: 6.100A, 6.1200[J]
+Introduction to mathematical modeling of computational problems, as well as common algorithms, algorithmic paradigms, and data structures used to solve these problems. Emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems. Enrollment may be limited.
+
+18.06 Linear Algebra
+Prereq: CalcII
+Basic subject on matrix theory and linear algebra, emphasizing topics useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, singular value decomposition, and positive definite matrices. Applications to least-squares approximations, stability of differential equations, networks, Fourier transforms, and Markov processes. Uses linear algebra software. Compared with 18.700, more emphasis on matrix algorithms and many applications.
+
+6.3900 Introduction to Machine Learning
+Prereq: 6.1210, 18.06
+Introduction to the principles and algorithms of machine learning from an optimization perspective. Topics include linear and non-linear models for supervised, unsupervised, and reinforcement learning, with a focus on gradient-based methods and neural-network architectures. Previous experience with algorithms may be helpful.
+
+6.7960 Deep Learning
+Prereq: 18.05, 6.3900
+Fundamentals of deep learning, including both theory and applications. Topics include neural net architectures (MLPs, CNNs, RNNs, graph nets, transformers), geometry and invariances in deep learning, backpropagation and automatic differentiation, learning theory and generalization in high-dimensions, and applications to computer vision, natural language processing, and robotics.
+
+6.4300 Introduction to Computer Vision
+Prereq: 6.3900, 18.06, 18.05
+Provides an introduction to computer vision, covering topics from early vision to mid- and high-level vision, including low-level image analysis, edge detection, image transformations for image synthesis, methods for 3D scene reconstruction, motion analysis and tracking. Additionally, presents basics of machine learning, convolutional neural networks, and transformers in the context of image and video data for object classification, detection, and segmentation.
+
+18.03 Differential Equations
+Prereq: CalcII
+Study of differential equations, including modeling physical systems. Solution of first-order ODEs by analytical, graphical, and numerical methods. Linear ODEs with constant coefficients. Complex numbers and exponentials. Inhomogeneous equations: polynomial, sinusoidal, and exponential inputs. Oscillations, damping, resonance. Fourier series. Matrices, eigenvalues, eigenvectors, diagonalization. First order linear systems: normal modes, matrix exponentials, variation of parameters. Heat equation, wave equation. Nonlinear autonomous systems: critical point analysis, phase plane diagrams.
+
+6.3000 Signal Processing
+Prereq: 6.100A, 18.03
+Fundamentals of signal processing, focusing on the use of Fourier methods to analyze and process signals such as sounds and images. Topics include Fourier series, Fourier transforms, the Discrete Fourier Transform, sampling, convolution, deconvolution, filtering, noise reduction, and compression. Applications draw broadly from areas of contemporary interest with emphasis on both analysis and design.
+
+6.8620[J] Spoken Language Processing
+Prereq: 6.3000, 6.3900
+Introduces the rapidly developing field of spoken language processing including automatic speech recognition. Topics include acoustic theory of speech production, acoustic-phonetics, signal representation, acoustic and language modeling, search, hidden Markov modeling, neural networks models, end-to-end deep learning models, and other machine learning techniques applied to speech and language processing topics. Lecture material intersperses theory with practice. Includes problem sets, laboratory exercises, and open-ended term project.

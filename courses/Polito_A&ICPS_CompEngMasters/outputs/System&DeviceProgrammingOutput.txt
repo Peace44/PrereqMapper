@@ -1,0 +1,30 @@
+Layer 0:
+None
+
+Layer 1:
+None ==> 6.100A
+None ==> 6.9570
+None ==> CalcI
+None ==> PhysI
+
+Layer 2:
+None ==> 6.100A ==> 6.1010
+None ==> CalcI ==> 6.1200[J]
+None ==> 6.100A ==> 6.1903
+None ==> CalcI ==> CalcII
+
+Layer 3:
+None ==> 6.100A ==> 6.1010 ==> 6.1020
+None ==> 6.100A ==> 6.1210; None ==> CalcI ==> 6.1200[J] ==> 6.1210
+None ==> PhysI ==> PhysII; None ==> CalcI ==> CalcII ==> PhysII
+
+Layer 4:
+None ==> PhysI ==> PhysII ==> 6.1910; None ==> 6.100A ==> 6.1903 ==> 6.1910; None ==> CalcI ==> CalcII ==> PhysII ==> 6.1910
+
+Layer 5:
+None ==> 6.100A ==> 6.1210 ==> 6.1060; None ==> CalcI ==> 6.1200[J] ==> 6.1210 ==> 6.1060; None ==> PhysI ==> PhysII ==> 6.1910 ==> 6.1060; None ==> 6.100A ==> 6.1903 ==> 6.1910 ==> 6.1060; None ==> 6.100A ==> 6.1010 ==> 6.1020 ==> 6.1060; None ==> CalcI ==> CalcII ==> PhysII ==> 6.1910 ==> 6.1060
+None ==> PhysI ==> PhysII ==> 6.1910 ==> 6.1810; None ==> 6.100A ==> 6.1903 ==> 6.1910 ==> 6.1810; None ==> CalcI ==> CalcII ==> PhysII ==> 6.1910 ==> 6.1810
+
+Layer 6:
+None ==> 6.100A ==> 6.1210 ==> 6.1060 ==> 6.S894:; None ==> CalcI ==> 6.1200[J] ==> 6.1210 ==> 6.1060 ==> 6.S894:; None ==> PhysI ==> PhysII ==> 6.1910 ==> 6.1060 ==> 6.S894:; None ==> 6.100A ==> 6.1903 ==> 6.1910 ==> 6.1060 ==> 6.S894:; None ==> 6.100A ==> 6.1010 ==> 6.1020 ==> 6.1060 ==> 6.S894:; None ==> CalcI ==> CalcII ==> PhysII ==> 6.1910 ==> 6.1060 ==> 6.S894:
+

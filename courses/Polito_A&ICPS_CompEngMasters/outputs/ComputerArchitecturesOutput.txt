@@ -1,0 +1,22 @@
+Layer 0:
+None
+
+Layer 1:
+None ==> 6.100A
+None ==> CalcI
+None ==> PhysI
+
+Layer 2:
+None ==> 6.100A ==> 6.1903
+None ==> CalcI ==> CalcII
+
+Layer 3:
+None ==> PhysI ==> PhysII; None ==> CalcI ==> CalcII ==> PhysII
+
+Layer 4:
+None ==> PhysI ==> PhysII ==> 6.1910; None ==> 6.100A ==> 6.1903 ==> 6.1910; None ==> CalcI ==> CalcII ==> PhysII ==> 6.1910
+
+Layer 5:
+None ==> PhysI ==> PhysII ==> 6.1910 ==> 6.2060; None ==> 6.100A ==> 6.1903 ==> 6.1910 ==> 6.2060; None ==> CalcI ==> CalcII ==> PhysII ==> 6.1910 ==> 6.2060
+None ==> PhysI ==> PhysII ==> 6.1910 ==> 6.5900; None ==> 6.100A ==> 6.1903 ==> 6.1910 ==> 6.5900; None ==> CalcI ==> CalcII ==> PhysII ==> 6.1910 ==> 6.5900
+

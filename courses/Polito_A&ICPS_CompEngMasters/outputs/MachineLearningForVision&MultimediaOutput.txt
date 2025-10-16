@@ -1,0 +1,26 @@
+Layer 0:
+None
+
+Layer 1:
+None ==> 6.100A
+None ==> CalcI
+
+Layer 2:
+None ==> CalcI ==> 6.1200[J]
+None ==> CalcI ==> CalcII
+
+Layer 3:
+None ==> CalcI ==> CalcII ==> 18.03
+None ==> CalcI ==> CalcII ==> 18.05
+None ==> CalcI ==> CalcII ==> 18.06
+None ==> 6.100A ==> 6.1210; None ==> CalcI ==> 6.1200[J] ==> 6.1210
+
+Layer 4:
+None ==> 6.100A ==> 6.3000; None ==> CalcI ==> CalcII ==> 18.03 ==> 6.3000
+None ==> 6.100A ==> 6.1210 ==> 6.3900; None ==> CalcI ==> CalcII ==> 18.06 ==> 6.3900; None ==> CalcI ==> 6.1200[J] ==> 6.1210 ==> 6.3900
+
+Layer 5:
+None ==> CalcI ==> CalcII ==> 18.05 ==> 6.4300; None ==> 6.100A ==> 6.1210 ==> 6.3900 ==> 6.4300; None ==> CalcI ==> CalcII ==> 18.06 ==> 6.3900 ==> 6.4300; None ==> CalcI ==> 6.1200[J] ==> 6.1210 ==> 6.3900 ==> 6.4300
+None ==> CalcI ==> CalcII ==> 18.05 ==> 6.7960; None ==> 6.100A ==> 6.1210 ==> 6.3900 ==> 6.7960; None ==> CalcI ==> CalcII ==> 18.06 ==> 6.3900 ==> 6.7960; None ==> CalcI ==> 6.1200[J] ==> 6.1210 ==> 6.3900 ==> 6.7960
+None ==> 6.100A ==> 6.3000 ==> 6.8620[J]; None ==> 6.100A ==> 6.1210 ==> 6.3900 ==> 6.8620[J]; None ==> CalcI ==> CalcII ==> 18.06 ==> 6.3900 ==> 6.8620[J]; None ==> CalcI ==> CalcII ==> 18.03 ==> 6.3000 ==> 6.8620[J]; None ==> CalcI ==> 6.1200[J] ==> 6.1210 ==> 6.3900 ==> 6.8620[J]
+
