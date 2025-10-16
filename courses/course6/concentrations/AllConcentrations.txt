@@ -22,85 +22,193 @@ Explores how to design and evaluate products and policy based on artificial inte
 Prereq: 16.413[J], 6.3700
 Highlights algorithms and paradigms for creating human-robot systems that act intelligently and robustly, by reasoning from models of themselves, their counterparts and their world. Examples include space and undersea explorers, cooperative vehicles, manufacturing robot teams and everyday embedded devices. Themes include architectures for goal-directed systems; decision-theoretic programming and robust execution; state-space programming, activity and path planning; risk-bounded programming and risk-bounded planners; self-monitoring and self-diagnosing systems, and human-robot collaboration. Student teams explore recent advances in cognitive robots through delivery of advanced lectures and final projects, in support of a class-wide grand challenge. Enrollment may be limited.
 
-6.2000 Electrical Circuits: Modeling and Design of Physical Systems
-Prereq: PhysII
-Fundamentals of linear systems, and abstraction modeling of multi-physics lumped and distributed systems using lumped electrical circuits. Linear networks involving independent and dependent sources, resistors, capacitors, and inductors. Extensions to include operational amplifiers and transducers. Dynamics of first- and second-order networks; analysis and design in the time and frequency domains; signal and energy processing applications. Design exercises. Weekly laboratory with microcontroller and transducers.
+6.3100 Dynamical System Modeling and Control Design
+Prereq: PhysII, 18.06
+A learn-by-design introduction to modeling and control of discrete- and continuous-time systems, from intuition-building analytical techniques to more computational and data-centric strategies. Topics include: linear difference/differential equations (natural frequencies, transfer functions); controller metrics (stability, tracking, disturbance rejection); analytical techniques (PID, root-loci, lead-lag, phase margin); computational strategies (state-space, eigen-placement, LQR); and data-centric approaches (state estimation, regression, and identification). Concepts are introduced with lectures and online problems, and then mastered during weekly labs. In lab, students model, design, test, and explain systems and controllers involving sensors, actuators, and a microcontroller (e.g., optimizing thrust-driven positioners or stabilizing magnetic levitators). Students taking graduate version complete additional problems and labs.
 
-6.2020[J] Electronics Project Laboratory
-Prereq: None
-Intuition-based introduction to electronics, electronic components, and test equipment such as oscilloscopes, multimeters, and signal generators. Key components studied and used are op-amps, comparators, bi-polar transistors, and diodes (including LEDs). Students design, build, and debug small electronics projects (often featuring sound and light) to put their new knowledge into practice. Upon completing the class, students can take home a kit of components. Intended for students with little or no previous background in electronics. Enrollment may be limited.
+6.7100[J] Dynamic Systems and Control
+Prereq: 6.3100
+Linear, discrete- and continuous-time, multi-input-output systems in control, related areas. Least squares and matrix perturbation problems. State-space models, modes, stability, controllability, observability, transfer function matrices, poles and zeros, and minimality. Internal stability of interconnected systems, feedback compensators, state feedback, optimal regulation, observers, and observer-based compensators. Measures of control performance, robustness issues using singular values of transfer functions. Introductory ideas on nonlinear systems.
 
-6.2030 Electronics First Laboratory
-Prereq: PhysII
-Practical introduction to the design and construction of electronic circuits for information processing and control. Laboratory exercises include activities such as the construction of oscillators for a simple musical instrument, a laser audio communicator, a countdown timer, an audio amplifier, and a feedback-controlled solid-state lighting system for daylight energy conservation. Introduces basic electrical components including resistors, capacitors, and inductors; basic assembly techniques for electronics include breadboarding and soldering; and programmable system-on-chip electronics and C programming language. Enrollment limited.
+6.7110 Multivariable Control Systems
+Prereq: 6.7100[J]
+Computer-aided design methodologies for synthesis of multivariable feedback control systems. Performance and robustness trade-offs. Model-based compensators; Q-parameterization; ill-posed optimization problems; dynamic augmentation; linear-quadratic optimization of controllers; H-infinity controller design; Mu-synthesis; model and compensator simplification; nonlinear effects. Computer-aided (MATLAB) design homework using models of physical processes.
 
-6.2040 Analog Electronics Laboratory
+6.7120 Principles of Modeling, Computing and Control for Decarbonized Electric Energy Systems
+Prereq: 6.2000, 6.3100
+Introduces fundamentals of electric energy systems as complex dynamical network systems. Topics include coordinated and distributed modeling and control methods for efficient and reliable power generation, delivery, and consumption; data-enabled algorithms for integrating clean intermittent resources, storage, and flexible demand, including electric vehicles; examples of network congestion management, frequency, and voltage control in electrical grids at various scales; and design and operation of supporting markets. Students taking graduate version complete additional assignments.
+
+6.8300 Advances in Computer Vision
+Prereq: 6.4300
+Advanced topics in computer vision with a focus on the use of machine learning techniques and applications in graphics and human-computer interface. Covers image representations, texture models, structure-from-motion algorithms, Bayesian techniques, object and scene recognition, tracking, shape modeling, and image databases. Applications may include face recognition, multimodal interaction, interactive systems, cinematic special effects, and photorealistic rendering. Includes instruction and practice in written and oral communication. Students taking graduate version complete additional assignments.
+
+6.8320 Advanced Topics in Computer Vision
+Prereq: 6.8300 
+Seminar exploring advanced research topics in the field of computer vision; focus varies with lecturer. Typically structured around discussion of assigned research papers and presentations by students. Example research areas explored in this seminar include learning in vision, computational imaging techniques, multimodal human-computer interaction, biomedical imaging, representation and estimation methods used in modern computer vision.
+
+6.8370 Advanced Computational Photography
+Prereq: CalcII, 6.1020
+Presents fundamentals and applications of hardware and software techniques used in digital and computational photography, with an emphasis on software methods. Provides sufficient background to implement solutions to photographic challenges and opportunities. Topics include cameras and image formation, image processing and image representations, high-dynamic-range imaging, human visual perception and color, single view 3-D model reconstruction, morphing, data-rich photography, super-resolution, and image-based rendering. Students taking graduate version complete additional assignments.
+
+6.8371 Digital and Computational Photography
+Prereq: CalcII, 6.1010
+Presents fundamentals and applications of hardware and software techniques used in digital and computational photography, with an emphasis on software methods. Provides sufficient background to implement solutions to photographic challenges and opportunities. Topics include cameras and image formation, image processing and image representations, high-dynamic-range imaging, human visual perception and color, single view 3-D model reconstruction, morphing, data-rich photography, super-resolution, and image-based rendering. Students taking graduate version complete additional assignments.
+
+6.3900 Introduction to Machine Learning
+Prereq: 6.1210, 18.06
+Introduction to the principles and algorithms of machine learning from an optimization perspective. Topics include linear and non-linear models for supervised, unsupervised, and reinforcement learning, with a focus on gradient-based methods and neural-network architectures. Previous experience with algorithms may be helpful.
+
+6.3950 AI, Decision Making, and Society
+Prereq: 6.3700
+Introduction to fundamentals of modern data-driven decision-making frameworks, such as causal inference and hypothesis testing in statistics as well as supervised and reinforcement learning in machine learning. Explores how these frameworks are being applied in various societal contexts, including criminal justice, healthcare, finance, and social media. Emphasis on pinpointing the non-obvious interactions, undesirable feedback loops, and unintended consequences that arise in such settings. Enables students to develop their own principled perspective on the interface of data-driven decision making and society. Students taking graduate version complete additional assignments.
+
+6.7900 Machine Learning
+Prereq: 6.3900, 6.3800
+Principles, techniques, and algorithms in machine learning from the point of view of statistical inference; representation, generalization, and model selection; and methods such as linear/additive models, active learning, boosting, support vector machines, non-parametric Bayesian methods, hidden Markov models, Bayesian networks, and convolutional and recurrent neural networks.
+
+6.7910[J] Statistical Learning Theory and Applications
+Prereq: 6.7900
+Covers foundations and recent advances in statistical machine learning theory, with the dual goals of providing students with the theoretical knowledge to use machine learning and preparing more advanced students to contribute to progress in the field. The content is roughly divided into three parts. The first part is about classical regularization, margin, stochastic gradient methods, overparametrization, implicit regularization, and stability. The second part is about deep networks: approximation and optimization theory plus roots of generalization. The third part is about the connections between learning theory and the brain. Occasional talks by leading researchers on advanced research topics. Emphasis on current research topics.
+
+6.7920[J] Reinforcement Learning: Foundations and Methods
+Prereq: 6.3700
+Examines reinforcement learning (RL) as a methodology for approximately solving sequential decision-making under uncertainty, with foundations in optimal control and machine learning. Provides a mathematical introduction to RL, including dynamic programming, statistical, and empirical perspectives, and special topics. Core topics include: dynamic programming, special structures, finite and infinite horizon Markov Decision Processes, value and policy iteration, Monte Carlo methods, temporal differences, Q-learning, stochastic approximation, and bandits. Also covers approximate dynamic programming, including value-based methods and policy space methods. Applications and examples drawn from diverse domains. Focus is mathematical, but is supplemented with computational exercises. An analysis prerequisite is suggested but not required; mathematical maturity is necessary.
+
+6.7930[J] Machine Learning for Healthcare
+Prereq: 6.7900
+Introduces students to machine learning in healthcare, including the nature of clinical data and the use of machine learning for risk stratification, disease progression modeling, precision medicine, diagnosis, subtype discovery, and improving clinical workflows. Topics include causality, interpretability, algorithmic fairness, time-series analysis, graphical models, deep learning and transfer learning. Guest lectures by clinicians from the Boston area, and projects with real clinical data, emphasize subtleties of working with clinical data and translating machine learning into clinical practice. Limited to 55.
+
+6.7940 Dynamic Programming and Reinforcement Learning
+Prereq: 6.3700
+Dynamic programming as a unifying framework for sequential decision-making under uncertainty, Markov decision problems, and stochastic control. Perfect and imperfect state information models. Finite horizon and infinite horizon problems, including discounted and average cost formulations. Value and policy iteration. Suboptimal methods. Approximate dynamic programming for large-scale problems, and reinforcement learning. Applications and examples drawn from diverse domains. While an analysis prerequisite is not required, mathematical maturity is necessary.
+
+6.7960 Deep Learning
+Prereq: 18.05, 6.3900
+Fundamentals of deep learning, including both theory and applications. Topics include neural net architectures (MLPs, CNNs, RNNs, graph nets, transformers), geometry and invariances in deep learning, backpropagation and automatic differentiation, learning theory and generalization in high-dimensions, and applications to computer vision, natural language processing, and robotics.
+
+6.1600 Foundations of Computer Security
+Prereq: 6.1210, 6.1800
+Fundamental notions and big ideas for achieving security in computer systems. Topics include cryptographic foundations (pseudorandomness, collision-resistant hash functions, authentication codes, signatures, authenticated encryption, public-key encryption), systems ideas (isolation, non-interference, authentication, access control, delegation, trust), and implementation techniques (privilege separation, fuzzing, symbolic execution, runtime defenses, side-channel attacks). Case studies of how these ideas are realized in deployed systems. Lab assignments apply ideas from lectures to learn how to build secure systems and how they can be attacked.
+
+6.5610 Applied Cryptography and Security
+Prereq: 6.1200[J], 6.1800
+Emphasis on applied cryptography. May include: basic notion of systems security, cryptographic hash functions, symmetric cryptography (one-time pad, block ciphers, stream ciphers, message authentication codes), hash functions, key-exchange, public-key cryptography (encryption, digital signatures), elliptic curve cryptography,  secret-sharing, fully homomorphic encryption, zero-knowledge proofs, and electronic voting. Assignments include a final group project. Topics may vary year to year.
+
+6.5620[J] Foundations of Cryptography
+Prereq: 6.1400[J]
+A rigorous introduction to modern cryptography. Emphasis on the fundamental cryptographic primitives such as public-key encryption, digital signatures, and pseudo-random number generation, as well as advanced cryptographic primitives such as zero-knowledge proofs, homomorphic encryption, and secure multiparty computation.
+
+6.5630 Advanced Topics in Cryptography
+Prereq: 6.5620[J]
+In-depth exploration of recent results in cryptography.
+
+6.5660 Computer Systems Security
+Prereq: 6.1020, 6.1800
+Design and implementation of secure computer systems. Lectures cover attacks that compromise security as well as techniques for achieving security, based on recent research papers. Topics include operating system security, privilege separation, capabilities, language-based security, cryptographic network protocols, trusted hardware, and security in web applications and mobile phones. Labs involve implementing and compromising a web application that sandboxes arbitrary code, and a group final project.
+
+6.1100 Computer Language Engineering
+Prereq: 6.1020, 6.1910
+Analyzes issues associated with the implementation of higher-level programming languages. Fundamental concepts, functions, and structures of compilers. The interaction of theory and practice. Using tools in building software. Includes a multi-person project on compiler design and implementation.
+
+6.1120 Dynamic Computer Language Engineering
+Prereq: 6.1020
+Studies the design and implementation of modern, dynamic programming languages. Topics include fundamental approaches for parsing, semantics and interpretation, virtual machines, garbage collection, just-in-time machine code generation, and optimization. Includes a semester-long, group project that delivers a virtual machine that spans all of these topics.
+
+6.5110 Foundations of Program Analysis
+Prereq: 6.1100
+Presents major principles and techniques for program analysis. Includes formal semantics, type systems and type-based program analysis, abstract interpretation and model checking and synthesis. Emphasis on Haskell and Ocaml, but no prior experience in these languages is assumed. Student assignments include implementing of techniques covered in class, including building simple verifiers.
+
+6.5120 Formal Reasoning About Programs
+Prereq: 6.1020, 6.1200[J]
+Surveys techniques for rigorous mathematical reasoning about correctness of software, emphasizing commonalities across approaches. Introduces interactive computer theorem proving with the Coq proof assistant, which is used for all assignments, providing immediate feedback on soundness of logical arguments. Covers common program-proof techniques, including operational semantics, model checking, abstract interpretation, type systems, program logics, and their applications to functional, imperative, and concurrent programs. Develops a common conceptual framework based on invariants, abstraction, and modularity applied to state and labeled transition systems.
+
+6.5150 Large-scale Symbolic Systems
+Prereq: 6.4100
+Concepts and techniques for the design and implementation of large software systems that can be adapted to uses not anticipated by the designer. Applications include compilers, computer-algebra systems, deductive systems, and some artificial intelligence applications. Covers means for decoupling goals from strategy, mechanisms for implementing additive data-directed invocation, work with partially-specified entities, and how to manage multiple viewpoints. Topics include combinators, generic operations, pattern matching, pattern-directed invocation, rule systems, backtracking, dependencies, indeterminacy, memoization, constraint propagation, and incremental refinement. Students taking graduate version complete additional assignments.
+
+6.5160[J] Classical Mechanics: A Computational Approach
+Prereq: PhysI, 18.03
+Classical mechanics in a computational framework, Lagrangian formulation, action, variational principles, and Hamilton's principle. Conserved quantities, Hamiltonian formulation, surfaces of section, chaos, and Liouville's theorem. Poincaré integral invariants, Poincaré-Birkhoff and KAM theorems. Invariant curves and cantori. Nonlinear resonances, resonance overlap and transition to chaos. Symplectic integration. Adiabatic invariants. Applications to simple physical systems and solar system dynamics. Extensive use of computation to capture methods, for simulation, and for symbolic analysis. Programming experience required.
+
+6.2200 Electric Energy Systems
 Prereq: 6.2000
-Experimental laboratory explores the design, construction, and debugging of analog electronic circuits. Lectures and laboratory projects in the first half of the course investigate the performance characteristics of semiconductor devices (diodes, BJTs, and MOSFETs) and functional analog building blocks, including single-stage amplifiers, op amps, small audio amplifier, filters, converters, sensor circuits, and medical electronics (ECG, pulse-oximetry). Projects involve design, implementation, and presentation in an environment similar to that of industry engineering design teams. Instruction and practice in written and oral communication provided. Opportunity to simulate real-world problems and solutions that involve tradeoffs and the use of engineering judgment.
+Analysis and design of modern energy conversion and delivery systems. Develops a solid foundation in electromagnetic phenomena with a focus on electrical energy distribution, electro-mechanical energy conversion (motors and generators), and electrical-to-electrical energy conversion (DC-DC, DC-AC power conversion). Students apply the material covered to consider critical challenges associated with global energy systems, with particular examples related to the electrification of transport and decarbonization of the grid.
 
-6.2050 Digital Systems Laboratory
-Prereq: 6.1910
-Lab-intensive subject that investigates digital systems with a focus on FPGAs. Lectures and labs cover logic, flip flops, counters, timing, synchronization, finite-state machines, digital signal processing, communication protocols, and modern sensors. Prepares students for the design and implementation of a large-scale final project of their choice: games, music, digital filters, wireless communications, video, or graphics. Extensive use of System/Verilog for describing and implementing and verifying digital logic designs.
+6.2210 Electromagnetic Fields, Forces and Motion
+Prereq: PhysII, 18.03
+Study of electromagnetics and electromagnetic energy conversion leading to an understanding of devices, including electromagnetic sensors, actuators, motors and generators. Quasistatic Maxwell's equations and the Lorentz force law. Studies of the quasistatic fields and their sources through solutions of Poisson's and Laplace's equations. Boundary conditions and multi-region boundary-value problems. Steady-state conduction, polarization, and magnetization. Charge conservation and relaxation, and magnetic induction and diffusion. Extension to moving materials. Electric and magnetic forces and force densities derived from energy, and stress tensors. Extensive use of engineering examples. Students taking graduate version complete additional assignments.
 
-6.2060 Microcomputer Project Laboratory
+6.2220 Power Electronics Laboratory
 Prereq: 6.2000
-Introduces analysis and design of embedded systems. Microcontrollers provide adaptation, flexibility, and real-time control. Emphasizes construction of complete systems, including a five-axis robot arm, a fluorescent lamp ballast, a tomographic imaging station (e.g., a CAT scan), and a simple calculator. Presents a wide range of basic tools, including software and development tools, programmable system on chip, peripheral components such as A/D converters, communication schemes, signal processing techniques, closed-loop digital feedback control, interface and power electronics, and modeling of electromechanical systems. Includes a sequence of assigned projects, followed by a final project of the student's choice, emphasizing creativity and uniqueness. Provides instruction in written and oral communication. To satisfy the independent inquiry component of this subject, students expand the scope of their laboratory project.
+Introduces the design and construction of power electronic circuits and motor drives. Laboratory exercises include the construction of drive circuitry for an electric go-cart, flash strobes, computer power supplies, three-phase inverters for AC motors, and resonant drives for lamp ballasts and induction heating. Basic electric machines introduced include DC, induction, and permanent magnet motors, with drive considerations. Provides instruction in written and oral communication. Students taking independent inquiry version 6.2221 expand the scope of their laboratory project.
 
-6.2080 Semiconductor Electronic Circuits
-Prereq: 6.2000
-Provides an introduction to basic circuit design, starting from basic semiconductor devices such as diodes and transistors, large and small signal models and analysis, to circuits such as basic amplifier and opamp circuits. Labs give students access to CAD/EDA tools to design, analyze, and layout analog circuits. At the end of the term, students have their chip design fabricated using a 22nm FinFET CMOS process.
+6.6220 Power Electronics
+Prereq: 6.2500
+The application of electronics to energy conversion and control. Modeling, analysis, and control techniques. Design of power circuits including inverters, rectifiers, and dc-dc converters. Analysis and design of magnetic components and filters. Characteristics of power semiconductor devices. Numerous application examples, such as motion control systems, power supplies, and radio-frequency power amplifiers.
 
-6.2090 Solid-State Circuits
-Prereq: 6.2080
-Fosters deep understanding and intuition that is crucial in innovating analog circuits and optimizing the whole system in bipolar junction transistor (BJT) and metal oxide semiconductor (MOS) technologies. Covers both theory and real-world applications of basic amplifier structures, operational amplifiers, temperature sensors, bandgap references. Covers topics such as noise, linearity and stability. Homework and labs give students access to CAD/EDA tools to design and analyze analog circuits. Provides practical experience through lab exercises, including a broadband amplifier design and characterization. Students taking graduate version complete additional assignments.
+6.6280 Electric Machines
+Prereq: 6.2200
+Treatment of electromechanical transducers, rotating and linear electric machines. Lumped-parameter electromechanics. Power flow using Poynting's theorem, force estimation using the Maxwell stress tensor and Principle of virtual work. Development of analytical techniques for predicting device characteristics: energy conversion density, efficiency; and of system interaction characteristics: regulation, stability, controllability, and response. Use of electric machines in drive systems. Problems taken from current research.
 
-6.6000 CMOS Analog and Mixed-Signal Circuit Design
-Prereq: 6.2090
-A detailed exposition of the principles involved in designing and optimizing analog and mixed-signal circuits in CMOS technologies. Small-signal and large-signal models. Systemic methodology for device sizing and biasing. Basic circuit building blocks. Operational amplifier design. Principles of switched capacitor networks including switched-capacitor and continuous-time integrated filters. Basic and advanced A/D and D/A converters, delta-sigma modulators, RF and other signal processing circuits. Design projects on op amps and subsystems are a required part of the subject.
+6.4200[J] Robotics: Science and Systems
+Prereq: 6.100A, 16.06
+Presents concepts, principles, and algorithmic foundations for robots and autonomous vehicles operating in the physical world. Topics include sensing, kinematics and dynamics, state estimation, computer vision, perception, learning, control, motion planning, and embedded system development. Students design and implement advanced algorithms on complex robotic platforms capable of agile autonomous navigation and real-time interaction with the physical word. Students engage in extensive written and oral communication exercises. Enrollment limited.
 
-6.6010 Analysis and Design of Digital Integrated Circuits
-Prereq: 6.1910, 6.2500
-Device and circuit level optimization of digital building blocks. Circuit design styles for logic, arithmetic, and sequential blocks. Estimation and minimization of energy consumption. Interconnect models and parasitics, device sizing and logical effort, timing issues (clock skew and jitter), and active clock distribution techniques. Memory architectures, circuits (sense amplifiers), and devices. Evaluation of how design choices affect tradeoffs across key metrics including energy consumption, speed, robustness, and cost. Extensive use of modern design flow and EDA/CAD tools for the analysis and design of digital building blocks and digital VLSI design for labs and design projects
+6.4210 Robotic Manipulation
+Prereq: 6.100A, 6.3900
+Introduces the fundamental algorithmic approaches for creating robot systems that can autonomously manipulate physical objects in unstructured environments such as homes and restaurants. Topics include perception (including approaches based on deep learning and approaches based on 3D geometry), planning (robot kinematics and trajectory generation, collision-free motion planning, task-and-motion planning, and planning under uncertainty), as well as dynamics and control (both model-based and learning-based). Students taking graduate version complete additional assignments. Students engage in extensive written and oral communication exercises.
 
-6.6020 High-Frequency Integrated Circuits
-Prereq: 6.2080
-Principles and techniques of high-speed integrated circuits used in wireless/wireline data links and remote sensing. On-chip passive component design of inductors, capacitors, and antennas. Analysis of distributed effects, such as transmission line modeling, S-parameters, and Smith chart. Transceiver architectures and circuit blocks, which include low-noise amplifiers, mixers, voltage-controlled oscillators, power amplifiers, and frequency dividers. Involves IC/EM simulation and laboratory projects.
+6.8200 Sensorimotor Learning
+Prereq: 6.7900
+Provides an in-depth view of the state-of-the-art learning methods for control and the know-how of applying these techniques. Topics span reinforcement learning, self-supervised learning, imitation learning, model-based learning, and advanced deep learning architectures, and specific machine learning challenges unique to building sensorimotor systems. Discusses how to identify if learning-based control can help solve a particular problem, how to formulate the problem in the learning framework, and what algorithm to use. Applications of algorithms in robotics, logistics, recommendation systems, playing games, and other control domains covered. Instruction involves two lectures a week, practical experience through exercises, discussion of current research directions, and a group project.
 
-6.1903 Introduction to Low-level Programming in C and Assembly
-Prereq: 6.100A
-Introduction to C and assembly language for students coming from a Python background (6.100A). Studies the C language, focusing on memory and associated topics including pointers, how different data structures are stored in memory, the stack, and the heap in order to build a strong understanding of the constraints involved in manipulating complex data structures in modern computational systems. Studies assembly language to facilitate a firm understanding of how high-level languages are translated to machine-level instructions.
+6.8210 Underactuated Robotics
+Prereq: 18.03, 18.06
+Covers nonlinear dynamics and control of underactuated mechanical systems, with an emphasis on computational methods. Topics include the nonlinear dynamics of robotic manipulators, applied optimal and robust control and motion planning. Discussions include examples from biology and applications to legged locomotion, compliant manipulation, underwater robots, and flying machines.
 
-6.1910 Computation Structures
-Prereq: PhysII, 6.100A, 6.1903
-Provides an introduction to the design of digital systems and computer architecture. Emphasizes expressing all hardware designs in a high-level hardware description language and synthesizing the designs. Topics include combinational and sequential circuits, instruction set abstraction for programmable hardware, single-cycle and pipelined processor implementations, multi-level memory hierarchies, virtual memory, exceptions and I/O, and parallel systems.
+6.3800 Introduction to Inference
+Prereq: CalcII
+Introduces probabilistic modeling for problems of inference and machine learning from data, emphasizing analytical and computational aspects. Distributions, marginalization, conditioning, and structure, including graphical and neural network representations. Belief propagation, decision-making, classification, estimation, and prediction. Sampling methods and analysis. Introduces asymptotic analysis and information measures. Computational laboratory component explores the concepts introduced in class in the context of contemporary applications. Students design inference algorithms, investigate their behavior on real data, and discuss experimental results.
 
-6.1920 Constructive Computer Architecture
-Prereq: 6.1910
-Illustrates a constructive (as opposed to a descriptive) approach to computer architecture. Topics include combinational and pipelined arithmetic-logic units (ALU), in-order pipelined microarchitectures, branch prediction, blocking and unblocking caches, interrupts, virtual memory support, cache coherence and multicore architectures. Labs in a modern Hardware Design Language (HDL) illustrate various aspects of microprocessor design, culminating in a term project in which students present a multicore design running on an FPGA board.
+6.7800 Inference and Information
+Prereq: 6.3800
+Introduction to principles of Bayesian and non-Bayesian statistical inference. Hypothesis testing and parameter estimation, sufficient statistics; exponential families. EM agorithm. Log-loss inference criterion, entropy and model capacity. Kullback-Leibler distance and information geometry. Asymptotic analysis and large deviations theory. Model order estimation; nonparametric statistics. Computational issues and approximation techniques; Monte Carlo methods. Selected topics such as universal inference and learning, and universal features and neural networks.
 
-6.5900 Computer System Architecture
-Prereq: 6.1910
-Introduction to the principles underlying modern computer architecture. Emphasizes the relationship among technology, hardware organization, and programming systems in the evolution of computer architecture. Topics include pipelined, out-of-order, and speculative execution; caches, virtual memory and exception handling, superscalar, very long instruction word (VLIW), vector, and multithreaded processors; on-chip networks, memory models, synchronization, and cache coherence protocols for multiprocessors.
+6.7810 Algorithms for Inference
+Prereq: 18.06, 6.3800
+Introduction to computational aspects of statistical inference via probabilistic graphical models. Directed and undirected graphical models, and factor graphs, over discrete and Gaussian distributions; hidden Markov models, linear dynamical systems. Sum-product and junction tree algorithms; forward-backward algorithm, Kalman filtering and smoothing. Min-sum and Viterbi algorithms. Variational methods, mean-field theory, and loopy belief propagation. Sampling methods; Glauber dynamics and mixing time analysis. Parameter structure learning for graphical models; Baum-Welch and Chow-Liu algorithms. Selected topics such as causal inference, particle filtering, restricted Boltzmann machines, and graph neural networks.
 
-6.5910 Complex Digital Systems Design
-Prereq: 6.1910
-Introduction to the design and implementation of large-scale digital systems using hardware description languages and high-level synthesis tools in conjunction with standard commercial electronic design automation (EDA) tools. Emphasizes modular and robust designs, reusable modules, correctness by construction, architectural exploration, meeting area and timing constraints, and developing functional field-programmable gate array (FPGA) prototypes. Extensive use of CAD tools in weekly labs serve as preparation for a multi-person design project on multi-million gate FPGAs. Enrollment may be limited.
+6.7820[J] Graphical Models: A Geometric, Algebraic, and Combinatorial Perspective
+Prereq: 6.3702, 18.06
+Provides instruction in the geometric, algebraic and combinatorial perspective on graphical models. Presents methods for learning the underlying graph and inferring its parameters. Topics include exponential families, duality theory, conic duality, polyhedral geometry, undirected graphical models, Bayesian networks, Markov properties, total positivity of distributions, hidden variables, and tensor decompositions.
 
-6.5920 Parallel Computing
-Prereq: 6.1910
-Introduction to parallel and multicore computer architecture and programming. Topics include the design and implementation of multicore processors; networking, video, continuum, particle and graph applications for multicores; communication and synchronization algorithms and mechanisms; locality in parallel computations; computational models, including shared memory, streams, message passing, and data parallel; multicore mechanisms for synchronization, cache coherence, and multithreading. Performance evaluation of multicores; compilation and runtime systems for parallel computing. Substantial project required.
+6.7830 Bayesian Modeling and Inference
+Prereq: 6.7700[J], 6.7900
+Covers Bayesian modeling and inference at an advanced graduate level. Topics include de Finetti's theorem, decision theory, approximate inference (modern approaches and analysis of Monte Carlo, variational inference, etc.), hierarchical modeling, (continuous and discrete) nonparametric Bayesian approaches, sensitivity and robustness, and evaluation.
 
-6.5930 Hardware Architecture for Deep Learning
-Prereq: 6.1910, 6.3900
-Introduction to the design and implementation of hardware architectures for efficient processing of deep learning algorithms and tensor algebra in AI systems. Topics include basics of deep learning, optimization principles for programmable platforms, design principles of accelerator architectures, co-optimization of algorithms and hardware (including sparsity) and use of advanced technologies (including memristors and optical computing). Includes labs involving modeling and analysis of hardware architectures, architecting deep learning inference systems, and an open-ended design project. Students taking graduate version complete additional assignments.
+6.3700 Introduction to Probability
+Prereq: CalcII
+An introduction to probability theory, the modeling and analysis of probabilistic systems, and elements of statistical inference. Probabilistic models, conditional probability. Discrete and continuous random variables. Expectation and conditional expectation, and further topics about random variables. Limit Theorems. Bayesian estimation and hypothesis testing. Elements of classical statistical inference. Bernoulli and Poisson processes. Markov chains. Students taking graduate version complete additional assignments.
 
-6.5940 TinyML and Efficient Deep Learning Computing
-Prereq: 6.1910, 6.3900
-Introduces efficient deep learning computing techniques that enable powerful deep learning applications on resource-constrained devices. Topics include model compression, pruning, quantization, neural architecture search, distributed training, data/model parallellism, gradient compression, on-device fine-tuning. It also introduces application-specific acceleration techniques for video recognition, point cloud, and generative AI (diffusion model, LLM). Students will get hands-on experience accelerating deep learning applications with an open-ended design project.
+6.3720 Introduction to Statistical Data Analysis
+Prereq: 18.06, 6.100A, 6.3700
+Introduction to the central concepts and methods of data science with an emphasis on statistical grounding and modern computational capabilities. Covers principles involved in extracting information from data for the purpose of making predictions or decisions, including data exploration, feature selection, model fitting, and performance assessment. Topics include learning of distributions, hypothesis testing (including multiple comparison procedures), linear and nonlinear regression and prediction, classification, time series, uncertainty quantification, model validation, causal inference, optimization, and decisions. Computational case studies and projects drawn from applications in finance, sports, engineering, and machine learning life sciences. Students taking graduate version complete additional assignments.
 
-6.5950 Secure Hardware Design
-Prereq: 6.1910
-Introduction to basic concepts, principles, and implementation issues in the designing of secure hardware systems. Through a mixture of lectures and paper discussions, covers state-of-the-art security attacks and defenses targeting the computer architecture, digital circuits, and physics layers of computer systems. Emphasizes both the conceptual and the practical aspects of security issues in modern hardware systems. Topics include microarchitectural timing side channels, speculative execution attacks, RowHammer, Trusted Execution Environment, physical attacks, hardware support for software security, and verification of digital systems. Students taking graduate version complete additional assignments.
+6.3730[J] Statistics, Computation and Applications
+Prereq: 6.100B, 18.06, 6.3800
+Hands-on analysis of data demonstrates the interplay between statistics and computation. Includes four modules, each centered on a specific data set, and introduced by a domain expert. Provides instruction in specific, relevant analysis methods and corresponding algorithmic aspects. Potential modules may include medical data, gene regulation, social networks, finance data (time series), traffic, transportation, weather forecasting, policy, or industrial web applications. Projects address a large-scale data analysis question. Students taking graduate version complete additional assignments. Enrollment limited; priority to Statistics and Data Science minors, and to juniors and seniors.
+
+6.7700[J] Fundamentals of Probability
+Prereq: CalcII
+Introduction to probability theory. Probability spaces and measures. Discrete and continuous random variables. Conditioning and independence. Multivariate normal distribution. Abstract integration, expectation, and related convergence results. Moment generating and characteristic functions. Bernoulli and Poisson process. Finite-state Markov chains. Convergence notions and their relations. Limit theorems. Familiarity with elementary probability and real analysis is desirable.
+
+6.7710 Discrete Stochastic Processes
+Prereq: 6.3702
+Review of probability and laws of large numbers; Poisson counting process and renewal processes; Markov chains (including Markov decision theory), branching processes, birth-death processes, and semi-Markov processes; continuous-time Markov chains and reversibility; random walks, martingales, and large deviations; applications from queueing, communication, control, and operations research.
+
+6.7720[J] Discrete Probability and Stochastic Processes
+Prereq: 6.7700[J]
+Provides an introduction to tools used for probabilistic reasoning in the context of discrete systems and processes. Tools such as the probabilistic method, first and second moment method, martingales, concentration and correlation inequalities, theory of random graphs, weak convergence, random walks and Brownian motion, branching processes, Markov chains, Markov random fields, correlation decay method, isoperimetry, coupling, influences and other basic tools of modern research in probability will be presented. Algorithmic aspects and connections to statistics and machine learning will be emphasized.
 
 6.1800 Computer Systems Engineering
 Prereq: 6.1910
@@ -137,166 +245,6 @@ Abstractions and implementation techniques for engineering distributed systems: 
 6.5850 Principles of Computer Systems
 Prereq: 6.1800, 6.1200[J]
 Introduction to the basic principles of computer systems with emphasis on the use of rigorous techniques as an aid to understanding and building modern computing systems. Particular attention paid to concurrent and distributed systems. Topics include: specification and verification, concurrent algorithms, synchronization, naming, Networking, replication techniques (including distributed cache management), and principles and algorithms for achieving reliability.
-
-6.3100 Dynamical System Modeling and Control Design
-Prereq: PhysII, 18.06
-A learn-by-design introduction to modeling and control of discrete- and continuous-time systems, from intuition-building analytical techniques to more computational and data-centric strategies. Topics include: linear difference/differential equations (natural frequencies, transfer functions); controller metrics (stability, tracking, disturbance rejection); analytical techniques (PID, root-loci, lead-lag, phase margin); computational strategies (state-space, eigen-placement, LQR); and data-centric approaches (state estimation, regression, and identification). Concepts are introduced with lectures and online problems, and then mastered during weekly labs. In lab, students model, design, test, and explain systems and controllers involving sensors, actuators, and a microcontroller (e.g., optimizing thrust-driven positioners or stabilizing magnetic levitators). Students taking graduate version complete additional problems and labs.
-
-6.7100[J] Dynamic Systems and Control
-Prereq: 6.3100
-Linear, discrete- and continuous-time, multi-input-output systems in control, related areas. Least squares and matrix perturbation problems. State-space models, modes, stability, controllability, observability, transfer function matrices, poles and zeros, and minimality. Internal stability of interconnected systems, feedback compensators, state feedback, optimal regulation, observers, and observer-based compensators. Measures of control performance, robustness issues using singular values of transfer functions. Introductory ideas on nonlinear systems.
-
-6.7110 Multivariable Control Systems
-Prereq: 6.7100[J]
-Computer-aided design methodologies for synthesis of multivariable feedback control systems. Performance and robustness trade-offs. Model-based compensators; Q-parameterization; ill-posed optimization problems; dynamic augmentation; linear-quadratic optimization of controllers; H-infinity controller design; Mu-synthesis; model and compensator simplification; nonlinear effects. Computer-aided (MATLAB) design homework using models of physical processes.
-
-6.7120 Principles of Modeling, Computing and Control for Decarbonized Electric Energy Systems
-Prereq: 6.2000 and 6.3100
-Introduces fundamentals of electric energy systems as complex dynamical network systems. Topics include coordinated and distributed modeling and control methods for efficient and reliable power generation, delivery, and consumption; data-enabled algorithms for integrating clean intermittent resources, storage, and flexible demand, including electric vehicles; examples of network congestion management, frequency, and voltage control in electrical grids at various scales; and design and operation of supporting markets. Students taking graduate version complete additional assignments.
-
-6.2300 Electromagnetics Waves and Applications
-Prereq: CalcII, PhysII, 6.2000, 6.3000
-Analysis and design of modern applications that employ electromagnetic phenomena for signals and power transmission in RF, microwaves, optical and wireless communication systems. Fundamentals include dynamic solutions for Maxwell's equations; electromagnetic power and energy, waves in media, metallic and dielectric waveguides, radiation, and diffraction; resonance; filters; and acoustic analogs. Lab activities range from building to testing of devices and systems (e.g., antenna arrays, radars, dielectric waveguides). Students work in teams on self-proposed maker-style design projects with a focus on fostering creativity, teamwork, and debugging skills.
-
-6.2370 Modern Optics Project Laboratory
-Prereq: 8.03, 6.3000
-Lectures, laboratory exercises and projects on optical signal generation, transmission, detection, storage, processing and display. Topics include polarization properties of light; reflection and refraction; coherence and interference; Fraunhofer and Fresnel diffraction; holography; Fourier optics; coherent and incoherent imaging and signal processing systems; optical properties of materials; lasers and LEDs; electro-optic and acousto-optic light modulators; photorefractive and liquid-crystal light modulation; display technologies; optical waveguides and fiber-optic communication systems; photodetectors. Students may use this subject to find an advanced undergraduate project. Students engage in extensive oral and written communication exercises.
-
-6.2400 Introduction to Quantum Systems Engineering
-Prereq: 6.2300, 18.06
-Introduction to the quantum mechanics needed to engineer quantum systems for computation, communication, and sensing. Topics include: motivation for quantum engineering, qubits and quantum gates, rules of quantum mechanics, mathematical background, quantum electrical circuits and other physical quantum systems, harmonic and anharmonic oscillators, measurement, the Schrödinger equation, noise, entanglement, benchmarking, quantum communication, and quantum algorithms. No prior experience with quantum mechanics is assumed.
-
-6.2410 Quantum Engineering Platforms
-Prereq: 6.2400
-Provides practical knowledge and quantum engineering experience with several physical platforms for quantum computation, communication, and sensing, including photonics, superconducting qubits, and trapped ions. Labs include both a hardware component -- to gain experience with challenges, design, and non-idealities -- and a cloud component to run algorithms on state of the art commercial systems. Use entangled photons to communicate securely (quantum key distribution). Run quantum algorithms on trapped ion and superconducting quantum computers.
-
-6.6300 Electromagnetics
-Prereq: PhysII, 6.3000
-Explores electromagnetic phenomena in modern applications, including wireless and optical communications, circuits, computer interconnects and peripherals, microwave communications and radar, antennas, sensors, micro-electromechanical systems, and power generation and transmission. Fundamentals include quasistatic and dynamic solutions to Maxwell's equations; waves, radiation, and diffraction; coupling to media and structures; guided and unguided waves; modal expansions; resonance; acoustic analogs; and forces, power, and energy.
-
-6.6310 Optics and Photonics
-Prereq: 6.2300
-Introduction to fundamental concepts and techniques of optics, photonics, and fiber optics, aimed at developing skills for independent research. Topics include: Review of Maxwell's equations, light propagation, reflection and transmission, dielectric mirrors and filters. Scattering matrices, interferometers, and interferometric measurement. Fresnel and Fraunhoffer diffraction theory. Lenses, optical imaging systems, and software design tools. Gaussian beams, propagation and resonator design. Optical waveguides, optical fibers and photonic devices for encoding and detection. Discussion of research operations / funding and professional development topics. The course reviews and introduces mathematical methods and techniques, which are fundamental in optics and photonics, but also useful in many other engineering specialties.
-
-6.6330 Fundamentals of Photonics
-Prereq: 2.71
-Covers the fundamentals of optics and the interaction of light and matter, leading to devices such as light emitting diodes, optical amplifiers, and lasers. Topics include classical ray, wave, beam, and Fourier optics; Maxwell's electromagnetic waves; resonators; quantum theory of photons; light-matter interaction; laser amplification; lasers; and semiconductors optoelectronics. Students taking graduate version complete additional assignments.
-
-6.6340[J] Nonlinear Optics
-Prereq: 6.2300
-Techniques of nonlinear optics with emphasis on fundamentals for research in optics, photonics, spectroscopy, and ultrafast science. Topics include: electro-optic modulators and devices, sum and difference frequency generation, and parametric conversion. Nonlinear propagation effects in optical fibers including self-phase modulation, pulse compression, solitons, communication, and femtosecond fiber lasers. Review of quantum mechanics, interaction of light with matter, laser gain and operation, density matrix techniques, perturbation theory, diagrammatic methods, nonlinear spectroscopies, ultrafast lasers and measurements. Discussion of research operations and funding and professional development topics. Introduces fundamental methods and techniques needed for independent research in advanced optics and photonics, but useful in many other engineering and physics disciplines.
-
-6.6400 Applied Quantum and Statistical Physics
-Prereq: 18.06
-Elementary quantum mechanics and statistical physics. Introduces applied quantum physics. Emphasizes experimental basis for quantum mechanics. Applies Schrodinger's equation to the free particle, tunneling, the harmonic oscillator, and hydrogen atom. Variational methods. Elementary statistical physics; Fermi-Dirac, Bose-Einstein, and Boltzmann distribution functions. Simple models for metals, semiconductors, and devices such as electron microscopes, scanning tunneling microscope, thermonic emitters, atomic force microscope, and more. Some familiarity with continuous time Fourier transforms recommended.
-
-6.6410[J] Quantum Computation
-Prereq: 8.05, 18.06
-Provides an introduction to the theory and practice of quantum computation. Topics covered: physics of information processing; quantum algorithms including the factoring algorithm and Grover's search algorithm; quantum error correction; quantum communication and cryptography.
-
-6.6420[J] Quantum Information Science
-Prereq: 6.6410[J]
-Examines quantum computation and quantum information. Topics include quantum circuits, the quantum Fourier transform and search algorithms, the quantum operations formalism, quantum error correction, Calderbank-Shor-Steane and stabilizer codes, fault tolerant quantum computation, quantum data compression, quantum entanglement, capacity of quantum channels, and quantum cryptography and the proof of its security. Prior knowledge of quantum mechanics required.
-
-6.2200 Electric Energy Systems
-Prereq: 6.2000
-Analysis and design of modern energy conversion and delivery systems. Develops a solid foundation in electromagnetic phenomena with a focus on electrical energy distribution, electro-mechanical energy conversion (motors and generators), and electrical-to-electrical energy conversion (DC-DC, DC-AC power conversion). Students apply the material covered to consider critical challenges associated with global energy systems, with particular examples related to the electrification of transport and decarbonization of the grid.
-
-6.2210 Electromagnetic Fields, Forces and Motion
-Prereq: PhysII, 18.03
-Study of electromagnetics and electromagnetic energy conversion leading to an understanding of devices, including electromagnetic sensors, actuators, motors and generators. Quasistatic Maxwell's equations and the Lorentz force law. Studies of the quasistatic fields and their sources through solutions of Poisson's and Laplace's equations. Boundary conditions and multi-region boundary-value problems. Steady-state conduction, polarization, and magnetization. Charge conservation and relaxation, and magnetic induction and diffusion. Extension to moving materials. Electric and magnetic forces and force densities derived from energy, and stress tensors. Extensive use of engineering examples. Students taking graduate version complete additional assignments.
-
-6.2220 Power Electronics Laboratory
-Prereq: 6.2000
-Introduces the design and construction of power electronic circuits and motor drives. Laboratory exercises include the construction of drive circuitry for an electric go-cart, flash strobes, computer power supplies, three-phase inverters for AC motors, and resonant drives for lamp ballasts and induction heating. Basic electric machines introduced include DC, induction, and permanent magnet motors, with drive considerations. Provides instruction in written and oral communication. Students taking independent inquiry version 6.2221 expand the scope of their laboratory project.
-
-6.6220 Power Electronics
-Prereq: 6.2500
-The application of electronics to energy conversion and control. Modeling, analysis, and control techniques. Design of power circuits including inverters, rectifiers, and dc-dc converters. Analysis and design of magnetic components and filters. Characteristics of power semiconductor devices. Numerous application examples, such as motion control systems, power supplies, and radio-frequency power amplifiers.
-
-6.6280 Electric Machines
-Prereq: 6.2200
-Treatment of electromechanical transducers, rotating and linear electric machines. Lumped-parameter electromechanics. Power flow using Poynting's theorem, force estimation using the Maxwell stress tensor and Principle of virtual work. Development of analytical techniques for predicting device characteristics: energy conversion density, efficiency; and of system interaction characteristics: regulation, stability, controllability, and response. Use of electric machines in drive systems. Problems taken from current research.
-
-6.4510 Engineering Interactive Technologies
-Prereq: 6.9010
-Provides instruction in building cutting-edge interactive technologies, explains the underlying engineering concepts, and shows how those technologies evolved over time. Students use a studio format (i.e., extended periods of time) for constructing software and hardware prototypes. Topics include interactive technologies, such as multi-touch, augmented reality, haptics, wearables, and shape-changing interfaces. In a group project, students build their own interactive hardware/software prototypes and present them in a live demo at the end of term. Enrollment may be limited.
-
-6.4530[J] Principles and Practice of Assistive Technology
-Prereq: ?
-Students work closely with people with disabilities to develop assistive and adaptive technologies that help them live more independently. Covers design methods and problem-solving strategies; human factors; human-machine interfaces; community perspectives; social and ethical aspects; and assistive technology for motor, cognitive, perceptual, and age-related impairments. Prior knowledge of one or more of the following areas useful: software; electronics; human-computer interaction; cognitive science; mechanical engineering; control; or MIT hobby shop, MIT PSC, or other relevant independent project experience. Enrollment may be limited.
-
-6.4550[J] Interactive Music Systems
-Prereq: 6.1010, 21M.301
-Explores audio synthesis, musical structure, human computer interaction (HCI), and visual presentation for the creation of interactive musical experiences. Topics include audio synthesis; mixing and looping; MIDI sequencing; generative composition; motion sensors; music games; and graphics for UI, visualization, and aesthetics. Includes weekly programming assignments in python. Teams build an original, dynamic, and engaging interactive music system for their final project. Students taking graduate version complete different assignments. Limited to 36.
-
-6.4570[J] Creating Video Games
-Prereq: 6.100A, CMS.301
-Introduces students to the complexities of working in small, multidisciplinary teams to develop video games. Covers creative design and production methods, stressing design iteration and regular testing across all aspects of game development (design, visual arts, music, fiction, and programming). Assumes a familiarity with current video games, and the ability to discuss games critically. Previous experience in audio design, visual arts, or project management recommended. Limited to 36.
-
-6.4590[J] Foundations of Information Policy
-Prereq: ?
-Studies the growth of computer and communications technology and the new legal and ethical challenges that reflect tensions between individual rights and societal needs. Topics include computer crime; intellectual property restrictions on software; encryption, privacy, and national security; academic freedom and free speech. Students meet and question technologists, activists, law enforcement agents, journalists, and legal experts. Instruction and practice in oral and written communication provided. Students taking graduate version complete additional assignments. Enrollment limited.
-
-6.8510 Intelligent Multimodal User Interfaces
-Prereq: 6.1020, 6.4100
-Implementation and evaluation of intelligent multi-modal user interfaces, taught from a combination of hands-on exercises and papers from the original literature. Topics include basic technologies for handling speech, vision, pen-based interaction, and other modalities, as well as various techniques for combining modalities. Substantial readings and a term project, where students build a program that illustrates one or more of the themes of the course.
-
-6.8530 Interactive Data Visualization
-Prereq: 6.1020
-Interactive visualization provides a means of making sense of a world awash in data. Covers the techniques and algorithms for creating effective visualizations, using principles from graphic design, perceptual psychology, and cognitive science. Short assignments build familiarity with the data analysis and visualization design process, and a final project provides experience designing, implementing, and deploying an explanatory narrative visualization or visual analysis tool to address a concrete challenge.
-
-6.3800 Introduction to Inference
-Prereq: CalcII
-Introduces probabilistic modeling for problems of inference and machine learning from data, emphasizing analytical and computational aspects. Distributions, marginalization, conditioning, and structure, including graphical and neural network representations. Belief propagation, decision-making, classification, estimation, and prediction. Sampling methods and analysis. Introduces asymptotic analysis and information measures. Computational laboratory component explores the concepts introduced in class in the context of contemporary applications. Students design inference algorithms, investigate their behavior on real data, and discuss experimental results.
-
-6.7800 Inference and Information
-Prereq: 6.3800
-Introduction to principles of Bayesian and non-Bayesian statistical inference. Hypothesis testing and parameter estimation, sufficient statistics; exponential families. EM agorithm. Log-loss inference criterion, entropy and model capacity. Kullback-Leibler distance and information geometry. Asymptotic analysis and large deviations theory. Model order estimation; nonparametric statistics. Computational issues and approximation techniques; Monte Carlo methods. Selected topics such as universal inference and learning, and universal features and neural networks.
-
-6.7810 Algorithms for Inference
-Prereq: 18.06, 6.3800
-Introduction to computational aspects of statistical inference via probabilistic graphical models. Directed and undirected graphical models, and factor graphs, over discrete and Gaussian distributions; hidden Markov models, linear dynamical systems. Sum-product and junction tree algorithms; forward-backward algorithm, Kalman filtering and smoothing. Min-sum and Viterbi algorithms. Variational methods, mean-field theory, and loopy belief propagation. Sampling methods; Glauber dynamics and mixing time analysis. Parameter structure learning for graphical models; Baum-Welch and Chow-Liu algorithms. Selected topics such as causal inference, particle filtering, restricted Boltzmann machines, and graph neural networks.
-
-6.7820[J] Graphical Models: A Geometric, Algebraic, and Combinatorial Perspective
-Prereq: 6.3702, 18.06
-Provides instruction in the geometric, algebraic and combinatorial perspective on graphical models. Presents methods for learning the underlying graph and inferring its parameters. Topics include exponential families, duality theory, conic duality, polyhedral geometry, undirected graphical models, Bayesian networks, Markov properties, total positivity of distributions, hidden variables, and tensor decompositions.
-
-6.7830 Bayesian Modeling and Inference
-Prereq: 6.7700[J], 6.7900
-Covers Bayesian modeling and inference at an advanced graduate level. Topics include de Finetti's theorem, decision theory, approximate inference (modern approaches and analysis of Monte Carlo, variational inference, etc.), hierarchical modeling, (continuous and discrete) nonparametric Bayesian approaches, sensitivity and robustness, and evaluation.
-
-6.3900 Introduction to Machine Learning
-Prereq: 6.1210, 18.06
-Introduction to the principles and algorithms of machine learning from an optimization perspective. Topics include linear and non-linear models for supervised, unsupervised, and reinforcement learning, with a focus on gradient-based methods and neural-network architectures. Previous experience with algorithms may be helpful.
-
-6.3950 AI, Decision Making, and Society
-Prereq: 6.3700
-Introduction to fundamentals of modern data-driven decision-making frameworks, such as causal inference and hypothesis testing in statistics as well as supervised and reinforcement learning in machine learning. Explores how these frameworks are being applied in various societal contexts, including criminal justice, healthcare, finance, and social media. Emphasis on pinpointing the non-obvious interactions, undesirable feedback loops, and unintended consequences that arise in such settings. Enables students to develop their own principled perspective on the interface of data-driven decision making and society. Students taking graduate version complete additional assignments.
-
-6.7900 Machine Learning
-Prereq: 6.3900, 6.3800
-Principles, techniques, and algorithms in machine learning from the point of view of statistical inference; representation, generalization, and model selection; and methods such as linear/additive models, active learning, boosting, support vector machines, non-parametric Bayesian methods, hidden Markov models, Bayesian networks, and convolutional and recurrent neural networks.
-
-6.7910[J] Statistical Learning Theory and Applications
-Prereq: 6.7900
-Covers foundations and recent advances in statistical machine learning theory, with the dual goals of providing students with the theoretical knowledge to use machine learning and preparing more advanced students to contribute to progress in the field. The content is roughly divided into three parts. The first part is about classical regularization, margin, stochastic gradient methods, overparametrization, implicit regularization, and stability. The second part is about deep networks: approximation and optimization theory plus roots of generalization. The third part is about the connections between learning theory and the brain. Occasional talks by leading researchers on advanced research topics. Emphasis on current research topics.
-
-6.7920[J] Reinforcement Learning: Foundations and Methods
-Prereq: 6.3700
-Examines reinforcement learning (RL) as a methodology for approximately solving sequential decision-making under uncertainty, with foundations in optimal control and machine learning. Provides a mathematical introduction to RL, including dynamic programming, statistical, and empirical perspectives, and special topics. Core topics include: dynamic programming, special structures, finite and infinite horizon Markov Decision Processes, value and policy iteration, Monte Carlo methods, temporal differences, Q-learning, stochastic approximation, and bandits. Also covers approximate dynamic programming, including value-based methods and policy space methods. Applications and examples drawn from diverse domains. Focus is mathematical, but is supplemented with computational exercises. An analysis prerequisite is suggested but not required; mathematical maturity is necessary.
-
-6.7930[J] Machine Learning for Healthcare
-Prereq: 6.7900
-Introduces students to machine learning in healthcare, including the nature of clinical data and the use of machine learning for risk stratification, disease progression modeling, precision medicine, diagnosis, subtype discovery, and improving clinical workflows. Topics include causality, interpretability, algorithmic fairness, time-series analysis, graphical models, deep learning and transfer learning. Guest lectures by clinicians from the Boston area, and projects with real clinical data, emphasize subtleties of working with clinical data and translating machine learning into clinical practice. Limited to 55.
-
-6.7940 Dynamic Programming and Reinforcement Learning
-Prereq: 6.3700
-Dynamic programming as a unifying framework for sequential decision-making under uncertainty, Markov decision problems, and stochastic control. Perfect and imperfect state information models. Finite horizon and infinite horizon problems, including discounted and average cost formulations. Value and policy iteration. Suboptimal methods. Approximate dynamic programming for large-scale problems, and reinforcement learning. Applications and examples drawn from diverse domains. While an analysis prerequisite is not required, mathematical maturity is necessary.
-
-6.7960 Deep Learning
-Prereq: 18.05, 6.3900
-Fundamentals of deep learning, including both theory and applications. Topics include neural net architectures (MLPs, CNNs, RNNs, graph nets, transformers), geometry and invariances in deep learning, backpropagation and automatic differentiation, learning theory and generalization in high-dimensions, and applications to computer vision, natural language processing, and robotics.
 
 6.2500 Nanoelectronics and Computing Systems
 Prereq: 6.2000
@@ -338,205 +286,41 @@ Describes current techniques used to analyze and fabricate nanometer-length-scal
 Prereq: 2.008
 Statistical modeling and control in manufacturing processes. Use of experimental design and response surface modeling to understand manufacturing process physics. Defect and parametric yield modeling and optimization. Forms of process control, including statistical process control, run by run and adaptive control, and real-time feedback control. Application contexts include semiconductor manufacturing, conventional metal and polymer processing, and emerging micro-nano manufacturing processes.
 
-6.8610 Quantitative Methods for Natural Language Processing
-Prereq: 6.3900, 18.06
-Introduces the study of human language from a computational perspective, including syntactic, semantic and discourse processing models. Emphasizes machine learning methods and algorithms. Uses these methods and models in applications such as syntactic parsing, information extraction, statistical machine translation, dialogue systems. Students taking graduate version complete additional assignments.
-
-6.8620[J] Spoken Language Processing
-Prereq: 6.3000, 6.3900
-Introduces the rapidly developing field of spoken language processing including automatic speech recognition. Topics include acoustic theory of speech production, acoustic-phonetics, signal representation, acoustic and language modeling, search, hidden Markov modeling, neural networks models, end-to-end deep learning models, and other machine learning techniques applied to speech and language processing topics. Lecture material intersperses theory with practice. Includes problem sets, laboratory exercises, and open-ended term project.
-
-6.8630[J] Natural Language and the Computer Representation of Knowledge
-Prereq: 6.4100
-Explores the relationship between the computer representation and acquisition of knowledge and the structure of human language, its acquisition, and hypotheses about its differentiating uniqueness. Emphasizes development of analytical skills necessary to judge the computational implications of grammatical formalisms and their role in connecting human intelligence to computational intelligence. Uses concrete examples to illustrate particular computational issues in this area.
-
-6.3260[J] Networks
-Prereq: 6.3700
-Highlights common principles that permeate the functioning of diverse technological, economic and social networks. Utilizes three sets of tools for analyzing networks -- random graph models, optimization, and game theory -- to study informational and learning cascades; economic and financial networks; social influence networks; formation of social groups; communication networks and the Internet; consensus and gossiping; spread and control of epidemics; control and use of energy networks; and biological networks. Students taking graduate version complete additional assignments.
-
-6.7210[J] Introduction to Mathematical Programming
-Prereq: 18.06
-Introduction to linear optimization and its extensions emphasizing both methodology and the underlying mathematical structures and geometrical ideas. Covers classical theory of linear programming as well as some recent advances in the field. Topics: simplex method; duality theory; sensitivity analysis; network flow problems; decomposition; robust optimization; integer programming; interior point algorithms for linear programming; and introduction to combinatorial optimization and NP-completeness.
-
-6.7220[J] Nonlinear Optimization
-Prereq: 18.06, 18.100A
-Unified analytical and computational approach to nonlinear optimization problems. Unconstrained optimization methods include gradient, conjugate direction, Newton, sub-gradient and first-order methods. Constrained optimization methods include feasible directions, projection, interior point methods, and Lagrange multiplier methods. Convex analysis, Lagrangian relaxation, nondifferentiable optimization, and applications in integer programming. Comprehensive treatment of optimality conditions and Lagrange multipliers. Geometric approach to duality theory. Applications drawn from control, communications, machine learning, and resource allocation problems.
-
-6.7230[J] Algebraic Techniques and Semidefinite Optimization
-Prereq: 6.7210[J]
-Theory and computational techniques for optimization problems involving polynomial equations and inequalities with particular, emphasis on the connections with semidefinite optimization. Develops algebraic and numerical approaches of general applicability, with a view towards methods that simultaneously incorporate both elements, stressing convexity-based ideas, complexity results, and efficient implementations. Examples from several engineering areas, in particular systems and control applications. Topics include semidefinite programming, resultants/discriminants, hyperbolic polynomials, Groebner bases, quantifier elimination, and sum of squares.
-
-6.7240 Game Theory with Engineering Applications
-Prereq: 6.3702
-Introduction to fundamentals of game theory and mechanism design with motivations for each topic drawn from engineering applications (including distributed control of wireline/wireless communication networks, transportation networks, pricing). Emphasis on the foundations of the theory, mathematical tools, as well as modeling and the equilibrium notion in different environments. Topics include normal form games, supermodular games, dynamic games, repeated games, games with incomplete/imperfect information, mechanism design, cooperative game theory, and network games.
-
-6.7250 Optimization for Machine Learning
-Prereq: 6.3900, 18.06
-Optimization algorithms are central to all of machine learning. Covers a variety of topics in optimization, with a focus on non-convex optimization. Focuses on both classical and cutting-edge results, including foundational topics grounded in convexity, complexity theory of first-order methods, stochastic optimization, as well as recent progress in non-Euclidean optimization, deep learning, and beyond. Prepares students to appreciate a broad spectrum of ideas in OPTML, learning to be not only informed users but also gaining exposure to research questions in the area.
-
-6.7260 Network Science and Models
-Prereq: 6.3702, 18.06
-Introduces the main mathematical models used to describe large networks and dynamical processes that evolve on networks. Static models of random graphs, preferential attachment, and other graph evolution models. Epidemic propagation, opinion dynamics, social learning, and inference in networks. Applications drawn from social, economic, natural, and infrastructure networks, as well as networked decision systems such as sensor networks.
-
-6.7300[J] Introduction to Modeling and Simulation
-Prereq: 18.06
-Introduction to computational techniques for modeling and simulation of a variety of large and complex engineering, science, and socio-economical systems. Prepares students for practical use and development of computational engineering in their own research and future work. Topics include mathematical formulations (e.g., automatic assembly of constitutive and conservation principles); linear system solvers (sparse and iterative); nonlinear solvers (Newton and homotopy); ordinary, time-periodic and partial differential equation solvers; and model order reduction. Students develop their own models and simulators for self-proposed applications, with an emphasis on creativity, teamwork, and communication. Prior basic linear algebra required and at least one numerical programming language (e.g., MATLAB, Julia, Python, etc.) helpful.
-
-6.7310[J] Introduction to Numerical Methods
-Prereq: 18.06
-Advanced introduction to numerical analysis: accuracy and efficiency of numerical algorithms. In-depth coverage of sparse-matrix/iterative and dense-matrix algorithms in numerical linear algebra (for linear systems and eigenproblems). Floating-point arithmetic, backwards error analysis, conditioning, and stability. Other computational topics (e.g., numerical integration or nonlinear optimization) may also be surveyed. Final project involves some programming.
-
-6.7320[J] Parallel Computing and Scientific Machine Learning
-Prereq: 18.06
-Introduction to scientific machine learning with an emphasis on developing scalable differentiable programs. Covers scientific computing topics (numerical differential equations, dense and sparse linear algebra, Fourier transformations, parallelization of large-scale scientific simulation) simultaneously with modern data science (machine learning, deep neural networks, automatic differentiation), focusing on the emerging techniques at the connection between these areas, such as neural differential equations and physics-informed deep learning. Provides direct experience with the modern realities of optimizing code performance for supercomputers, GPUs, and multicores in a high-level language.
-
-6.7330[J] Numerical Methods for Partial Differential Equations
-Prereq: 18.03
-Covers the fundamentals of modern numerical techniques for a wide range of linear and nonlinear elliptic, parabolic, and hyperbolic partial differential and integral equations. Topics include mathematical formulations; finite difference, finite volume, finite element, and boundary element discretization methods; and direct and iterative solution techniques. The methodologies described form the foundation for computational approaches to engineering systems involving heat transfer, solid mechanics, fluid dynamics, and electromagnetics. Computer assignments requiring programming.
-
-6.7340[J] Fast Methods for Partial Differential and Integral Equations
-Prereq: 16.920[J]
-Unified introduction to the theory and practice of modern, near linear-time, numerical methods for large-scale partial-differential and integral equations. Topics include preconditioned iterative methods; generalized Fast Fourier Transform and other butterfly-based methods; multiresolution approaches, such as multigrid algorithms and hierarchical low-rank matrix decompositions; and low and high frequency Fast Multipole Methods. Example applications include aircraft design, cardiovascular system modeling, electronic structure computation, and tomographic imaging.
-
-6.3700 Introduction to Probability
-Prereq: CalcII
-An introduction to probability theory, the modeling and analysis of probabilistic systems, and elements of statistical inference. Probabilistic models, conditional probability. Discrete and continuous random variables. Expectation and conditional expectation, and further topics about random variables. Limit Theorems. Bayesian estimation and hypothesis testing. Elements of classical statistical inference. Bernoulli and Poisson processes. Markov chains. Students taking graduate version complete additional assignments.
-
-6.3720 Introduction to Statistical Data Analysis
-Prereq: 18.06, 6.100A, 6.3700
-Introduction to the central concepts and methods of data science with an emphasis on statistical grounding and modern computational capabilities. Covers principles involved in extracting information from data for the purpose of making predictions or decisions, including data exploration, feature selection, model fitting, and performance assessment. Topics include learning of distributions, hypothesis testing (including multiple comparison procedures), linear and nonlinear regression and prediction, classification, time series, uncertainty quantification, model validation, causal inference, optimization, and decisions. Computational case studies and projects drawn from applications in finance, sports, engineering, and machine learning life sciences. Students taking graduate version complete additional assignments.
-
-6.3730[J] Statistics, Computation and Applications
-Prereq: 6.100B, 18.06, 6.3800
-Hands-on analysis of data demonstrates the interplay between statistics and computation. Includes four modules, each centered on a specific data set, and introduced by a domain expert. Provides instruction in specific, relevant analysis methods and corresponding algorithmic aspects. Potential modules may include medical data, gene regulation, social networks, finance data (time series), traffic, transportation, weather forecasting, policy, or industrial web applications. Projects address a large-scale data analysis question. Students taking graduate version complete additional assignments. Enrollment limited; priority to Statistics and Data Science minors, and to juniors and seniors.
-
-6.7700[J] Fundamentals of Probability
-Prereq: CalcII
-Introduction to probability theory. Probability spaces and measures. Discrete and continuous random variables. Conditioning and independence. Multivariate normal distribution. Abstract integration, expectation, and related convergence results. Moment generating and characteristic functions. Bernoulli and Poisson process. Finite-state Markov chains. Convergence notions and their relations. Limit theorems. Familiarity with elementary probability and real analysis is desirable.
-
-6.7710 Discrete Stochastic Processes
-Prereq: 6.3702
-Review of probability and laws of large numbers; Poisson counting process and renewal processes; Markov chains (including Markov decision theory), branching processes, birth-death processes, and semi-Markov processes; continuous-time Markov chains and reversibility; random walks, martingales, and large deviations; applications from queueing, communication, control, and operations research.
-
-6.7720[J] Discrete Probability and Stochastic Processes
-Prereq: 6.7700[J]
-Provides an introduction to tools used for probabilistic reasoning in the context of discrete systems and processes. Tools such as the probabilistic method, first and second moment method, martingales, concentration and correlation inequalities, theory of random graphs, weak convergence, random walks and Brownian motion, branching processes, Markov chains, Markov random fields, correlation decay method, isoperimetry, coupling, influences and other basic tools of modern research in probability will be presented. Algorithmic aspects and connections to statistics and machine learning will be emphasized.
-
-6.100A Introduction to Computer Science Programming in Python
-Prereq: None
-Introduction to computer science and programming for students with little or no programming experience. Students develop skills to program and use computational techniques to solve problems. Topics include the notion of computation, Python, simple algorithms and data structures, testing and debugging, and algorithmic complexity. Combination of 6.100A and 6.100B or 16.C20[J] counts as REST subject. Final given in the seventh week of the term.
-
-6.100B Introduction to Computational Thinking and Data Science
+6.1903 Introduction to Low-level Programming in C and Assembly
 Prereq: 6.100A
-Provides an introduction to using computation to understand real-world phenomena. Topics include plotting, stochastic programs, probability and statistics, random walks, Monte Carlo simulations, modeling data, optimization problems, and clustering. Combination of 6.100A and 6.100B counts as REST subject.
+Introduction to C and assembly language for students coming from a Python background (6.100A). Studies the C language, focusing on memory and associated topics including pointers, how different data structures are stored in memory, the stack, and the heap in order to build a strong understanding of the constraints involved in manipulating complex data structures in modern computational systems. Studies assembly language to facilitate a firm understanding of how high-level languages are translated to machine-level instructions.
 
-6.1010 Fundamentals of Programming
-Prereq: 6.100A
-Introduces fundamental concepts of programming. Designed to develop skills in applying basic methods from programming languages to abstract problems. Topics include programming and Python basics, computational concepts, software engineering, algorithmic techniques, data types, and recursion.  Lab component consists of software design, construction, and implementation of design. Enrollment may be limited.
+6.1910 Computation Structures
+Prereq: PhysII, 6.100A, 6.1903
+Provides an introduction to the design of digital systems and computer architecture. Emphasizes expressing all hardware designs in a high-level hardware description language and synthesizing the designs. Topics include combinational and sequential circuits, instruction set abstraction for programmable hardware, single-cycle and pipelined processor implementations, multi-level memory hierarchies, virtual memory, exceptions and I/O, and parallel systems.
 
-6.1020 Software Construction
-Prereq: 6.1010
-Introduces fundamental principles and techniques of software development: how to write software that is safe from bugs, easy to understand, and ready for change. Topics include specifications and invariants; testing, test-case generation, and coverage; abstract data types and representation independence; design patterns for object-oriented programming; concurrent programming, including message passing and shared memory concurrency, and defending against races and deadlock; and functional programming with immutable data and higher-order functions. Includes weekly programming exercises and larger group programming projects.
+6.1920 Constructive Computer Architecture
+Prereq: 6.1910
+Illustrates a constructive (as opposed to a descriptive) approach to computer architecture. Topics include combinational and pipelined arithmetic-logic units (ALU), in-order pipelined microarchitectures, branch prediction, blocking and unblocking caches, interrupts, virtual memory support, cache coherence and multicore architectures. Labs in a modern Hardware Design Language (HDL) illustrate various aspects of microprocessor design, culminating in a term project in which students present a multicore design running on an FPGA board.
 
-6.1040 Software Design
-Prereq: 6.1020, 6.1200[J]
-Provides design-focused instruction on how to build complex software applications. Design topics include classic human-computer interaction (HCI) design tactics (need finding, heuristic evaluation, prototyping, user testing), conceptual design (inventing, modeling and evaluating constituent concepts), social and ethical implications, abstract data modeling, and visual design. Implementation topics include reactive front-ends, web services, and databases. Students work both on individual projects and a larger team project in which they design and build full-stack web applications.
+6.5900 Computer System Architecture
+Prereq: 6.1910
+Introduction to the principles underlying modern computer architecture. Emphasizes the relationship among technology, hardware organization, and programming systems in the evolution of computer architecture. Topics include pipelined, out-of-order, and speculative execution; caches, virtual memory and exception handling, superscalar, very long instruction word (VLIW), vector, and multithreaded processors; on-chip networks, memory models, synchronization, and cache coherence protocols for multiprocessors.
 
-6.1060 Software Performance Engineering
-Prereq: 6.1020, 6.1210, 6.1910
-Project-based introduction to building efficient, high-performance and scalable software systems. Topics include performance analysis, algorithmic techniques for high performance, instruction-level optimizations, vectorization, cache and memory hierarchy optimization, and parallel programming.
+6.5910 Complex Digital Systems Design
+Prereq: 6.1910
+Introduction to the design and implementation of large-scale digital systems using hardware description languages and high-level synthesis tools in conjunction with standard commercial electronic design automation (EDA) tools. Emphasizes modular and robust designs, reusable modules, correctness by construction, architectural exploration, meeting area and timing constraints, and developing functional field-programmable gate array (FPGA) prototypes. Extensive use of CAD tools in weekly labs serve as preparation for a multi-person design project on multi-million gate FPGAs. Enrollment may be limited.
 
-6.5060 Algorithm Engineering
-Prereq: 6.1060, 6.1220[J]
-Covers the theory and practice of algorithms and data structures. Topics include models of computation, algorithm design and analysis, and performance engineering of algorithm implementations. Presents the design and implementation of sequential, parallel, cache-efficient, and external-memory algorithms. Illustrates many of the principles of algorithm engineering in the context of parallel algorithms and graph problems.
+6.5920 Parallel Computing
+Prereq: 6.1910
+Introduction to parallel and multicore computer architecture and programming. Topics include the design and implementation of multicore processors; networking, video, continuum, particle and graph applications for multicores; communication and synchronization algorithms and mechanisms; locality in parallel computations; computational models, including shared memory, streams, message passing, and data parallel; multicore mechanisms for synchronization, cache coherence, and multithreading. Performance evaluation of multicores; compilation and runtime systems for parallel computing. Substantial project required.
 
-6.5080 Multicore Programming
-Prereq: 6.1210
-Introduces principles and core techniques for programming multicore machines. Topics include locking, scalability, concurrent data structures, multiprocessor scheduling, load balancing, and state-of-the-art synchronization techniques, such as transactional memory. Includes sequence of programming assignments on a large multicore machine, culminating with the design of a highly concurrent application. Students taking graduate version complete additional assignments.
+6.5930 Hardware Architecture for Deep Learning
+Prereq: 6.1910, 6.3900
+Introduction to the design and implementation of hardware architectures for efficient processing of deep learning algorithms and tensor algebra in AI systems. Topics include basics of deep learning, optimization principles for programmable platforms, design principles of accelerator architectures, co-optimization of algorithms and hardware (including sparsity) and use of advanced technologies (including memristors and optical computing). Includes labs involving modeling and analysis of hardware architectures, architecting deep learning inference systems, and an open-ended design project. Students taking graduate version complete additional assignments.
 
-6.1100 Computer Language Engineering
-Prereq: 6.1020, 6.1910
-Analyzes issues associated with the implementation of higher-level programming languages. Fundamental concepts, functions, and structures of compilers. The interaction of theory and practice. Using tools in building software. Includes a multi-person project on compiler design and implementation.
+6.5940 TinyML and Efficient Deep Learning Computing
+Prereq: 6.1910, 6.3900
+Introduces efficient deep learning computing techniques that enable powerful deep learning applications on resource-constrained devices. Topics include model compression, pruning, quantization, neural architecture search, distributed training, data/model parallellism, gradient compression, on-device fine-tuning. It also introduces application-specific acceleration techniques for video recognition, point cloud, and generative AI (diffusion model, LLM). Students will get hands-on experience accelerating deep learning applications with an open-ended design project.
 
-6.1120 Dynamic Computer Language Engineering
-Prereq: 6.1020
-Studies the design and implementation of modern, dynamic programming languages. Topics include fundamental approaches for parsing, semantics and interpretation, virtual machines, garbage collection, just-in-time machine code generation, and optimization. Includes a semester-long, group project that delivers a virtual machine that spans all of these topics.
-
-6.5110 Foundations of Program Analysis
-Prereq: 6.1100
-Presents major principles and techniques for program analysis. Includes formal semantics, type systems and type-based program analysis, abstract interpretation and model checking and synthesis. Emphasis on Haskell and Ocaml, but no prior experience in these languages is assumed. Student assignments include implementing of techniques covered in class, including building simple verifiers.
-
-6.5120 Formal Reasoning About Programs
-Prereq: 6.1020, 6.1200[J]
-Surveys techniques for rigorous mathematical reasoning about correctness of software, emphasizing commonalities across approaches. Introduces interactive computer theorem proving with the Coq proof assistant, which is used for all assignments, providing immediate feedback on soundness of logical arguments. Covers common program-proof techniques, including operational semantics, model checking, abstract interpretation, type systems, program logics, and their applications to functional, imperative, and concurrent programs. Develops a common conceptual framework based on invariants, abstraction, and modularity applied to state and labeled transition systems.
-
-6.5150 Large-scale Symbolic Systems
-Prereq: 6.4100
-Concepts and techniques for the design and implementation of large software systems that can be adapted to uses not anticipated by the designer. Applications include compilers, computer-algebra systems, deductive systems, and some artificial intelligence applications. Covers means for decoupling goals from strategy, mechanisms for implementing additive data-directed invocation, work with partially-specified entities, and how to manage multiple viewpoints. Topics include combinators, generic operations, pattern matching, pattern-directed invocation, rule systems, backtracking, dependencies, indeterminacy, memoization, constraint propagation, and incremental refinement. Students taking graduate version complete additional assignments.
-
-6.5160[J] Classical Mechanics: A Computational Approach
-Prereq: PhysI, 18.03
-Classical mechanics in a computational framework, Lagrangian formulation, action, variational principles, and Hamilton's principle. Conserved quantities, Hamiltonian formulation, surfaces of section, chaos, and Liouville's theorem. Poincaré integral invariants, Poincaré-Birkhoff and KAM theorems. Invariant curves and cantori. Nonlinear resonances, resonance overlap and transition to chaos. Symplectic integration. Adiabatic invariants. Applications to simple physical systems and solar system dynamics. Extensive use of computation to capture methods, for simulation, and for symbolic analysis. Programming experience required.
-
-6.4200[J] Robotics: Science and Systems
-Prereq: 6.100A, 16.06
-Presents concepts, principles, and algorithmic foundations for robots and autonomous vehicles operating in the physical world. Topics include sensing, kinematics and dynamics, state estimation, computer vision, perception, learning, control, motion planning, and embedded system development. Students design and implement advanced algorithms on complex robotic platforms capable of agile autonomous navigation and real-time interaction with the physical word. Students engage in extensive written and oral communication exercises. Enrollment limited.
-
-6.4210 Robotic Manipulation
-Prereq: 6.100A, 6.3900
-Introduces the fundamental algorithmic approaches for creating robot systems that can autonomously manipulate physical objects in unstructured environments such as homes and restaurants. Topics include perception (including approaches based on deep learning and approaches based on 3D geometry), planning (robot kinematics and trajectory generation, collision-free motion planning, task-and-motion planning, and planning under uncertainty), as well as dynamics and control (both model-based and learning-based). Students taking graduate version complete additional assignments. Students engage in extensive written and oral communication exercises.
-
-6.8200 Sensorimotor Learning
-Prereq: 6.7900
-Provides an in-depth view of the state-of-the-art learning methods for control and the know-how of applying these techniques. Topics span reinforcement learning, self-supervised learning, imitation learning, model-based learning, and advanced deep learning architectures, and specific machine learning challenges unique to building sensorimotor systems. Discusses how to identify if learning-based control can help solve a particular problem, how to formulate the problem in the learning framework, and what algorithm to use. Applications of algorithms in robotics, logistics, recommendation systems, playing games, and other control domains covered. Instruction involves two lectures a week, practical experience through exercises, discussion of current research directions, and a group project.
-
-6.8210 Underactuated Robotics
-Prereq: 18.03, 18.06
-Covers nonlinear dynamics and control of underactuated mechanical systems, with an emphasis on computational methods. Topics include the nonlinear dynamics of robotic manipulators, applied optimal and robust control and motion planning. Discussions include examples from biology and applications to legged locomotion, compliant manipulation, underwater robots, and flying machines.
-
-6.1600 Foundations of Computer Security
-Prereq: 6.1210, 6.1800
-Fundamental notions and big ideas for achieving security in computer systems. Topics include cryptographic foundations (pseudorandomness, collision-resistant hash functions, authentication codes, signatures, authenticated encryption, public-key encryption), systems ideas (isolation, non-interference, authentication, access control, delegation, trust), and implementation techniques (privilege separation, fuzzing, symbolic execution, runtime defenses, side-channel attacks). Case studies of how these ideas are realized in deployed systems. Lab assignments apply ideas from lectures to learn how to build secure systems and how they can be attacked.
-
-6.5610 Applied Cryptography and Security
-Prereq: 6.1200[J], 6.1800
-Emphasis on applied cryptography. May include: basic notion of systems security, cryptographic hash functions, symmetric cryptography (one-time pad, block ciphers, stream ciphers, message authentication codes), hash functions, key-exchange, public-key cryptography (encryption, digital signatures), elliptic curve cryptography,  secret-sharing, fully homomorphic encryption, zero-knowledge proofs, and electronic voting. Assignments include a final group project. Topics may vary year to year.
-
-6.5620[J] Foundations of Cryptography
-Prereq: 6.1400[J]
-A rigorous introduction to modern cryptography. Emphasis on the fundamental cryptographic primitives such as public-key encryption, digital signatures, and pseudo-random number generation, as well as advanced cryptographic primitives such as zero-knowledge proofs, homomorphic encryption, and secure multiparty computation.
-
-6.5630 Advanced Topics in Cryptography
-Prereq: 6.5620[J]
-In-depth exploration of recent results in cryptography.
-
-6.5660 Computer Systems Security
-Prereq: 6.1020, 6.1800
-Design and implementation of secure computer systems. Lectures cover attacks that compromise security as well as techniques for achieving security, based on recent research papers. Topics include operating system security, privilege separation, capabilities, language-based security, cryptographic network protocols, trusted hardware, and security in web applications and mobile phones. Labs involve implementing and compromising a web application that sandboxes arbitrary code, and a group final project.
-
-6.3000 Signal Processing
-Prereq: 6.100A, 18.03
-Fundamentals of signal processing, focusing on the use of Fourier methods to analyze and process signals such as sounds and images. Topics include Fourier series, Fourier transforms, the Discrete Fourier Transform, sampling, convolution, deconvolution, filtering, noise reduction, and compression. Applications draw broadly from areas of contemporary interest with emphasis on both analysis and design.
-
-6.3010 Signals, Systems and Inference
-Prereq: 6.3000, 6.3700
-Covers signals, systems and inference in communication, control and signal processing. Topics include input-output and state-space models of linear systems driven by deterministic and random signals; time- and transform-domain representations in discrete and continuous time; and group delay. State feedback and observers. Probabilistic models; stochastic processes, correlation functions, power spectra, spectral factorization. Least-mean square error estimation; Wiener filtering. Hypothesis testing; detection; matched filters.
-
-6.3020[J] Fundamentals of Music Processing
-Prereq: 6.3000, 21M.051
-Analyzes recorded music in digital audio form using advanced signal processing and optimization techniques to understand higher-level musical meaning. Covers fundamental tools like windowing, feature extraction, discrete and short-time Fourier transforms, chromagrams, and onset detection. Addresses analysis methods including dynamic time warping, dynamic programming, self-similarity matrices, and matrix factorization. Explores a variety of applications, such as event classification, audio alignment, chord recognition, structural analysis, tempo and beat tracking, content-based audio retrieval, and audio decomposition. Students taking graduate version complete different assignments.
-
-6.7000 Discrete-Time Signal Processing
-Prereq: 6.3010
-Representation, analysis, and design of discrete time signals and systems. Decimation, interpolation, and sampling rate conversion. Noise shaping. Flowgraph structures for DT systems. IIR and FIR filter design techniques. Parametric signal modeling, linear prediction, and lattice filters. Discrete Fourier transform, DFT computation, and FFT algorithms. Spectral analysis, time-frequency analysis, relation to filter banks. Multirate signal processing, perfect reconstruction filter banks, and connection to wavelets.
-
-6.7010 Digital Image Processing
-Prereq: 6.3000, 6.3700
-Introduces models, theories, and algorithms key to digital image processing. Core topics covered include models of image formation, image processing fundamentals, filtering in the spatial and frequency domains, image transforms, and feature extraction. Additional topics include image enhancement, image restoration and reconstruction, compression of images and videos, visual recognition, and the application of machine learning-based approaches to image processing. Includes student-driven term project.
-
-6.7020 Array Processing
-Prereq: 6.7000, 2.687
-Adaptive and non-adaptive processing of signals received at arrays of sensors. Deterministic beamforming, space-time random processes, optimal and adaptive algorithms, and the sensitivity of algorithm performance to modeling errors and limited data. Methods of improving the robustness of algorithms to modeling errors and limited data are derived. Advanced topics include an introduction to matched field processing and physics-based methods of estimating signal statistics. Homework exercises providing the opportunity to implement and analyze the performance of algorithms in processing data supplied during the course.
+6.5950 Secure Hardware Design
+Prereq: 6.1910
+Introduction to basic concepts, principles, and implementation issues in the designing of secure hardware systems. Through a mixture of lectures and paper discussions, covers state-of-the-art security attacks and defenses targeting the computer architecture, digital circuits, and physics layers of computer systems. Emphasizes both the conceptual and the practical aspects of security issues in modern hardware systems. Topics include microarchitectural timing side channels, speculative execution attacks, RowHammer, Trusted Execution Environment, physical attacks, hardware support for software security, and verification of digital systems. Students taking graduate version complete additional assignments.
 
 6.1200[J] Mathematics for Computer Science
 Prereq: CalcI
@@ -610,18 +394,234 @@ The power and sources of randomness in computation. Connections and applications
 Prereq: 6.1400[J], 6.5400[J], 6.6410[J]
 Introduction to quantum computational complexity theory, the study of the fundamental capabilities and limitations of quantum computers. Topics include complexity classes, lower bounds, communication complexity, proofs and advice, and interactive proof systems in the quantum world; classical simulation of quantum circuits. The objective is to bring students to the research frontier.
 
-6.8300 Advances in Computer Vision
-Prereq: 6.4300
-Advanced topics in computer vision with a focus on the use of machine learning techniques and applications in graphics and human-computer interface. Covers image representations, texture models, structure-from-motion algorithms, Bayesian techniques, object and scene recognition, tracking, shape modeling, and image databases. Applications may include face recognition, multimodal interaction, interactive systems, cinematic special effects, and photorealistic rendering. Includes instruction and practice in written and oral communication. Students taking graduate version complete additional assignments.
+6.3260[J] Networks
+Prereq: 6.3700
+Highlights common principles that permeate the functioning of diverse technological, economic and social networks. Utilizes three sets of tools for analyzing networks -- random graph models, optimization, and game theory -- to study informational and learning cascades; economic and financial networks; social influence networks; formation of social groups; communication networks and the Internet; consensus and gossiping; spread and control of epidemics; control and use of energy networks; and biological networks. Students taking graduate version complete additional assignments.
 
-6.8320 Advanced Topics in Computer Vision
-Prereq: 6.8300 
-Seminar exploring advanced research topics in the field of computer vision; focus varies with lecturer. Typically structured around discussion of assigned research papers and presentations by students. Example research areas explored in this seminar include learning in vision, computational imaging techniques, multimodal human-computer interaction, biomedical imaging, representation and estimation methods used in modern computer vision.
+6.7210[J] Introduction to Mathematical Programming
+Prereq: 18.06
+Introduction to linear optimization and its extensions emphasizing both methodology and the underlying mathematical structures and geometrical ideas. Covers classical theory of linear programming as well as some recent advances in the field. Topics: simplex method; duality theory; sensitivity analysis; network flow problems; decomposition; robust optimization; integer programming; interior point algorithms for linear programming; and introduction to combinatorial optimization and NP-completeness.
 
-6.8370 Advanced Computational Photography
-Prereq: CalcII, 6.1020
-Presents fundamentals and applications of hardware and software techniques used in digital and computational photography, with an emphasis on software methods. Provides sufficient background to implement solutions to photographic challenges and opportunities. Topics include cameras and image formation, image processing and image representations, high-dynamic-range imaging, human visual perception and color, single view 3-D model reconstruction, morphing, data-rich photography, super-resolution, and image-based rendering. Students taking graduate version complete additional assignments.
+6.7220[J] Nonlinear Optimization
+Prereq: 18.06, 18.100A
+Unified analytical and computational approach to nonlinear optimization problems. Unconstrained optimization methods include gradient, conjugate direction, Newton, sub-gradient and first-order methods. Constrained optimization methods include feasible directions, projection, interior point methods, and Lagrange multiplier methods. Convex analysis, Lagrangian relaxation, nondifferentiable optimization, and applications in integer programming. Comprehensive treatment of optimality conditions and Lagrange multipliers. Geometric approach to duality theory. Applications drawn from control, communications, machine learning, and resource allocation problems.
 
-6.8371 Digital and Computational Photography
-Prereq: CalcII, 6.1010
-Presents fundamentals and applications of hardware and software techniques used in digital and computational photography, with an emphasis on software methods. Provides sufficient background to implement solutions to photographic challenges and opportunities. Topics include cameras and image formation, image processing and image representations, high-dynamic-range imaging, human visual perception and color, single view 3-D model reconstruction, morphing, data-rich photography, super-resolution, and image-based rendering. Students taking graduate version complete additional assignments.
+6.7230[J] Algebraic Techniques and Semidefinite Optimization
+Prereq: 6.7210[J]
+Theory and computational techniques for optimization problems involving polynomial equations and inequalities with particular, emphasis on the connections with semidefinite optimization. Develops algebraic and numerical approaches of general applicability, with a view towards methods that simultaneously incorporate both elements, stressing convexity-based ideas, complexity results, and efficient implementations. Examples from several engineering areas, in particular systems and control applications. Topics include semidefinite programming, resultants/discriminants, hyperbolic polynomials, Groebner bases, quantifier elimination, and sum of squares.
+
+6.7240 Game Theory with Engineering Applications
+Prereq: 6.3702
+Introduction to fundamentals of game theory and mechanism design with motivations for each topic drawn from engineering applications (including distributed control of wireline/wireless communication networks, transportation networks, pricing). Emphasis on the foundations of the theory, mathematical tools, as well as modeling and the equilibrium notion in different environments. Topics include normal form games, supermodular games, dynamic games, repeated games, games with incomplete/imperfect information, mechanism design, cooperative game theory, and network games.
+
+6.7250 Optimization for Machine Learning
+Prereq: 6.3900, 18.06
+Optimization algorithms are central to all of machine learning. Covers a variety of topics in optimization, with a focus on non-convex optimization. Focuses on both classical and cutting-edge results, including foundational topics grounded in convexity, complexity theory of first-order methods, stochastic optimization, as well as recent progress in non-Euclidean optimization, deep learning, and beyond. Prepares students to appreciate a broad spectrum of ideas in OPTML, learning to be not only informed users but also gaining exposure to research questions in the area.
+
+6.7260 Network Science and Models
+Prereq: 6.3702, 18.06
+Introduces the main mathematical models used to describe large networks and dynamical processes that evolve on networks. Static models of random graphs, preferential attachment, and other graph evolution models. Epidemic propagation, opinion dynamics, social learning, and inference in networks. Applications drawn from social, economic, natural, and infrastructure networks, as well as networked decision systems such as sensor networks.
+
+6.7300[J] Introduction to Modeling and Simulation
+Prereq: 18.06
+Introduction to computational techniques for modeling and simulation of a variety of large and complex engineering, science, and socio-economical systems. Prepares students for practical use and development of computational engineering in their own research and future work. Topics include mathematical formulations (e.g., automatic assembly of constitutive and conservation principles); linear system solvers (sparse and iterative); nonlinear solvers (Newton and homotopy); ordinary, time-periodic and partial differential equation solvers; and model order reduction. Students develop their own models and simulators for self-proposed applications, with an emphasis on creativity, teamwork, and communication. Prior basic linear algebra required and at least one numerical programming language (e.g., MATLAB, Julia, Python, etc.) helpful.
+
+6.7310[J] Introduction to Numerical Methods
+Prereq: 18.06
+Advanced introduction to numerical analysis: accuracy and efficiency of numerical algorithms. In-depth coverage of sparse-matrix/iterative and dense-matrix algorithms in numerical linear algebra (for linear systems and eigenproblems). Floating-point arithmetic, backwards error analysis, conditioning, and stability. Other computational topics (e.g., numerical integration or nonlinear optimization) may also be surveyed. Final project involves some programming.
+
+6.7320[J] Parallel Computing and Scientific Machine Learning
+Prereq: 18.06
+Introduction to scientific machine learning with an emphasis on developing scalable differentiable programs. Covers scientific computing topics (numerical differential equations, dense and sparse linear algebra, Fourier transformations, parallelization of large-scale scientific simulation) simultaneously with modern data science (machine learning, deep neural networks, automatic differentiation), focusing on the emerging techniques at the connection between these areas, such as neural differential equations and physics-informed deep learning. Provides direct experience with the modern realities of optimizing code performance for supercomputers, GPUs, and multicores in a high-level language.
+
+6.7330[J] Numerical Methods for Partial Differential Equations
+Prereq: 18.03
+Covers the fundamentals of modern numerical techniques for a wide range of linear and nonlinear elliptic, parabolic, and hyperbolic partial differential and integral equations. Topics include mathematical formulations; finite difference, finite volume, finite element, and boundary element discretization methods; and direct and iterative solution techniques. The methodologies described form the foundation for computational approaches to engineering systems involving heat transfer, solid mechanics, fluid dynamics, and electromagnetics. Computer assignments requiring programming.
+
+6.7340[J] Fast Methods for Partial Differential and Integral Equations
+Prereq: 16.920[J]
+Unified introduction to the theory and practice of modern, near linear-time, numerical methods for large-scale partial-differential and integral equations. Topics include preconditioned iterative methods; generalized Fast Fourier Transform and other butterfly-based methods; multiresolution approaches, such as multigrid algorithms and hierarchical low-rank matrix decompositions; and low and high frequency Fast Multipole Methods. Example applications include aircraft design, cardiovascular system modeling, electronic structure computation, and tomographic imaging.
+
+6.8610 Quantitative Methods for Natural Language Processing
+Prereq: 6.3900, 18.06
+Introduces the study of human language from a computational perspective, including syntactic, semantic and discourse processing models. Emphasizes machine learning methods and algorithms. Uses these methods and models in applications such as syntactic parsing, information extraction, statistical machine translation, dialogue systems. Students taking graduate version complete additional assignments.
+
+6.8620[J] Spoken Language Processing
+Prereq: 6.3000, 6.3900
+Introduces the rapidly developing field of spoken language processing including automatic speech recognition. Topics include acoustic theory of speech production, acoustic-phonetics, signal representation, acoustic and language modeling, search, hidden Markov modeling, neural networks models, end-to-end deep learning models, and other machine learning techniques applied to speech and language processing topics. Lecture material intersperses theory with practice. Includes problem sets, laboratory exercises, and open-ended term project.
+
+6.8630[J] Natural Language and the Computer Representation of Knowledge
+Prereq: 6.4100
+Explores the relationship between the computer representation and acquisition of knowledge and the structure of human language, its acquisition, and hypotheses about its differentiating uniqueness. Emphasizes development of analytical skills necessary to judge the computational implications of grammatical formalisms and their role in connecting human intelligence to computational intelligence. Uses concrete examples to illustrate particular computational issues in this area.
+
+6.2300 Electromagnetics Waves and Applications
+Prereq: CalcII, PhysII, 6.2000, 6.3000
+Analysis and design of modern applications that employ electromagnetic phenomena for signals and power transmission in RF, microwaves, optical and wireless communication systems. Fundamentals include dynamic solutions for Maxwell's equations; electromagnetic power and energy, waves in media, metallic and dielectric waveguides, radiation, and diffraction; resonance; filters; and acoustic analogs. Lab activities range from building to testing of devices and systems (e.g., antenna arrays, radars, dielectric waveguides). Students work in teams on self-proposed maker-style design projects with a focus on fostering creativity, teamwork, and debugging skills.
+
+6.2370 Modern Optics Project Laboratory
+Prereq: 8.03, 6.3000
+Lectures, laboratory exercises and projects on optical signal generation, transmission, detection, storage, processing and display. Topics include polarization properties of light; reflection and refraction; coherence and interference; Fraunhofer and Fresnel diffraction; holography; Fourier optics; coherent and incoherent imaging and signal processing systems; optical properties of materials; lasers and LEDs; electro-optic and acousto-optic light modulators; photorefractive and liquid-crystal light modulation; display technologies; optical waveguides and fiber-optic communication systems; photodetectors. Students may use this subject to find an advanced undergraduate project. Students engage in extensive oral and written communication exercises.
+
+6.2400 Introduction to Quantum Systems Engineering
+Prereq: 6.2300, 18.06
+Introduction to the quantum mechanics needed to engineer quantum systems for computation, communication, and sensing. Topics include: motivation for quantum engineering, qubits and quantum gates, rules of quantum mechanics, mathematical background, quantum electrical circuits and other physical quantum systems, harmonic and anharmonic oscillators, measurement, the Schrödinger equation, noise, entanglement, benchmarking, quantum communication, and quantum algorithms. No prior experience with quantum mechanics is assumed.
+
+6.2410 Quantum Engineering Platforms
+Prereq: 6.2400
+Provides practical knowledge and quantum engineering experience with several physical platforms for quantum computation, communication, and sensing, including photonics, superconducting qubits, and trapped ions. Labs include both a hardware component -- to gain experience with challenges, design, and non-idealities -- and a cloud component to run algorithms on state of the art commercial systems. Use entangled photons to communicate securely (quantum key distribution). Run quantum algorithms on trapped ion and superconducting quantum computers.
+
+6.6300 Electromagnetics
+Prereq: PhysII, 6.3000
+Explores electromagnetic phenomena in modern applications, including wireless and optical communications, circuits, computer interconnects and peripherals, microwave communications and radar, antennas, sensors, micro-electromechanical systems, and power generation and transmission. Fundamentals include quasistatic and dynamic solutions to Maxwell's equations; waves, radiation, and diffraction; coupling to media and structures; guided and unguided waves; modal expansions; resonance; acoustic analogs; and forces, power, and energy.
+
+6.6310 Optics and Photonics
+Prereq: 6.2300
+Introduction to fundamental concepts and techniques of optics, photonics, and fiber optics, aimed at developing skills for independent research. Topics include: Review of Maxwell's equations, light propagation, reflection and transmission, dielectric mirrors and filters. Scattering matrices, interferometers, and interferometric measurement. Fresnel and Fraunhoffer diffraction theory. Lenses, optical imaging systems, and software design tools. Gaussian beams, propagation and resonator design. Optical waveguides, optical fibers and photonic devices for encoding and detection. Discussion of research operations / funding and professional development topics. The course reviews and introduces mathematical methods and techniques, which are fundamental in optics and photonics, but also useful in many other engineering specialties.
+
+6.6330 Fundamentals of Photonics
+Prereq: 2.71
+Covers the fundamentals of optics and the interaction of light and matter, leading to devices such as light emitting diodes, optical amplifiers, and lasers. Topics include classical ray, wave, beam, and Fourier optics; Maxwell's electromagnetic waves; resonators; quantum theory of photons; light-matter interaction; laser amplification; lasers; and semiconductors optoelectronics. Students taking graduate version complete additional assignments.
+
+6.6340[J] Nonlinear Optics
+Prereq: 6.2300
+Techniques of nonlinear optics with emphasis on fundamentals for research in optics, photonics, spectroscopy, and ultrafast science. Topics include: electro-optic modulators and devices, sum and difference frequency generation, and parametric conversion. Nonlinear propagation effects in optical fibers including self-phase modulation, pulse compression, solitons, communication, and femtosecond fiber lasers. Review of quantum mechanics, interaction of light with matter, laser gain and operation, density matrix techniques, perturbation theory, diagrammatic methods, nonlinear spectroscopies, ultrafast lasers and measurements. Discussion of research operations and funding and professional development topics. Introduces fundamental methods and techniques needed for independent research in advanced optics and photonics, but useful in many other engineering and physics disciplines.
+
+6.6400 Applied Quantum and Statistical Physics
+Prereq: 18.06
+Elementary quantum mechanics and statistical physics. Introduces applied quantum physics. Emphasizes experimental basis for quantum mechanics. Applies Schrodinger's equation to the free particle, tunneling, the harmonic oscillator, and hydrogen atom. Variational methods. Elementary statistical physics; Fermi-Dirac, Bose-Einstein, and Boltzmann distribution functions. Simple models for metals, semiconductors, and devices such as electron microscopes, scanning tunneling microscope, thermonic emitters, atomic force microscope, and more. Some familiarity with continuous time Fourier transforms recommended.
+
+6.6410[J] Quantum Computation
+Prereq: 8.05, 18.06
+Provides an introduction to the theory and practice of quantum computation. Topics covered: physics of information processing; quantum algorithms including the factoring algorithm and Grover's search algorithm; quantum error correction; quantum communication and cryptography.
+
+6.6420[J] Quantum Information Science
+Prereq: 6.6410[J]
+Examines quantum computation and quantum information. Topics include quantum circuits, the quantum Fourier transform and search algorithms, the quantum operations formalism, quantum error correction, Calderbank-Shor-Steane and stabilizer codes, fault tolerant quantum computation, quantum data compression, quantum entanglement, capacity of quantum channels, and quantum cryptography and the proof of its security. Prior knowledge of quantum mechanics required.
+
+6.2000 Electrical Circuits: Modeling and Design of Physical Systems
+Prereq: PhysII
+Fundamentals of linear systems, and abstraction modeling of multi-physics lumped and distributed systems using lumped electrical circuits. Linear networks involving independent and dependent sources, resistors, capacitors, and inductors. Extensions to include operational amplifiers and transducers. Dynamics of first- and second-order networks; analysis and design in the time and frequency domains; signal and energy processing applications. Design exercises. Weekly laboratory with microcontroller and transducers.
+
+6.2020[J] Electronics Project Laboratory
+Prereq: None
+Intuition-based introduction to electronics, electronic components, and test equipment such as oscilloscopes, multimeters, and signal generators. Key components studied and used are op-amps, comparators, bi-polar transistors, and diodes (including LEDs). Students design, build, and debug small electronics projects (often featuring sound and light) to put their new knowledge into practice. Upon completing the class, students can take home a kit of components. Intended for students with little or no previous background in electronics. Enrollment may be limited.
+
+6.2030 Electronics First Laboratory
+Prereq: PhysII
+Practical introduction to the design and construction of electronic circuits for information processing and control. Laboratory exercises include activities such as the construction of oscillators for a simple musical instrument, a laser audio communicator, a countdown timer, an audio amplifier, and a feedback-controlled solid-state lighting system for daylight energy conservation. Introduces basic electrical components including resistors, capacitors, and inductors; basic assembly techniques for electronics include breadboarding and soldering; and programmable system-on-chip electronics and C programming language. Enrollment limited.
+
+6.2040 Analog Electronics Laboratory
+Prereq: 6.2000
+Experimental laboratory explores the design, construction, and debugging of analog electronic circuits. Lectures and laboratory projects in the first half of the course investigate the performance characteristics of semiconductor devices (diodes, BJTs, and MOSFETs) and functional analog building blocks, including single-stage amplifiers, op amps, small audio amplifier, filters, converters, sensor circuits, and medical electronics (ECG, pulse-oximetry). Projects involve design, implementation, and presentation in an environment similar to that of industry engineering design teams. Instruction and practice in written and oral communication provided. Opportunity to simulate real-world problems and solutions that involve tradeoffs and the use of engineering judgment.
+
+6.2050 Digital Systems Laboratory
+Prereq: 6.1910
+Lab-intensive subject that investigates digital systems with a focus on FPGAs. Lectures and labs cover logic, flip flops, counters, timing, synchronization, finite-state machines, digital signal processing, communication protocols, and modern sensors. Prepares students for the design and implementation of a large-scale final project of their choice: games, music, digital filters, wireless communications, video, or graphics. Extensive use of System/Verilog for describing and implementing and verifying digital logic designs.
+
+6.2060 Microcomputer Project Laboratory
+Prereq: 6.2000
+Introduces analysis and design of embedded systems. Microcontrollers provide adaptation, flexibility, and real-time control. Emphasizes construction of complete systems, including a five-axis robot arm, a fluorescent lamp ballast, a tomographic imaging station (e.g., a CAT scan), and a simple calculator. Presents a wide range of basic tools, including software and development tools, programmable system on chip, peripheral components such as A/D converters, communication schemes, signal processing techniques, closed-loop digital feedback control, interface and power electronics, and modeling of electromechanical systems. Includes a sequence of assigned projects, followed by a final project of the student's choice, emphasizing creativity and uniqueness. Provides instruction in written and oral communication. To satisfy the independent inquiry component of this subject, students expand the scope of their laboratory project.
+
+6.2080 Semiconductor Electronic Circuits
+Prereq: 6.2000
+Provides an introduction to basic circuit design, starting from basic semiconductor devices such as diodes and transistors, large and small signal models and analysis, to circuits such as basic amplifier and opamp circuits. Labs give students access to CAD/EDA tools to design, analyze, and layout analog circuits. At the end of the term, students have their chip design fabricated using a 22nm FinFET CMOS process.
+
+6.2090 Solid-State Circuits
+Prereq: 6.2080
+Fosters deep understanding and intuition that is crucial in innovating analog circuits and optimizing the whole system in bipolar junction transistor (BJT) and metal oxide semiconductor (MOS) technologies. Covers both theory and real-world applications of basic amplifier structures, operational amplifiers, temperature sensors, bandgap references. Covers topics such as noise, linearity and stability. Homework and labs give students access to CAD/EDA tools to design and analyze analog circuits. Provides practical experience through lab exercises, including a broadband amplifier design and characterization. Students taking graduate version complete additional assignments.
+
+6.6000 CMOS Analog and Mixed-Signal Circuit Design
+Prereq: 6.2090
+A detailed exposition of the principles involved in designing and optimizing analog and mixed-signal circuits in CMOS technologies. Small-signal and large-signal models. Systemic methodology for device sizing and biasing. Basic circuit building blocks. Operational amplifier design. Principles of switched capacitor networks including switched-capacitor and continuous-time integrated filters. Basic and advanced A/D and D/A converters, delta-sigma modulators, RF and other signal processing circuits. Design projects on op amps and subsystems are a required part of the subject.
+
+6.6010 Analysis and Design of Digital Integrated Circuits
+Prereq: 6.1910, 6.2500
+Device and circuit level optimization of digital building blocks. Circuit design styles for logic, arithmetic, and sequential blocks. Estimation and minimization of energy consumption. Interconnect models and parasitics, device sizing and logical effort, timing issues (clock skew and jitter), and active clock distribution techniques. Memory architectures, circuits (sense amplifiers), and devices. Evaluation of how design choices affect tradeoffs across key metrics including energy consumption, speed, robustness, and cost. Extensive use of modern design flow and EDA/CAD tools for the analysis and design of digital building blocks and digital VLSI design for labs and design projects
+
+6.6020 High-Frequency Integrated Circuits
+Prereq: 6.2080
+Principles and techniques of high-speed integrated circuits used in wireless/wireline data links and remote sensing. On-chip passive component design of inductors, capacitors, and antennas. Analysis of distributed effects, such as transmission line modeling, S-parameters, and Smith chart. Transceiver architectures and circuit blocks, which include low-noise amplifiers, mixers, voltage-controlled oscillators, power amplifiers, and frequency dividers. Involves IC/EM simulation and laboratory projects.
+
+6.100A Introduction to Computer Science Programming in Python
+Prereq: None
+Introduction to computer science and programming for students with little or no programming experience. Students develop skills to program and use computational techniques to solve problems. Topics include the notion of computation, Python, simple algorithms and data structures, testing and debugging, and algorithmic complexity. Combination of 6.100A and 6.100B or 16.C20[J] counts as REST subject. Final given in the seventh week of the term.
+
+6.100B Introduction to Computational Thinking and Data Science
+Prereq: 6.100A
+Provides an introduction to using computation to understand real-world phenomena. Topics include plotting, stochastic programs, probability and statistics, random walks, Monte Carlo simulations, modeling data, optimization problems, and clustering. Combination of 6.100A and 6.100B counts as REST subject.
+
+6.1010 Fundamentals of Programming
+Prereq: 6.100A
+Introduces fundamental concepts of programming. Designed to develop skills in applying basic methods from programming languages to abstract problems. Topics include programming and Python basics, computational concepts, software engineering, algorithmic techniques, data types, and recursion.  Lab component consists of software design, construction, and implementation of design. Enrollment may be limited.
+
+6.1020 Software Construction
+Prereq: 6.1010
+Introduces fundamental principles and techniques of software development: how to write software that is safe from bugs, easy to understand, and ready for change. Topics include specifications and invariants; testing, test-case generation, and coverage; abstract data types and representation independence; design patterns for object-oriented programming; concurrent programming, including message passing and shared memory concurrency, and defending against races and deadlock; and functional programming with immutable data and higher-order functions. Includes weekly programming exercises and larger group programming projects.
+
+6.1040 Software Design
+Prereq: 6.1020, 6.1200[J]
+Provides design-focused instruction on how to build complex software applications. Design topics include classic human-computer interaction (HCI) design tactics (need finding, heuristic evaluation, prototyping, user testing), conceptual design (inventing, modeling and evaluating constituent concepts), social and ethical implications, abstract data modeling, and visual design. Implementation topics include reactive front-ends, web services, and databases. Students work both on individual projects and a larger team project in which they design and build full-stack web applications.
+
+6.1060 Software Performance Engineering
+Prereq: 6.1020, 6.1210, 6.1910
+Project-based introduction to building efficient, high-performance and scalable software systems. Topics include performance analysis, algorithmic techniques for high performance, instruction-level optimizations, vectorization, cache and memory hierarchy optimization, and parallel programming.
+
+6.5060 Algorithm Engineering
+Prereq: 6.1060, 6.1220[J]
+Covers the theory and practice of algorithms and data structures. Topics include models of computation, algorithm design and analysis, and performance engineering of algorithm implementations. Presents the design and implementation of sequential, parallel, cache-efficient, and external-memory algorithms. Illustrates many of the principles of algorithm engineering in the context of parallel algorithms and graph problems.
+
+6.5080 Multicore Programming
+Prereq: 6.1210
+Introduces principles and core techniques for programming multicore machines. Topics include locking, scalability, concurrent data structures, multiprocessor scheduling, load balancing, and state-of-the-art synchronization techniques, such as transactional memory. Includes sequence of programming assignments on a large multicore machine, culminating with the design of a highly concurrent application. Students taking graduate version complete additional assignments.
+
+6.3000 Signal Processing
+Prereq: 6.100A, 18.03
+Fundamentals of signal processing, focusing on the use of Fourier methods to analyze and process signals such as sounds and images. Topics include Fourier series, Fourier transforms, the Discrete Fourier Transform, sampling, convolution, deconvolution, filtering, noise reduction, and compression. Applications draw broadly from areas of contemporary interest with emphasis on both analysis and design.
+
+6.3010 Signals, Systems and Inference
+Prereq: 6.3000, 6.3700
+Covers signals, systems and inference in communication, control and signal processing. Topics include input-output and state-space models of linear systems driven by deterministic and random signals; time- and transform-domain representations in discrete and continuous time; and group delay. State feedback and observers. Probabilistic models; stochastic processes, correlation functions, power spectra, spectral factorization. Least-mean square error estimation; Wiener filtering. Hypothesis testing; detection; matched filters.
+
+6.3020[J] Fundamentals of Music Processing
+Prereq: 6.3000, 21M.051
+Analyzes recorded music in digital audio form using advanced signal processing and optimization techniques to understand higher-level musical meaning. Covers fundamental tools like windowing, feature extraction, discrete and short-time Fourier transforms, chromagrams, and onset detection. Addresses analysis methods including dynamic time warping, dynamic programming, self-similarity matrices, and matrix factorization. Explores a variety of applications, such as event classification, audio alignment, chord recognition, structural analysis, tempo and beat tracking, content-based audio retrieval, and audio decomposition. Students taking graduate version complete different assignments.
+
+6.7000 Discrete-Time Signal Processing
+Prereq: 6.3010
+Representation, analysis, and design of discrete time signals and systems. Decimation, interpolation, and sampling rate conversion. Noise shaping. Flowgraph structures for DT systems. IIR and FIR filter design techniques. Parametric signal modeling, linear prediction, and lattice filters. Discrete Fourier transform, DFT computation, and FFT algorithms. Spectral analysis, time-frequency analysis, relation to filter banks. Multirate signal processing, perfect reconstruction filter banks, and connection to wavelets.
+
+6.7010 Digital Image Processing
+Prereq: 6.3000, 6.3700
+Introduces models, theories, and algorithms key to digital image processing. Core topics covered include models of image formation, image processing fundamentals, filtering in the spatial and frequency domains, image transforms, and feature extraction. Additional topics include image enhancement, image restoration and reconstruction, compression of images and videos, visual recognition, and the application of machine learning-based approaches to image processing. Includes student-driven term project.
+
+6.7020 Array Processing
+Prereq: 6.7000, 2.687
+Adaptive and non-adaptive processing of signals received at arrays of sensors. Deterministic beamforming, space-time random processes, optimal and adaptive algorithms, and the sensitivity of algorithm performance to modeling errors and limited data. Methods of improving the robustness of algorithms to modeling errors and limited data are derived. Advanced topics include an introduction to matched field processing and physics-based methods of estimating signal statistics. Homework exercises providing the opportunity to implement and analyze the performance of algorithms in processing data supplied during the course.
+
+6.4510 Engineering Interactive Technologies
+Prereq: 6.9010
+Provides instruction in building cutting-edge interactive technologies, explains the underlying engineering concepts, and shows how those technologies evolved over time. Students use a studio format (i.e., extended periods of time) for constructing software and hardware prototypes. Topics include interactive technologies, such as multi-touch, augmented reality, haptics, wearables, and shape-changing interfaces. In a group project, students build their own interactive hardware/software prototypes and present them in a live demo at the end of term. Enrollment may be limited.
+
+6.4530[J] Principles and Practice of Assistive Technology
+Prereq: ?
+Students work closely with people with disabilities to develop assistive and adaptive technologies that help them live more independently. Covers design methods and problem-solving strategies; human factors; human-machine interfaces; community perspectives; social and ethical aspects; and assistive technology for motor, cognitive, perceptual, and age-related impairments. Prior knowledge of one or more of the following areas useful: software; electronics; human-computer interaction; cognitive science; mechanical engineering; control; or MIT hobby shop, MIT PSC, or other relevant independent project experience. Enrollment may be limited.
+
+6.4550[J] Interactive Music Systems
+Prereq: 6.1010, 21M.301
+Explores audio synthesis, musical structure, human computer interaction (HCI), and visual presentation for the creation of interactive musical experiences. Topics include audio synthesis; mixing and looping; MIDI sequencing; generative composition; motion sensors; music games; and graphics for UI, visualization, and aesthetics. Includes weekly programming assignments in python. Teams build an original, dynamic, and engaging interactive music system for their final project. Students taking graduate version complete different assignments. Limited to 36.
+
+6.4570[J] Creating Video Games
+Prereq: 6.100A, CMS.301
+Introduces students to the complexities of working in small, multidisciplinary teams to develop video games. Covers creative design and production methods, stressing design iteration and regular testing across all aspects of game development (design, visual arts, music, fiction, and programming). Assumes a familiarity with current video games, and the ability to discuss games critically. Previous experience in audio design, visual arts, or project management recommended. Limited to 36.
+
+6.4590[J] Foundations of Information Policy
+Prereq: ?
+Studies the growth of computer and communications technology and the new legal and ethical challenges that reflect tensions between individual rights and societal needs. Topics include computer crime; intellectual property restrictions on software; encryption, privacy, and national security; academic freedom and free speech. Students meet and question technologists, activists, law enforcement agents, journalists, and legal experts. Instruction and practice in oral and written communication provided. Students taking graduate version complete additional assignments. Enrollment limited.
+
+6.8510 Intelligent Multimodal User Interfaces
+Prereq: 6.1020, 6.4100
+Implementation and evaluation of intelligent multi-modal user interfaces, taught from a combination of hands-on exercises and papers from the original literature. Topics include basic technologies for handling speech, vision, pen-based interaction, and other modalities, as well as various techniques for combining modalities. Substantial readings and a term project, where students build a program that illustrates one or more of the themes of the course.
+
+6.8530 Interactive Data Visualization
+Prereq: 6.1020
+Interactive visualization provides a means of making sense of a world awash in data. Covers the techniques and algorithms for creating effective visualizations, using principles from graphic design, perceptual psychology, and cognitive science. Short assignments build familiarity with the data analysis and visualization design process, and a final project provides experience designing, implementing, and deploying an explanatory narrative visualization or visual analysis tool to address a concrete challenge.
