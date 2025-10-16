@@ -1,0 +1,39 @@
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+PhysI Physics I
+Prereq: None
+Introduces classical mechanics. Space and time: straight-line kinematics; motion in a plane; forces and static equilibrium; particle dynamics, with force and conservation of momentum; relative inertial frames and non-inertial force; work, potential energy and conservation of energy; kinetic theory and the ideal gas; rigid bodies and rotational dynamics; vibrational motion; conservation of angular momentum; central force motions; fluid mechanics. Subject taught using the TEAL (Technology-Enabled Active Learning) format which features students working in groups of three, discussing concepts, solving problems, and doing table-top experiments with the aid of computer data acquisition and analysis.
+
+PhysII Physics II
+Prereq: CalcII, PhysI
+Covers Maxwell's equations in both differential and integral form, electrostatic and magnetic vector potential, and the properties of dielectrics and magnetic materials. Topics include electric charge, Coulomb's law, electrostatic fields and potentials, electric currents, magnetic fields, Ampere's law, Faraday's law of induction, basic electric circuits, and electromagnetic waves. The course utilizes the TEAL (Technology Enabled Active Learning) format for small group interactions and practical experiments in electricity and magnetism. Some knowledge of vector calculus is assumed.
+
+2.087 Engineering Mathematics: Linear Algebra and ODEs
+Prereq: CalcII, PhysI
+Introduction to linear algebra and ordinary differential equations (ODEs), including general numerical approaches to solving systems of equations. Linear systems of equations, existence and uniqueness of solutions, Gaussian elimination. Initial value problems, 1st and 2nd order systems, forward and backward Euler, RK4. Eigenproblems, eigenvalues and eigenvectors, including complex numbers, functions, vectors and matrices.
+
+2.003[J] Dynamics and Control I
+Prereq: PhysII, 2.087
+Introduction to the dynamics and vibrations of lumped-parameter models of mechanical systems. Kinematics. Force-momentum formulation for systems of particles and rigid bodies in planar motion. Work-energy concepts. Virtual displacements and virtual work. Lagrange's equations for systems of particles and rigid bodies in planar motion. Linearization of equations of motion. Linear stability analysis of mechanical systems. Free and forced vibration of linear multi-degree of freedom models of mechanical systems; matrix eigenvalue problems.
+
+2.004 Dynamics and Control II
+Prereq: PhysII, 2.003[J]
+Modeling, analysis, and control of dynamic systems. System modeling: lumped parameter models of mechanical, electrical, and electromechanical systems; interconnection laws; actuators and sensors. Linear systems theory: linear algebra; Laplace transform; transfer functions, time response and frequency response, poles and zeros; block diagrams; solutions via analytical and numerical techniques; stability. Introduction to feedback control: closed-loop response; PID compensation; steady-state characteristics, root-locus design concepts, frequency-domain design concepts. Laboratory experiments and control design projects. 
+
+2.12 Introduction to Robotics
+Prereq: 2.004
+Cross-disciplinary studies in robot mechanics and intelligence. Emphasizes physical understanding of robot kinematics and dynamics, differential motion and energy method, design and control of robotic arms and mobile robots, and actuators, drives, and transmission. Second half of course focuses on algorithmic thinking and computation, computer vision and perception, planning and control for manipulation, localization and navigation, machine learning for robotics, and human-robot systems. Weekly laboratories include brushless DC motor control, design and fabrication of robotic arms and vehicles, robot vision and navigation, and programming and system integration using Robot Operating System (ROS). Group term project builds intelligent robots for specific applications of interest.
+
+6.100A Introduction to Computer Science Programming in Python
+Prereq: None
+Introduction to computer science and programming for students with little or no programming experience. Students develop skills to program and use computational techniques to solve problems. Topics include the notion of computation, Python, simple algorithms and data structures, testing and debugging, and algorithmic complexity. Combination of 6.100A and 6.100B or 16.C20[J] counts as REST subject. Final given in the seventh week of the term.
+
+6.4200[J] Robotics: Science and Systems
+Prereq: 6.100A, 2.003[J]
+Presents concepts, principles, and algorithmic foundations for robots and autonomous vehicles operating in the physical world. Topics include sensing, kinematics and dynamics, state estimation, computer vision, perception, learning, control, motion planning, and embedded system development. Students design and implement advanced algorithms on complex robotic platforms capable of agile autonomous navigation and real-time interaction with the physical word. Students engage in extensive written and oral communication exercises. Enrollment limited.
