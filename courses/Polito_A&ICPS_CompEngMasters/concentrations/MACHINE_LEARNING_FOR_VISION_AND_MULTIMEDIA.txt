@@ -8,26 +8,22 @@ Calculus of several variables. Vector algebra in 3-space, determinants, matrices
 
 18.05 Introduction to Probability and Statistics
 Prereq: CalcII
-Elementary introduction with applications. Basic probability models. Combinatorics. Random variables. Discrete and continuous probability distributions. Statistical estimation and testing. Confidence intervals. Introduction to linear regression.
-
-6.100A Introduction to Computer Science Programming in Python
-Prereq: None
-Introduction to computer science and programming for students with little or no programming experience. Students develop skills to program and use computational techniques to solve problems. Topics include the notion of computation, Python, simple algorithms and data structures, testing and debugging, and algorithmic complexity. Combination of 6.100A and 6.100B or 16.C20[J] counts as REST subject. Final given in the seventh week of the term.
-
-6.1200[J] Mathematics for Computer Science
-Prereq: CalcI
-Elementary discrete mathematics for science and engineering, with a focus on mathematical tools and proof techniques useful in computer science. Topics include logical notation, sets, relations, elementary graph theory, state machines and invariants, induction and proofs by contradiction, recurrences, asymptotic notation, elementary analysis of algorithms, elementary number theory and cryptography, permutations and combinations, counting tools, and discrete probability.
-
-6.1210 Introduction to Algorithms
-Prereq: 6.100A, 6.1200[J]
-Introduction to mathematical modeling of computational problems, as well as common algorithms, algorithmic paradigms, and data structures used to solve these problems. Emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems. Enrollment may be limited.
+A unified introduction to probability, Bayesian inference, and frequentist statistics. Topics include: combinatorics, random variables, (joint) distributions, covariance, central limit theorem; Bayesian updating, odds, posterior prediction; significance tests, confidence intervals, bootstrapping, regression. Students also develop computational skills and statistical thinking by using R to simulate, analyze, and visualize data; and by exploring privacy, fairness, and causality in contemporary media and research.
 
 18.06 Linear Algebra
 Prereq: CalcII
 Basic subject on matrix theory and linear algebra, emphasizing topics useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, singular value decomposition, and positive definite matrices. Applications to least-squares approximations, stability of differential equations, networks, Fourier transforms, and Markov processes. Uses linear algebra software. Compared with 18.700, more emphasis on matrix algorithms and many applications.
 
+6.1000 Introduction to Programming and Computer Science
+Prereq: None
+Develops foundational skills in programming and in computational modeling. Covers widely used programming concepts in Python, including mutability, function objects, and object-oriented programming. Introduces algorithmic complexity and some common libraries. Throughout, demonstrates using computation to help understand real-world phenomena; topics include optimization problems, building simulations, and statistical modeling.
+
+6.1010 Fundamentals of Programming
+Prereq: 6.1000
+Introduces fundamental concepts of programming. Designed to develop skills in applying basic methods from programming languages to abstract problems. Topics include programming and Python basics, computational concepts, software engineering, algorithmic techniques, data types, and recursion.  Lab component consists of software design, construction, and implementation of design. Enrollment may be limited.
+
 6.3900 Introduction to Machine Learning
-Prereq: 6.1210, 18.06
+Prereq: 6.1010, 18.06
 Introduction to the principles and algorithms of machine learning from an optimization perspective. Topics include linear and non-linear models for supervised, unsupervised, and reinforcement learning, with a focus on gradient-based methods and neural-network architectures. Previous experience with algorithms may be helpful.
 
 6.7960 Deep Learning
@@ -43,7 +39,7 @@ Prereq: CalcII
 Study of differential equations, including modeling physical systems. Solution of first-order ODEs by analytical, graphical, and numerical methods. Linear ODEs with constant coefficients. Complex numbers and exponentials. Inhomogeneous equations: polynomial, sinusoidal, and exponential inputs. Oscillations, damping, resonance. Fourier series. Matrices, eigenvalues, eigenvectors, diagonalization. First order linear systems: normal modes, matrix exponentials, variation of parameters. Heat equation, wave equation. Nonlinear autonomous systems: critical point analysis, phase plane diagrams.
 
 6.3000 Signal Processing
-Prereq: 6.100A, 18.03
+Prereq: 6.1000, 18.03
 Fundamentals of signal processing, focusing on the use of Fourier methods to analyze and process signals such as sounds and images. Topics include Fourier series, Fourier transforms, the Discrete Fourier Transform, sampling, convolution, deconvolution, filtering, noise reduction, and compression. Applications draw broadly from areas of contemporary interest with emphasis on both analysis and design.
 
 6.8620[J] Spoken Language Processing
