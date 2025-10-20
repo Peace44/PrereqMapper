@@ -10,6 +10,10 @@ Calculus of several variables. Vector algebra in 3-space, determinants, matrices
 Prereq: CalcII
 Study of differential equations, including modeling physical systems. Solution of first-order ODEs by analytical, graphical, and numerical methods. Linear ODEs with constant coefficients. Complex numbers and exponentials. Inhomogeneous equations: polynomial, sinusoidal, and exponential inputs. Oscillations, damping, resonance. Fourier series. Matrices, eigenvalues, eigenvectors, diagonalization. First order linear systems: normal modes, matrix exponentials, variation of parameters. Heat equation, wave equation. Nonlinear autonomous systems: critical point analysis, phase plane diagrams.
 
+18.06 Linear Algebra
+Prereq: CalcII
+Basic subject on matrix theory and linear algebra, emphasizing topics useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, singular value decomposition, and positive definite matrices. Applications to least-squares approximations, stability of differential equations, networks, Fourier transforms, and Markov processes. Uses linear algebra software. Compared with 18.700, more emphasis on matrix algorithms and many applications.
+
 PhysI Physics I
 Prereq: None
 Introduces classical mechanics. Space and time: straight-line kinematics; motion in a plane; forces and static equilibrium; particle dynamics, with force and conservation of momentum; relative inertial frames and non-inertial force; work, potential energy and conservation of energy; kinetic theory and the ideal gas; rigid bodies and rotational dynamics; vibrational motion; conservation of angular momentum; central force motions; fluid mechanics. Subject taught using the TEAL (Technology-Enabled Active Learning) format which features students working in groups of three, discussing concepts, solving problems, and doing table-top experiments with the aid of computer data acquisition and analysis.
@@ -17,6 +21,14 @@ Introduces classical mechanics. Space and time: straight-line kinematics; motion
 PhysII Physics II
 Prereq: CalcI, PhysI
 Covers Maxwell's equations in both differential and integral form, electrostatic and magnetic vector potential, and the properties of dielectrics and magnetic materials. Topics include electric charge, Coulomb's law, electrostatic fields and potentials, electric currents, magnetic fields, Ampere's law, Faraday's law of induction, basic electric circuits, and electromagnetic waves. The course utilizes the TEAL (Technology Enabled Active Learning) format for small group interactions and practical experiments in electricity and magnetism. Some knowledge of vector calculus is assumed.
+
+6.7700[J] Fundamentals of Probability
+Prereq: CalcII
+Introduction to probability theory. Probability spaces and measures. Discrete and continuous random variables. Conditioning and independence. Multivariate normal distribution. Abstract integration, expectation, and related convergence results. Moment generating and characteristic functions. Bernoulli and Poisson process. Finite-state Markov chains. Convergence notions and their relations. Limit theorems. Familiarity with elementary probability and real analysis is desirable.
+
+6.7800 Inference and Information
+Prereq: 6.7700[J]
+Introduction to principles of Bayesian and non-Bayesian statistical inference and its information theoretic foundations. Hypothesis testing and parameter estimation, sufficient statistics, exponential families. Loss functions, information measures, model capacity, and information geometry. Variational inference and EM algorithm; MCMC and other Monte Carlo methods. Asymptotic analysis and large deviations theory; universal inference and learning. Selected topics such as representation learning, score-matching, diffusion, and nonparametric statistics.
 
 2.003[J] Dynamics and Control I
 Prereq: PhysII, 18.03
@@ -26,6 +38,10 @@ Introduction to the dynamics and vibrations of lumped-parameter models of mechan
 Prereq: 2.003[J]
 Modeling, analysis, and control of dynamic systems. System modeling: lumped parameter models of mechanical, electrical, and electromechanical systems; interconnection laws; actuators and sensors. Linear systems theory: linear algebra; Laplace transform; transfer functions, time response and frequency response, poles and zeros; block diagrams; solutions via analytical and numerical techniques; stability. Introduction to feedback control: closed-loop response; PID compensation; steady-state characteristics, root-locus design concepts, frequency-domain design concepts. Laboratory experiments and control design projects. 
 
-2.12 Introduction to Robotics
-Prereq: 2.004
-Cross-disciplinary studies in robot mechanics and intelligence. Emphasizes physical understanding of robot kinematics and dynamics, differential motion and energy method, design and control of robotic arms and mobile robots, and actuators, drives, and transmission. Second half of course focuses on algorithmic thinking and computation, computer vision and perception, planning and control for manipulation, localization and navigation, machine learning for robotics, and human-robot systems. Weekly laboratories include brushless DC motor control, design and fabrication of robotic arms and vehicles, robot vision and navigation, and programming and system integration using Robot Operating System (ROS). Group term project builds intelligent robots for specific applications of interest.
+2.151 Advanced System Dynamics and Control
+Prereq: 2.004, 18.06
+Analytical descriptions of state-determined dynamic physical systems; time and frequency domain representations; system characteristics - controllability, observability, stability; linear and nonlinear system responses. Modification of system characteristics using feedback. State observers, Kalman filters. Modeling/performance trade-offs in control system design. Basic optimization tools. Positive systems. Emphasizes applications to physical systems.
+
+2.160 Identification, Estimation, and Learning
+Prereq: 2.151
+Provides a broad theoretical basis for estimation, identification, and learning of linear and nonlinear systems at the cross-disciplinary area of system dynamics and control, machine learning, and statistics. Recursive least squares estimate, partial least squares, Kalman filter and extended Kalman filter, Bayes filter and particle filter; parametric and non-parametric system identification, Wiener-Hopf equation, persistent excitation, unbiased estimates, asymptotic variance, experiment design; function approximation theory, neural nets, radial basis functions, Koopman operator for exact linearization of nonlinear systems, and dynamic mode decomposition. Context-oriented mini-projects: robotics, self-driving cars, biomedical engineering, wearable sensors.
