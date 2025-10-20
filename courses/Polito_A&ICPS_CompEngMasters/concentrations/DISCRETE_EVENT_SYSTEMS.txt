@@ -8,12 +8,12 @@ Calculus of several variables. Vector algebra in 3-space, determinants, matrices
 
 6.3700 Introduction to Probability
 Prereq: CalcII
-An introduction to probability theory, the modeling and analysis of probabilistic systems, and elements of statistical inference. Probabilistic models, conditional probability. Discrete and continuous random variables. Expectation and conditional expectation, and further topics about random variables. Limit Theorems. Bayesian estimation and hypothesis testing. Elements of classical statistical inference. Bernoulli and Poisson processes. Markov chains. Students taking graduate version complete additional assignments.
+An introduction to probability theory, the modeling and analysis of probabilistic systems, and elements of statistical inference. Probabilistic models, conditional probability. Discrete and continuous random variables. Expectation and conditional expectation, and further topics about random variables. Limit Theorems. Bayesian estimation and hypothesis testing. Elements of classical statistical inference. Bernoulli and Poisson processes. Markov chains.
 
 6.7710 Discrete Stochastic Processes
 Prereq: 6.3700
 Review of probability and laws of large numbers; Poisson counting process and renewal processes; Markov chains (including Markov decision theory), branching processes, birth-death processes, and semi-Markov processes; continuous-time Markov chains and reversibility; random walks, martingales, and large deviations; applications from queueing, communication, control, and operations research.
 
-2.851[J] System Optimization and Analysis for Operations
+15.066[J] System Optimization and Analysis for Operations
 Prereq: CalcII
 Introduction to mathematical modeling, optimization, and simulation, as applied to manufacturing and operations. Specific methods include linear programming, network flow problems, integer and nonlinear programming, discrete-event simulation, heuristics and computer applications for manufacturing processes, operations and systems.
