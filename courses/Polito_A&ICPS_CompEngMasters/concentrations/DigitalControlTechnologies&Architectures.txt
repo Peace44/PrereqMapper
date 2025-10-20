@@ -11,7 +11,7 @@ Prereq: None
 Introduces classical mechanics. Space and time: straight-line kinematics; motion in a plane; forces and static equilibrium; particle dynamics, with force and conservation of momentum; relative inertial frames and non-inertial force; work, potential energy and conservation of energy; kinetic theory and the ideal gas; rigid bodies and rotational dynamics; vibrational motion; conservation of angular momentum; central force motions; fluid mechanics. Subject taught using the TEAL (Technology-Enabled Active Learning) format which features students working in groups of three, discussing concepts, solving problems, and doing table-top experiments with the aid of computer data acquisition and analysis.
 
 PhysII Physics II
-Prereq: CalcII, PhysI
+Prereq: CalcI, PhysI
 Covers Maxwell's equations in both differential and integral form, electrostatic and magnetic vector potential, and the properties of dielectrics and magnetic materials. Topics include electric charge, Coulomb's law, electrostatic fields and potentials, electric currents, magnetic fields, Ampere's law, Faraday's law of induction, basic electric circuits, and electromagnetic waves. The course utilizes the TEAL (Technology Enabled Active Learning) format for small group interactions and practical experiments in electricity and magnetism. Some knowledge of vector calculus is assumed.
 
 2.087 Engineering Mathematics: Linear Algebra and ODEs
