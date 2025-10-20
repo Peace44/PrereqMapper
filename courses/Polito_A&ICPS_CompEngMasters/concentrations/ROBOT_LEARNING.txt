@@ -6,6 +6,10 @@ CalcII Calculus II
 Prereq: CalcI
 Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
 
+18.03 Differential Equations
+Prereq: CalcII
+Study of differential equations, including modeling physical systems. Solution of first-order ODEs by analytical, graphical, and numerical methods. Linear ODEs with constant coefficients. Complex numbers and exponentials. Inhomogeneous equations: polynomial, sinusoidal, and exponential inputs. Oscillations, damping, resonance. Fourier series. Matrices, eigenvalues, eigenvectors, diagonalization. First order linear systems: normal modes, matrix exponentials, variation of parameters. Heat equation, wave equation. Nonlinear autonomous systems: critical point analysis, phase plane diagrams.
+
 6.3700 Introduction to Probability
 Prereq: CalcII
 An introduction to probability theory, the modeling and analysis of probabilistic systems, and elements of statistical inference. Probabilistic models, conditional probability. Discrete and continuous random variables. Expectation and conditional expectation, and further topics about random variables. Limit Theorems. Bayesian estimation and hypothesis testing. Elements of classical statistical inference. Bernoulli and Poisson processes. Markov chains. Students taking graduate version complete additional assignments.
@@ -35,7 +39,7 @@ Prereq: 6.3700
 Examines reinforcement learning (RL) as a methodology for approximately solving sequential decision-making under uncertainty, with foundations in optimal control and machine learning. Provides a mathematical introduction to RL, including dynamic programming, statistical, and empirical perspectives, and special topics. Core topics include: dynamic programming, special structures, finite and infinite horizon Markov Decision Processes, value and policy iteration, Monte Carlo methods, temporal differences, Q-learning, stochastic approximation, and bandits. Also covers approximate dynamic programming, including value-based methods and policy space methods. Applications and examples drawn from diverse domains. Focus is mathematical, but is supplemented with computational exercises. An analysis prerequisite is suggested but not required; mathematical maturity is necessary.
 
 16.002 Unified Engineering: Signals and Systems
-Prereq: CalcII
+Prereq: 18.03
 Equivalent to 6.9510 Introduction to Signals and Systems, and Feedback Control = Presents fundamental principles and methods of signals and systems for aerospace engineering, and engineering analysis and design concepts applied to aerospace systems. Topics include linear and time invariant systems; convolution; Fourier and Laplace transform analysis in continuous and discrete time; modulation, filtering, and sampling; and an introduction to feedback control. Experiential lab and system projects provide additional aerospace context. Labs, projects, and assignments involve the use of software such as MATLAB and/or Python.
 
 16.06 Principles of Automatic Control
