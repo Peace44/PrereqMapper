@@ -6,30 +6,30 @@ CalcII Calculus II
 Prereq: CalcI
 Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
 
-18.100A Real Analysis
-Prereq: CalcII
-Covers fundamentals of mathematical analysis: convergence of sequences and series, continuity, differentiability, Riemann integral, sequences and series of functions, uniformity, interchange of limit operations. Shows the utility of abstract concepts and teaches understanding and construction of proofs. Proofs and definitions are less abstract than in 18.100B. Gives applications where possible. Concerned primarily with the real line.
-
 18.06 Linear Algebra
 Prereq: CalcII
 Basic subject on matrix theory and linear algebra, emphasizing topics useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, singular value decomposition, and positive definite matrices. Applications to least-squares approximations, stability of differential equations, networks, Fourier transforms, and Markov processes. Uses linear algebra software. Compared with 18.700, more emphasis on matrix algorithms and many applications.
 
-6.7220[J] Nonlinear Optimization
-Prereq: 18.06, 18.100A
-Unified analytical and computational approach to nonlinear optimization problems. Unconstrained optimization methods include gradient, conjugate direction, Newton, sub-gradient and first-order methods. Constrained optimization methods include feasible directions, projection, interior point methods, and Lagrange multiplier methods. Convex analysis, Lagrangian relaxation, nondifferentiable optimization, and applications in integer programming. Comprehensive treatment of optimality conditions and Lagrange multipliers. Geometric approach to duality theory. Applications drawn from control, communications, machine learning, and resource allocation problems.
+6.7210[J] Introduction to Mathematical Programming
+Prereq: 18.06
+Introduction to linear optimization and its extensions emphasizing both methodology and the underlying mathematical structures and geometrical ideas. Covers classical theory of linear programming as well as some recent advances in the field. Topics: simplex method; duality theory; sensitivity analysis; network flow problems; decomposition; robust optimization; integer programming; interior point algorithms for linear programming; and introduction to combinatorial optimization and NP-completeness.
+
+6.3800 Introduction to Inference
+Prereq: CalcII
+Introduces probabilistic modeling for problems of inference and machine learning from data, emphasizing analytical and computational aspects. Distributions, marginalization, conditioning, and structure, including graphical and neural network representations. Belief propagation, decision-making, classification, estimation, and prediction. Sampling methods and analysis. Introduces asymptotic analysis and information measures. Computational laboratory component explores the concepts introduced in class in the context of contemporary applications. Students design inference algorithms, investigate their behavior on real data, and discuss experimental results.
+
+6.7810 Algorithms for Inference
+Prereq: 18.06, 6.3800
+Introduction to computational aspects of statistical inference via probabilistic graphical models. Directed and undirected graphical models, and factor graphs, over discrete and Gaussian distributions; hidden Markov models, linear dynamical systems. Sum-product and junction tree algorithms; forward-backward algorithm, Kalman filtering and smoothing. Min-sum and Viterbi algorithms. Variational methods, mean-field theory, and loopy belief propagation. Sampling methods; Glauber dynamics and mixing time analysis. Parameter structure learning for graphical models; Baum-Welch and Chow-Liu algorithms. Selected topics such as causal inference, particle filtering, restricted Boltzmann machines, and graph neural networks.
 
 6.3700 Introduction to Probability
 Prereq: CalcII
 An introduction to probability theory, the modeling and analysis of probabilistic systems, and elements of statistical inference. Probabilistic models, conditional probability. Discrete and continuous random variables. Expectation and conditional expectation, and further topics about random variables. Limit Theorems. Bayesian estimation and hypothesis testing. Elements of classical statistical inference. Bernoulli and Poisson processes. Markov chains. Students taking graduate version complete additional assignments.
 
-6.7810 Algorithms for Inference
-Prereq: 18.06, 6.3700
-Introduction to computational aspects of statistical inference via probabilistic graphical models. Directed and undirected graphical models, and factor graphs, over discrete and Gaussian distributions; hidden Markov models, linear dynamical systems. Sum-product and junction tree algorithms; forward-backward algorithm, Kalman filtering and smoothing. Min-sum and Viterbi algorithms. Variational methods, mean-field theory, and loopy belief propagation. Sampling methods; Glauber dynamics and mixing time analysis. Parameter structure learning for graphical models; Baum-Welch and Chow-Liu algorithms. Selected topics such as causal inference, particle filtering, restricted Boltzmann machines, and graph neural networks.
-
 6.7240 Game Theory with Engineering Applications
 Prereq: 6.3700
 Introduction to fundamentals of game theory and mechanism design with motivations for each topic drawn from engineering applications (including distributed control of wireline/wireless communication networks, transportation networks, pricing). Emphasis on the foundations of the theory, mathematical tools, as well as modeling and the equilibrium notion in different environments. Topics include normal form games, supermodular games, dynamic games, repeated games, games with incomplete/imperfect information, mechanism design, cooperative game theory, and network games.
 
-6.3260[J] Networks
-Prereq: 6.3700
-Highlights common principles that permeate the functioning of diverse technological, economic and social networks. Utilizes three sets of tools for analyzing networks -- random graph models, optimization, and game theory -- to study informational and learning cascades; economic and financial networks; social influence networks; formation of social groups; communication networks and the Internet; consensus and gossiping; spread and control of epidemics; control and use of energy networks; and biological networks. Students taking graduate version complete additional assignments.
+6.7260 Network Science and Models
+Prereq: 6.3700, 18.06
+Introduces the main mathematical models used to describe large networks and dynamical processes that evolve on networks. Static models of random graphs, preferential attachment, and other graph evolution models. Epidemic propagation, opinion dynamics, social learning, and inference in networks. Applications drawn from social, economic, natural, and infrastructure networks, as well as networked decision systems such as sensor networks.
