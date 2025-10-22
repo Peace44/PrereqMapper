@@ -6,6 +6,14 @@ CalcII Calculus II
 Prereq: CalcI
 Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
 
+18.06 Linear Algebra
+Prereq: CalcII
+Basic subject on matrix theory and linear algebra, emphasizing topics useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, singular value decomposition, and positive definite matrices. Applications to least-squares approximations, stability of differential equations, networks, Fourier transforms, and Markov processes. Uses linear algebra software. Compared with 18.700, more emphasis on matrix algorithms and many applications.
+
+6.7320[J] Parallel Computing and Scientific Machine Learning
+Prereq: 18.06
+Introduction to scientific machine learning with an emphasis on developing scalable differentiable programs. Covers scientific computing topics (numerical differential equations, dense and sparse linear algebra, Fourier transformations, parallelization of large-scale scientific simulation) simultaneously with modern data science (machine learning, deep neural networks, automatic differentiation), focusing on the emerging techniques at the connection between these areas, such as neural differential equations and physics-informed deep learning. Provides direct experience with the modern realities of optimizing code performance for supercomputers, GPUs, and multicores in a high-level language.
+
 PhysI Physics I
 Prereq: None
 Introduces classical mechanics. Space and time: straight-line kinematics; motion in a plane; forces and static equilibrium; particle dynamics, with force and conservation of momentum; relative inertial frames and non-inertial force; work, potential energy and conservation of energy; kinetic theory and the ideal gas; rigid bodies and rotational dynamics; vibrational motion; conservation of angular momentum; central force motions; fluid mechanics. Subject taught using the TEAL (Technology-Enabled Active Learning) format which features students working in groups of three, discussing concepts, solving problems, and doing table-top experiments with the aid of computer data acquisition and analysis.
@@ -18,22 +26,30 @@ Covers Maxwell's equations in both differential and integral form, electrostatic
 Prereq: None
 Develops foundational skills in programming and in computational modeling. Covers widely used programming concepts in Python, including mutability, function objects, and object-oriented programming. Introduces algorithmic complexity and some common libraries. Throughout, demonstrates using computation to help understand real-world phenomena; topics include optimization problems, building simulations, and statistical modeling.
 
+6.1200[J] Mathematics for Computer Science
+Prereq: CalcI
+Elementary discrete mathematics for science and engineering, with a focus on mathematical tools and proof techniques useful in computer science. Topics include logical notation, sets, relations, elementary graph theory, state machines and invariants, induction and proofs by contradiction, recurrences, asymptotic notation, elementary analysis of algorithms, elementary number theory and cryptography, permutations and combinations, counting tools, and discrete probability.
+
+6.1210 Introduction to Algorithms
+Prereq: 6.1000, 6.1200[J]
+Introduction to mathematical modeling of computational problems, as well as common algorithms, algorithmic paradigms, and data structures used to solve these problems. Emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems. Enrollment may be limited.
+
+6.5080 Multicore Programming
+Prereq: 6.1210
+Introduces principles and core techniques for programming multicore machines. Topics include locking, scalability, concurrent data structures, multiprocessor scheduling, load balancing, and state-of-the-art synchronization techniques, such as transactional memory. Includes sequence of programming assignments on a large multicore machine, culminating with the design of a highly concurrent application. Students taking graduate version complete additional assignments.
+
 6.1903 Introduction to Low-level Programming in C and Assembly
 Prereq: 6.1000
 Introduction to C and assembly language for students coming from a Python background (6.1000). Studies the C language, focusing on memory and associated topics including pointers, how different data structures are stored in memory, the stack, and the heap in order to build a strong understanding of the constraints involved in manipulating complex data structures in modern computational systems. Studies assembly language to facilitate a firm understanding of how high-level languages are translated to machine-level instructions.
+
+6.9570 Introduction to C and C++
+Prereq: 6.1903
+Fast-paced introduction to the C and C++ programming languages. Intended for those with experience in other languages who have never used C or C++. Students complete daily assignments, a small-scale individual project, and a mandatory online diagnostic test. Enrollment limited.
 
 6.1910 Computation Structures
 Prereq: PhysII, 6.1000, 6.1903
 Provides an introduction to the design of digital systems and computer architecture. Emphasizes expressing all hardware designs in a high-level hardware description language and synthesizing the designs. Topics include combinational and sequential circuits, instruction set abstraction for programmable hardware, single-cycle and pipelined processor implementations, multi-level memory hierarchies, virtual memory, exceptions and I/O, and parallel systems.
 
-6.5900 Computer System Architecture
+6.1810 Operating System Engineering I
 Prereq: 6.1910
-Introduction to the principles underlying modern computer architecture. Emphasizes the relationship among technology, hardware organization, and programming systems in the evolution of computer architecture. Topics include pipelined, out-of-order, and speculative execution; caches, virtual memory and exception handling, superscalar, very long instruction word (VLIW), vector, and multithreaded processors; on-chip networks, memory models, synchronization, and cache coherence protocols for multiprocessors.
-
-6.2000 Electrical Circuits: Modeling and Design of Physical Systems
-Prereq: PhysII
-Fundamentals of linear systems, and abstraction modeling of multi-physics lumped and distributed systems using lumped electrical circuits. Linear networks involving independent and dependent sources, resistors, capacitors, and inductors. Extensions to include operational amplifiers and transducers. Dynamics of first- and second-order networks; analysis and design in the time and frequency domains; signal and energy processing applications. Design exercises. Weekly laboratory with microcontroller and transducers.
-
-6.2060 Microcomputer Project Laboratory
-Prereq: 6.2000
-Introduces analysis and design of embedded systems. Microcontrollers provide adaptation, flexibility, and real-time control. Emphasizes construction of complete systems, including a five-axis robot arm, a fluorescent lamp ballast, a tomographic imaging station (e.g., a CAT scan), and a simple calculator. Presents a wide range of basic tools, including software and development tools, programmable system on chip, peripheral components such as A/D converters, communication schemes, signal processing techniques, closed-loop digital feedback control, interface and power electronics, and modeling of electromechanical systems. Includes a sequence of assigned projects, followed by a final project of the student's choice, emphasizing creativity and uniqueness. Provides instruction in written and oral communication. To satisfy the independent inquiry component of this subject, students expand the scope of their laboratory project.
+Design and implementation of operating systems, and their use as a foundation for systems programming. Topics include virtual memory, file systems, threads, context switches, kernels, interrupts, system calls, interprocess communication, coordination, and interaction between software and hardware. A multi-processor operating system for RISC-V, xv6, is used to illustrate these topics. Individual laboratory assignments involve extending the xv6 operating system, for example to support sophisticated virtual memory features and networking.
