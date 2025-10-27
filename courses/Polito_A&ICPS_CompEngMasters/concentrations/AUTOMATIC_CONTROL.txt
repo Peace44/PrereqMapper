@@ -1,0 +1,47 @@
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+18.03 Differential Equations
+Prereq: CalcII
+Study of differential equations, including modeling physical systems. Solution of first-order ODEs by analytical, graphical, and numerical methods. Linear ODEs with constant coefficients. Complex numbers and exponentials. Inhomogeneous equations: polynomial, sinusoidal, and exponential inputs. Oscillations, damping, resonance. Fourier series. Matrices, eigenvalues, eigenvectors, diagonalization. First order linear systems: normal modes, matrix exponentials, variation of parameters. Heat equation, wave equation. Nonlinear autonomous systems: critical point analysis, phase plane diagrams.
+
+PhysI Physics I
+Prereq: None
+Introduces classical mechanics. Space and time: straight-line kinematics; motion in a plane; forces and static equilibrium; particle dynamics, with force and conservation of momentum; relative inertial frames and non-inertial force; work, potential energy and conservation of energy; kinetic theory and the ideal gas; rigid bodies and rotational dynamics; vibrational motion; conservation of angular momentum; central force motions; fluid mechanics. Subject taught using the TEAL (Technology-Enabled Active Learning) format which features students working in groups of three, discussing concepts, solving problems, and doing table-top experiments with the aid of computer data acquisition and analysis.
+
+PhysII Physics II
+Prereq: CalcI, PhysI
+Covers Maxwell's equations in both differential and integral form, electrostatic and magnetic vector potential, and the properties of dielectrics and magnetic materials. Topics include electric charge, Coulomb's law, electrostatic fields and potentials, electric currents, magnetic fields, Ampere's law, Faraday's law of induction, basic electric circuits, and electromagnetic waves. The course utilizes the TEAL (Technology Enabled Active Learning) format for small group interactions and practical experiments in electricity and magnetism. Some knowledge of vector calculus is assumed.
+
+2.003[J] Dynamics and Control I
+Prereq: PhysII, 18.03
+Introduction to the dynamics and vibrations of lumped-parameter models of mechanical systems. Kinematics. Force-momentum formulation for systems of particles and rigid bodies in planar motion. Work-energy concepts. Virtual displacements and virtual work. Lagrange's equations for systems of particles and rigid bodies in planar motion. Linearization of equations of motion. Linear stability analysis of mechanical systems. Free and forced vibration of linear multi-degree of freedom models of mechanical systems; matrix eigenvalue problems.
+
+2.004 Dynamics and Control II
+Prereq: 2.003[J]
+Modeling, analysis, and control of dynamic systems. System modeling: lumped parameter models of mechanical, electrical, and electromechanical systems; interconnection laws; actuators and sensors. Linear systems theory: linear algebra; Laplace transform; transfer functions, time response and frequency response, poles and zeros; block diagrams; solutions via analytical and numerical techniques; stability. Introduction to feedback control: closed-loop response; PID compensation; steady-state characteristics, root-locus design concepts, frequency-domain design concepts. Laboratory experiments and control design projects. 
+
+2.140 Analysis and Design of Feedback Control Systems
+Prereq: 2.004
+Develops the fundamentals of feedback control using linear transfer function system models. Analysis in time and frequency domains. Design in the s-plane (root locus) and in the frequency domain (loop shaping). Describing functions for stability of certain non-linear systems. Extension to state variable systems and multivariable control with observers. Discrete and digital hybrid systems and use of z-plane design. Extended design case studies and capstone group projects.
+
+2.171 Analysis and Design of Digital Control Systems
+Prereq: 2.140
+A comprehensive introduction to digital control system design, reinforced with hands-on laboratory experiences. Major topics include discrete-time system theory and analytical tools; design of digital control systems via approximation from continuous time; direct discrete-time design; loop-shaping design for performance and robustness; state-space design; observers and state-feedback; quantization and other nonlinear effects; implementation issues. Laboratory experiences and design projects connect theory with practice.
+
+16.002 Unified Engineering: Signals and Systems
+Prereq: 18.03
+Equivalent to 6.9510 Introduction to Signals and Systems, and Feedback Control = Presents fundamental principles and methods of signals and systems for aerospace engineering, and engineering analysis and design concepts applied to aerospace systems. Topics include linear and time invariant systems; convolution; Fourier and Laplace transform analysis in continuous and discrete time; modulation, filtering, and sampling; and an introduction to feedback control. Experiential lab and system projects provide additional aerospace context. Labs, projects, and assignments involve the use of software such as MATLAB and/or Python.
+
+16.06 Principles of Automatic Control
+Prereq: 16.002
+Introduction to design of feedback control systems. Properties and advantages of feedback systems. Time-domain and frequency-domain performance measures. Stability and degree of stability. Root locus method, Nyquist criterion, frequency-domain design, and some state space methods. Strong emphasis on the synthesis of classical controllers. Application to a variety of aerospace systems. Hands-on experiments using simple robotic systems.
+
+16.31 Feedback Control Systems
+Prereq: 16.06
+Studies state-space representation of dynamic systems, including model realizations, controllability, and observability. Introduces the state-space approach to multi-input-multi-output control system analysis and synthesis, including full state feedback using pole placement, linear quadratic regulator, stochastic state estimation, and the design of dynamic control laws. Also covers performance limitations and robustness. Extensive use of computer-aided control design tools. Applications to various aerospace systems, including navigation, guidance, and control of vehicles. Laboratory exercises utilize a palm-size drone. Includes additional homework questions, laboratory experiments, and a term project with a particular focus on the material associated with state-space realizations of MIMO transfer function (matrices); MIMO zeros, controllability, and observability; stochastic processes and estimation; limitations on performance; design and analysis of dynamic output feedback controllers; and robustness of multivariable control systems.
