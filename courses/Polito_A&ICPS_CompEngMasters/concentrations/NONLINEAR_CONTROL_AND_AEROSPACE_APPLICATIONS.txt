@@ -57,5 +57,3 @@ Analytical descriptions of state-determined dynamic physical systems; time and f
 2.152[J] Nonlinear Control
 Prereq: 2.151
 Introduction to nonlinear control and estimation in physical and biological systems. Nonlinear stability theory, Lyapunov analysis, Barbalat's lemma. Feedback linearization, differential flatness, internal dynamics. Sliding surfaces. Adaptive nonlinear control and estimation. Multiresolution bases, nonlinear system identification. Contraction analysis, differential stability theory. Nonlinear observers. Asynchronous distributed computation and learning. Concurrent synchronization, polyrhythms. Monotone nonlinear systems. Emphasizes application to physical systems (robots, aircraft, spacecraft, underwater vehicles, reaction-diffusion processes, machine vision, oscillators, internet), machine learning, computational neuroscience, and systems biology. Includes term projects.
-
-NONLINEAR_CONTROL_AND_AEROSPACE_APPLICATIONS
