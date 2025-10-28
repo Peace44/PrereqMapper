@@ -1,0 +1,61 @@
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+18.03 Differential Equations
+Prereq: CalcII
+Study of differential equations, including modeling physical systems. Solution of first-order ODEs by analytical, graphical, and numerical methods. Linear ODEs with constant coefficients. Complex numbers and exponentials. Inhomogeneous equations: polynomial, sinusoidal, and exponential inputs. Oscillations, damping, resonance. Fourier series. Matrices, eigenvalues, eigenvectors, diagonalization. First order linear systems: normal modes, matrix exponentials, variation of parameters. Heat equation, wave equation. Nonlinear autonomous systems: critical point analysis, phase plane diagrams.
+
+18.06 Linear Algebra
+Prereq: CalcII
+Basic subject on matrix theory and linear algebra, emphasizing topics useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, singular value decomposition, and positive definite matrices. Applications to least-squares approximations, stability of differential equations, networks, Fourier transforms, and Markov processes. Uses linear algebra software. Compared with 18.700, more emphasis on matrix algorithms and many applications.
+
+PhysI Physics I
+Prereq: None
+Introduces classical mechanics. Space and time: straight-line kinematics; motion in a plane; forces and static equilibrium; particle dynamics, with force and conservation of momentum; relative inertial frames and non-inertial force; work, potential energy and conservation of energy; kinetic theory and the ideal gas; rigid bodies and rotational dynamics; vibrational motion; conservation of angular momentum; central force motions; fluid mechanics. Subject taught using the TEAL (Technology-Enabled Active Learning) format which features students working in groups of three, discussing concepts, solving problems, and doing table-top experiments with the aid of computer data acquisition and analysis.
+
+PhysII Physics II
+Prereq: CalcI, PhysI
+Covers Maxwell's equations in both differential and integral form, electrostatic and magnetic vector potential, and the properties of dielectrics and magnetic materials. Topics include electric charge, Coulomb's law, electrostatic fields and potentials, electric currents, magnetic fields, Ampere's law, Faraday's law of induction, basic electric circuits, and electromagnetic waves. The course utilizes the TEAL (Technology Enabled Active Learning) format for small group interactions and practical experiments in electricity and magnetism. Some knowledge of vector calculus is assumed.
+
+16.001 Unified Engineering: Materials and Structures
+Prereq: CalcII, PhysI
+Presents fundamental principles and methods of materials and structures for aerospace engineering, and engineering analysis and design concepts applied to aerospace systems. Topics include statics; analysis of trusses; analysis of statically determinate and indeterminate systems; stress-strain behavior of materials; analysis of beam bending, buckling, and torsion; material and structural failure, including plasticity, fracture, fatigue, and their physical causes. Experiential lab and aerospace system projects provide additional aerospace context.
+
+16.003 Unified Engineering: Fluid Dynamics
+Prereq: CalcII, PhysII, 18.03
+Presents fundamental principles and methods of fluid dynamics for aerospace engineering, and engineering analysis and design concepts applied to aerospace systems. Topics include aircraft and aerodynamic performance, conservation laws for fluid flows, quasi-one-dimensional compressible flows, shock and expansion waves, streamline curvature, potential flow modeling, an introduction to three-dimensional wings and induced drag. Experiential lab and aerospace system projects provide additional aerospace context.
+
+16.07 Dynamics
+Prereq: 16.001, 16.003
+Fundamentals of Newtonian mechanics. Kinematics, particle dynamics, motion relative to accelerated reference frames, work and energy, impulse and momentum, systems of particles and rigid body dynamics. Applications to aerospace engineering including introductory topics in orbital mechanics, flight dynamics, inertial navigation and attitude dynamics.
+
+16.346 Astrodynamics
+Prereq: 18.03
+Fundamentals of astrodynamics; the two-body orbital initial-value and boundary-value problems with applications to space vehicle navigation and guidance for lunar and planetary missions with applications to space vehicle navigation and guidance for lunar and planetary missions including both powered flight and midcourse maneuvers. Topics include celestial mechanics, Kepler's problem, Lambert's problem, orbit determination, multi-body methods, mission planning, and recursive algorithms for space navigation. Selected applications from the Apollo, Space Shuttle, and Mars exploration programs.
+
+10.553 Model Predictive Control
+Prereq: 18.03
+Provides an introduction to the multivariable control of dynamical systems with constraints on manipulated, state, and output variables. Covers multiple mathematical formulations that are popular in academia and industry, including dynamic matrix control and state-space model predictive control of uncertain, nonlinear, and large-scale systems. Uses numerous real industrial processes as examples.
+
+2.003[J] Dynamics and Control I
+Prereq: PhysII, 18.03
+Introduction to the dynamics and vibrations of lumped-parameter models of mechanical systems. Kinematics. Force-momentum formulation for systems of particles and rigid bodies in planar motion. Work-energy concepts. Virtual displacements and virtual work. Lagrange's equations for systems of particles and rigid bodies in planar motion. Linearization of equations of motion. Linear stability analysis of mechanical systems. Free and forced vibration of linear multi-degree of freedom models of mechanical systems; matrix eigenvalue problems.
+
+2.004 Dynamics and Control II
+Prereq: 2.003[J]
+Modeling, analysis, and control of dynamic systems. System modeling: lumped parameter models of mechanical, electrical, and electromechanical systems; interconnection laws; actuators and sensors. Linear systems theory: linear algebra; Laplace transform; transfer functions, time response and frequency response, poles and zeros; block diagrams; solutions via analytical and numerical techniques; stability. Introduction to feedback control: closed-loop response; PID compensation; steady-state characteristics, root-locus design concepts, frequency-domain design concepts. Laboratory experiments and control design projects. 
+
+2.151 Advanced System Dynamics and Control
+Prereq: 2.004, 18.06
+Analytical descriptions of state-determined dynamic physical systems; time and frequency domain representations; system characteristics - controllability, observability, stability; linear and nonlinear system responses. Modification of system characteristics using feedback. State observers, Kalman filters. Modeling/performance trade-offs in control system design. Basic optimization tools. Positive systems. Emphasizes applications to physical systems.
+
+2.152[J] Nonlinear Control
+Prereq: 2.151
+Introduction to nonlinear control and estimation in physical and biological systems. Nonlinear stability theory, Lyapunov analysis, Barbalat's lemma. Feedback linearization, differential flatness, internal dynamics. Sliding surfaces. Adaptive nonlinear control and estimation. Multiresolution bases, nonlinear system identification. Contraction analysis, differential stability theory. Nonlinear observers. Asynchronous distributed computation and learning. Concurrent synchronization, polyrhythms. Monotone nonlinear systems. Emphasizes application to physical systems (robots, aircraft, spacecraft, underwater vehicles, reaction-diffusion processes, machine vision, oscillators, internet), machine learning, computational neuroscience, and systems biology. Includes term projects.
+
+NONLINEAR_CONTROL_AND_AEROSPACE_APPLICATIONS
