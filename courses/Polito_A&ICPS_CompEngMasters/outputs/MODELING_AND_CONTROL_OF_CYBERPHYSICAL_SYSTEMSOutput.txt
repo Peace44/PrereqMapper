@@ -1,0 +1,42 @@
+Layer 0:
+?
+None
+
+Layer 1:
+? ==> 16.332
+None ==> 6.1000
+None ==> CalcI
+None ==> PhysI
+
+Layer 2:
+None ==> 6.1000 ==> 6.1903
+None ==> CalcI ==> CalcII
+None ==> CalcI ==> PhysII; None ==> PhysI ==> PhysII
+
+Layer 3:
+None ==> CalcI ==> CalcII ==> 18.03
+None ==> CalcI ==> CalcII ==> 18.06
+None ==> CalcI ==> PhysII ==> 6.1910; None ==> PhysI ==> PhysII ==> 6.1910; None ==> 6.1000 ==> 6.1903 ==> 6.1910
+None ==> CalcI ==> CalcII ==> 6.3700
+
+Layer 4:
+None ==> CalcI ==> CalcII ==> 6.3700 ==> 1.208
+None ==> CalcI ==> PhysII ==> 2.003[J]; None ==> PhysI ==> PhysII ==> 2.003[J]; None ==> CalcI ==> CalcII ==> 18.03 ==> 2.003[J]
+None ==> CalcI ==> PhysII ==> 6.1910 ==> 6.1800; None ==> PhysI ==> PhysII ==> 6.1910 ==> 6.1800; None ==> 6.1000 ==> 6.1903 ==> 6.1910 ==> 6.1800
+None ==> CalcI ==> PhysII ==> 6.3100; None ==> PhysI ==> PhysII ==> 6.3100; None ==> CalcI ==> CalcII ==> 18.06 ==> 6.3100
+None ==> CalcI ==> CalcII ==> 6.3700 ==> 6.3260[J]
+None ==> CalcI ==> CalcII ==> 18.06 ==> 6.7210[J]
+
+Layer 5:
+None ==> CalcI ==> CalcII ==> 18.06 ==> 6.7210[J] ==> 15.095
+None ==> CalcI ==> PhysII ==> 2.003[J] ==> 2.004; None ==> PhysI ==> PhysII ==> 2.003[J] ==> 2.004; None ==> CalcI ==> CalcII ==> 18.03 ==> 2.003[J] ==> 2.004
+None ==> CalcI ==> PhysII ==> 6.1910 ==> 6.1800 ==> 6.1820[J]; None ==> PhysI ==> PhysII ==> 6.1910 ==> 6.1800 ==> 6.1820[J]; None ==> 6.1000 ==> 6.1903 ==> 6.1910 ==> 6.1800 ==> 6.1820[J]
+None ==> CalcI ==> PhysII ==> 6.3100 ==> 6.7100[J]; None ==> PhysI ==> PhysII ==> 6.3100 ==> 6.7100[J]; None ==> CalcI ==> CalcII ==> 18.06 ==> 6.3100 ==> 6.7100[J]
+
+Layer 6:
+None ==> CalcI ==> CalcII ==> 18.06 ==> 2.151; None ==> CalcI ==> PhysII ==> 2.003[J] ==> 2.004 ==> 2.151; None ==> PhysI ==> PhysII ==> 2.003[J] ==> 2.004 ==> 2.151; None ==> CalcI ==> CalcII ==> 18.03 ==> 2.003[J] ==> 2.004 ==> 2.151
+
+Layer 7:
+None ==> CalcI ==> CalcII ==> 18.06 ==> 2.151 ==> 2.152[J]; None ==> CalcI ==> PhysII ==> 2.003[J] ==> 2.004 ==> 2.151 ==> 2.152[J]; None ==> PhysI ==> PhysII ==> 2.003[J] ==> 2.004 ==> 2.151 ==> 2.152[J]; None ==> CalcI ==> CalcII ==> 18.03 ==> 2.003[J] ==> 2.004 ==> 2.151 ==> 2.152[J]
+None ==> CalcI ==> CalcII ==> 18.06 ==> 2.151 ==> 2.160; None ==> CalcI ==> PhysII ==> 2.003[J] ==> 2.004 ==> 2.151 ==> 2.160; None ==> PhysI ==> PhysII ==> 2.003[J] ==> 2.004 ==> 2.151 ==> 2.160; None ==> CalcI ==> CalcII ==> 18.03 ==> 2.003[J] ==> 2.004 ==> 2.151 ==> 2.160
+

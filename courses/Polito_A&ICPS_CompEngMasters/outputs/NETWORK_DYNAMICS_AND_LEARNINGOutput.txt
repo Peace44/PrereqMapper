@@ -1,0 +1,20 @@
+Layer 0:
+None
+
+Layer 1:
+None ==> CalcI
+
+Layer 2:
+None ==> CalcI ==> CalcII
+
+Layer 3:
+None ==> CalcI ==> CalcII ==> 18.06
+None ==> CalcI ==> CalcII ==> 6.3700
+None ==> CalcI ==> CalcII ==> 6.3800
+
+Layer 4:
+None ==> CalcI ==> CalcII ==> 18.06 ==> 6.7210[J]
+None ==> CalcI ==> CalcII ==> 6.3700 ==> 6.7240
+None ==> CalcI ==> CalcII ==> 18.06 ==> 6.7260; None ==> CalcI ==> CalcII ==> 6.3700 ==> 6.7260
+None ==> CalcI ==> CalcII ==> 18.06 ==> 6.7810; None ==> CalcI ==> CalcII ==> 6.3800 ==> 6.7810
+

@@ -1,0 +1,32 @@
+Layer 0:
+None
+
+Layer 1:
+None ==> CalcI
+None ==> PhysI
+
+Layer 2:
+None ==> CalcI ==> CalcII
+None ==> CalcI ==> PhysII; None ==> PhysI ==> PhysII
+
+Layer 3:
+None ==> PhysI ==> 16.001; None ==> CalcI ==> CalcII ==> 16.001
+None ==> CalcI ==> CalcII ==> 18.03
+None ==> CalcI ==> CalcII ==> 18.06
+
+Layer 4:
+None ==> CalcI ==> CalcII ==> 18.03 ==> 10.553
+None ==> CalcI ==> PhysII ==> 16.003; None ==> PhysI ==> PhysII ==> 16.003; None ==> CalcI ==> CalcII ==> 18.03 ==> 16.003
+None ==> CalcI ==> CalcII ==> 18.03 ==> 16.346
+None ==> CalcI ==> PhysII ==> 2.003[J]; None ==> PhysI ==> PhysII ==> 2.003[J]; None ==> CalcI ==> CalcII ==> 18.03 ==> 2.003[J]
+
+Layer 5:
+None ==> PhysI ==> 16.001 ==> 16.07; None ==> CalcI ==> CalcII ==> 16.001 ==> 16.07; None ==> CalcI ==> PhysII ==> 16.003 ==> 16.07; None ==> CalcI ==> CalcII ==> 18.03 ==> 16.003 ==> 16.07
+None ==> CalcI ==> PhysII ==> 2.003[J] ==> 2.004; None ==> PhysI ==> PhysII ==> 2.003[J] ==> 2.004; None ==> CalcI ==> CalcII ==> 18.03 ==> 2.003[J] ==> 2.004
+
+Layer 6:
+None ==> CalcI ==> CalcII ==> 18.06 ==> 2.151; None ==> CalcI ==> PhysII ==> 2.003[J] ==> 2.004 ==> 2.151; None ==> PhysI ==> PhysII ==> 2.003[J] ==> 2.004 ==> 2.151; None ==> CalcI ==> CalcII ==> 18.03 ==> 2.003[J] ==> 2.004 ==> 2.151
+
+Layer 7:
+None ==> CalcI ==> CalcII ==> 18.06 ==> 2.151 ==> 2.152[J]; None ==> CalcI ==> PhysII ==> 2.003[J] ==> 2.004 ==> 2.151 ==> 2.152[J]; None ==> PhysI ==> PhysII ==> 2.003[J] ==> 2.004 ==> 2.151 ==> 2.152[J]; None ==> CalcI ==> CalcII ==> 18.03 ==> 2.003[J] ==> 2.004 ==> 2.151 ==> 2.152[J]
+

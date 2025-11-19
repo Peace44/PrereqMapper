@@ -1,0 +1,24 @@
+Layer 0:
+None
+
+Layer 1:
+None ==> CalcI
+None ==> PhysI
+
+Layer 2:
+None ==> CalcI ==> CalcII
+None ==> CalcI ==> PhysII; None ==> PhysI ==> PhysII
+
+Layer 3:
+None ==> CalcI ==> CalcII ==> 18.03
+
+Layer 4:
+None ==> CalcI ==> CalcII ==> 18.03 ==> 10.553
+None ==> CalcI ==> PhysII ==> 2.003[J]; None ==> PhysI ==> PhysII ==> 2.003[J]; None ==> CalcI ==> CalcII ==> 18.03 ==> 2.003[J]
+
+Layer 5:
+None ==> CalcI ==> PhysII ==> 2.003[J] ==> 2.004; None ==> PhysI ==> PhysII ==> 2.003[J] ==> 2.004; None ==> CalcI ==> CalcII ==> 18.03 ==> 2.003[J] ==> 2.004
+
+Layer 6:
+None ==> CalcI ==> PhysII ==> 2.003[J] ==> 2.004 ==> 2.140; None ==> PhysI ==> PhysII ==> 2.003[J] ==> 2.004 ==> 2.140; None ==> CalcI ==> CalcII ==> 18.03 ==> 2.003[J] ==> 2.004 ==> 2.140
+
