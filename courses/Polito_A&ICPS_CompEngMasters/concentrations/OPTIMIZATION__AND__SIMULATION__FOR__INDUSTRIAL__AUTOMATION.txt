@@ -6,13 +6,29 @@ CalcII Calculus II
 Prereq: CalcI
 Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
 
+18.06 Linear Algebra
+Prereq: CalcII
+Basic subject on matrix theory and linear algebra, emphasizing topics useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, singular value decomposition, and positive definite matrices. Applications to least-squares approximations, stability of differential equations, networks, Fourier transforms, and Markov processes. Uses linear algebra software. Compared with 18.700, more emphasis on matrix algorithms and many applications.
+
 15.066[J] System Optimization and Analysis for Operations
 Prereq: CalcII
 Introduction to mathematical modeling, optimization, and simulation, as applied to manufacturing and operations. Specific methods include linear programming, network flow problems, integer and nonlinear programming, discrete-event simulation, heuristics and computer applications for manufacturing processes, operations and systems.
 
-18.06 Linear Algebra
+6.3700 Introduction to Probability
 Prereq: CalcII
-Basic subject on matrix theory and linear algebra, emphasizing topics useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, singular value decomposition, and positive definite matrices. Applications to least-squares approximations, stability of differential equations, networks, Fourier transforms, and Markov processes. Uses linear algebra software. Compared with 18.700, more emphasis on matrix algorithms and many applications.
+An introduction to probability theory, the modeling and analysis of probabilistic systems, and elements of statistical inference. Probabilistic models, conditional probability. Discrete and continuous random variables. Expectation and conditional expectation, and further topics about random variables. Limit Theorems. Bayesian estimation and hypothesis testing. Elements of classical statistical inference. Bernoulli and Poisson processes. Markov chains.
+
+6.7710 Discrete Stochastic Processes
+Prereq: 6.3700
+Review of probability and laws of large numbers; Poisson counting process and renewal processes; Markov chains (including Markov decision theory), branching processes, birth-death processes, and semi-Markov processes; continuous-time Markov chains and reversibility; random walks, martingales, and large deviations; applications from queueing, communication, control, and operations research.
+
+6.1000 Introduction to Programming and Computer Science
+Prereq: None
+Develops foundational skills in programming and in computational modeling. Covers widely used programming concepts in Python, including mutability, function objects, and object-oriented programming. Introduces algorithmic complexity and some common libraries. Throughout, demonstrates using computation to help understand real-world phenomena; topics include optimization problems, building simulations, and statistical modeling.
+
+15.053 Optimization Methods in Business Analytics
+Prereq: 6.1000
+Introduces optimization methods with a focus on modeling, solution techniques, and analysis. Covers linear programming, network optimization, integer programming, nonlinear programming, and heuristics. Applications to logistics, manufacturing, statistics, machine learning, transportation, game theory, marketing, project management, and finance. Includes projects in which student teams solve optimization problems of practical interest.
 
 6.7210[J] Introduction to Mathematical Programming
 Prereq: 18.06
