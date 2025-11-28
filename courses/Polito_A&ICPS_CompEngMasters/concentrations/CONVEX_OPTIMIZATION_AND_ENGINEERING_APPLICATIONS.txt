@@ -10,34 +10,14 @@ Calculus of several variables. Vector algebra in 3-space, determinants, matrices
 Prereq: CalcII
 Covers fundamentals of mathematical analysis: convergence of sequences and series, continuity, differentiability, Riemann integral, sequences and series of functions, uniformity, interchange of limit operations. Shows the utility of abstract concepts and teaches understanding and construction of proofs. Proofs and definitions are less abstract than in 18.100B. Gives applications where possible. Concerned primarily with the real line.
 
-18.06 Linear Algebra
+18.C06[J] Linear Algebra and Optimization
 Prereq: CalcII
-Basic subject on matrix theory and linear algebra, emphasizing topics useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, singular value decomposition, and positive definite matrices. Applications to least-squares approximations, stability of differential equations, networks, Fourier transforms, and Markov processes. Uses linear algebra software. Compared with 18.700, more emphasis on matrix algorithms and many applications.
-
-18.03 Differential Equations
-Prereq: CalcII
-Study of differential equations, including modeling physical systems. Solution of first-order ODEs by analytical, graphical, and numerical methods. Linear ODEs with constant coefficients. Complex numbers and exponentials. Inhomogeneous equations: polynomial, sinusoidal, and exponential inputs. Oscillations, damping, resonance. Fourier series. Matrices, eigenvalues, eigenvectors, diagonalization. First order linear systems: normal modes, matrix exponentials, variation of parameters. Heat equation, wave equation. Nonlinear autonomous systems: critical point analysis, phase plane diagrams.
-
-18.085 Computational Science and Engineering I
-Prereq: CalcII, 18.03
-Review of linear algebra, applications to networks, structures, and estimation, finite difference and finite element solution of differential equations, Laplace's equation and potential flow, boundary-value problems, Fourier series, discrete Fourier transform, convolution. Frequent use of MATLAB in a wide range of scientific and engineering applications.
-
-16.888[J] Multidisciplinary Design Optimization
-Prereq: 18.085
-Systems modeling for design and optimization. Selection of design variables, objective functions and constraints. Overview of principles, methods and tools in multidisciplinary design optimization (MDO). Subsystem identification, development and interface design. Design of experiments (DOE). Review of linear (LP) and non-linear (NLP) constrained optimization formulations. Scalar versus vector optimization problems. Karush-Kuhn-Tucker (KKT) conditions of optimality, Lagrange multipliers, adjoints, gradient search methods, sensitivity analysis, geometric programming, simulated annealing, genetic algorithms and particle swarm optimization. Constraint satisfaction problems and isoperformance. Non-dominance and Pareto frontiers. Surrogate models and multifidelity optimization strategies. System design for value. Students execute a term project in small teams related to their area of interest. 
+Introductory course in linear algebra and optimization, assuming no prior exposure to linear algebra and starting from the basics, including vectors, matrices, eigenvalues, singular values, and least squares. Covers the basics in optimization including convex optimization, linear/quadratic programming, gradient descent, and regularization, building on insights from linear algebra. Explores a variety of applications in science and engineering, where the tools developed give powerful ways to understand complex systems and also extract structure from data.
 
 6.7220[J] Nonlinear Optimization
-Prereq: 18.06, 18.100A
+Prereq: 18.C06[J], 18.100A
 Unified analytical and computational approach to nonlinear optimization problems. Unconstrained optimization methods include gradient, conjugate direction, Newton, sub-gradient and first-order methods. Constrained optimization methods include feasible directions, projection, interior point methods, and Lagrange multiplier methods. Convex analysis, Lagrangian relaxation, nondifferentiable optimization, and applications in integer programming. Comprehensive treatment of optimality conditions and Lagrange multipliers. Geometric approach to duality theory. Applications drawn from control, communications, machine learning, and resource allocation problems.
 
-6.7210[J] Introduction to Mathematical Programming
-Prereq: 18.06
-Introduction to linear optimization and its extensions emphasizing both methodology and the underlying mathematical structures and geometrical ideas. Covers classical theory of linear programming as well as some recent advances in the field. Topics: simplex method; duality theory; sensitivity analysis; network flow problems; decomposition; robust optimization; integer programming; interior point algorithms for linear programming; and introduction to combinatorial optimization and NP-completeness.
-
-6.7230[J] Algebraic Techniques and Semidefinite Optimization
-Prereq: 6.7210[J]
-Theory and computational techniques for optimization problems involving polynomial equations and inequalities with particular, emphasis on the connections with semidefinite optimization. Develops algebraic and numerical approaches of general applicability, with a view towards methods that simultaneously incorporate both elements, stressing convexity-based ideas, complexity results, and efficient implementations. Examples from several engineering areas, in particular systems and control applications. Topics include semidefinite programming, resultants/discriminants, hyperbolic polynomials, Groebner bases, quantifier elimination, and sum of squares.
-
-15.094[J] Robust Modeling, Optimization, and Computation
-Prereq: 18.06
-Introduces modern robust optimization, including theory, applications, and computation. Presents formulations and their connection to probability, information and risk theory for conic optimization (linear, second-order, and semidefinite cones) and integer optimization. Application domains include analysis and optimization of stochastic networks, optimal mechanism design, network information theory, transportation, pattern classification, structural and engineering design, and financial engineering. Students formulate and solve a problem aligned with their interests in a final project.
+15.C57[J] Optimization Methods
+Prereq: 18.C06[J]
+Introduction to the methods and applications of optimization. Topics include linear optimization, duality, non-linear optimization, integer optimization, and optimization under uncertainty. Instruction provided in modeling techniques to address problems arising in practice, mathematical theory to understand the structure of optimization problems, computational algorithms to solve complex optimization problems, and practical applications. Covers several examples and in-depth case studies based on real-world data to showcase impactful applications of optimization across management and engineering. Computational exercises based on the Julia-based programming language JuMP. Includes a term project. Basic competency in computational programming and linear algebra recommended.
