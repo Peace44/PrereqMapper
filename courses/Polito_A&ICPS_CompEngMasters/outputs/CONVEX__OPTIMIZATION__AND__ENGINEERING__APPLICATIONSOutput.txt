@@ -1,0 +1,17 @@
+Layer 0:
+None
+
+Layer 1:
+None ==> CalcI
+
+Layer 2:
+None ==> CalcI ==> CalcII
+
+Layer 3:
+None ==> CalcI ==> CalcII ==> 18.100A
+None ==> CalcI ==> CalcII ==> 6.C06[J]
+
+Layer 4:
+None ==> CalcI ==> CalcII ==> 18.100A ==> 6.7220[J]; None ==> CalcI ==> CalcII ==> 6.C06[J] ==> 6.7220[J]
+None ==> CalcI ==> CalcII ==> 6.C06[J] ==> 6.C57[J]
+
