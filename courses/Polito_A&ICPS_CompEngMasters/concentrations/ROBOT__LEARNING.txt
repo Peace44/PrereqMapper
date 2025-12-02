@@ -1,0 +1,79 @@
+CalcI Calculus I
+Prereq: None
+Differentiation and integration of functions of one variable, with applications. Informal treatment of limits and continuity. Differentiation: definition, rules, application to graphing, rates, approximations, and extremum problems. Indefinite integration; separable first-order differential equations. Definite integral; fundamental theorem of calculus. Applications of integration to geometry and science. Elementary functions. Techniques of integration. Polar coordinates. L'Hopital's rule. Improper integrals. Infinite series: geometric, p-harmonic, simple comparison tests, power series for some elementary functions.
+
+CalcII Calculus II
+Prereq: CalcI
+Calculus of several variables. Vector algebra in 3-space, determinants, matrices. Vector-valued functions of one variable, space motion. Scalar functions of several variables: partial differentiation, gradient, optimization techniques. Double integrals and line integrals in the plane; exact differentials and conservative fields; Green's theorem and applications, triple integrals, line and surface integrals in space, Divergence theorem, Stokes' theorem; applications.
+
+18.03 Differential Equations
+Prereq: CalcII
+Study of differential equations, including modeling physical systems. Solution of first-order ODEs by analytical, graphical, and numerical methods. Linear ODEs with constant coefficients. Complex numbers and exponentials. Inhomogeneous equations: polynomial, sinusoidal, and exponential inputs. Oscillations, damping, resonance. Fourier series. Matrices, eigenvalues, eigenvectors, diagonalization. First order linear systems: normal modes, matrix exponentials, variation of parameters. Heat equation, wave equation. Nonlinear autonomous systems: critical point analysis, phase plane diagrams.
+
+18.05 Introduction to Probability and Statistics
+Prereq: CalcII
+A unified introduction to probability, Bayesian inference, and frequentist statistics. Topics include: combinatorics, random variables, (joint) distributions, covariance, central limit theorem; Bayesian updating, odds, posterior prediction; significance tests, confidence intervals, bootstrapping, regression. Students also develop computational skills and statistical thinking by using R to simulate, analyze, and visualize data; and by exploring privacy, fairness, and causality in contemporary media and research.
+
+18.06 Linear Algebra
+Prereq: CalcII
+Basic subject on matrix theory and linear algebra, emphasizing topics useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, singular value decomposition, and positive definite matrices. Applications to least-squares approximations, stability of differential equations, networks, Fourier transforms, and Markov processes. Uses linear algebra software. Compared with 18.700, more emphasis on matrix algorithms and many applications.
+
+16.002 Unified Engineering: Signals and Systems
+Prereq: 18.03
+Equivalent to 6.9510 Introduction to Signals and Systems, and Feedback Control = Presents fundamental principles and methods of signals and systems for aerospace engineering, and engineering analysis and design concepts applied to aerospace systems. Topics include linear and time invariant systems; convolution; Fourier and Laplace transform analysis in continuous and discrete time; modulation, filtering, and sampling; and an introduction to feedback control. Experiential lab and system projects provide additional aerospace context. Labs, projects, and assignments involve the use of software such as MATLAB and/or Python.
+
+16.06 Principles of Automatic Control
+Prereq: 16.002
+Introduction to design of feedback control systems. Properties and advantages of feedback systems. Time-domain and frequency-domain performance measures. Stability and degree of stability. Root locus method, Nyquist criterion, frequency-domain design, and some state space methods. Strong emphasis on the synthesis of classical controllers. Application to a variety of aerospace systems. Hands-on experiments using simple robotic systems.
+
+6.1000 Introduction to Programming and Computer Science
+Prereq: None
+Develops foundational skills in programming and in computational modeling. Covers widely used programming concepts in Python, including mutability, function objects, and object-oriented programming. Introduces algorithmic complexity and some common libraries. Throughout, demonstrates using computation to help understand real-world phenomena; topics include optimization problems, building simulations, and statistical modeling.
+
+6.1010 Fundamentals of Programming
+Prereq: 6.1000
+Introduces fundamental concepts of programming. Designed to develop skills in applying basic methods from programming languages to abstract problems. Topics include programming and Python basics, computational concepts, software engineering, algorithmic techniques, data types, and recursion.  Lab component consists of software design, construction, and implementation of design. Enrollment may be limited.
+
+6.1200[J] Mathematics for Computer Science
+Prereq: CalcI
+Elementary discrete mathematics for science and engineering, with a focus on mathematical tools and proof techniques useful in computer science. Topics include logical notation, sets, relations, elementary graph theory, state machines and invariants, induction and proofs by contradiction, recurrences, asymptotic notation, elementary analysis of algorithms, elementary number theory and cryptography, permutations and combinations, counting tools, and discrete probability.
+
+6.1210 Introduction to Algorithms
+Prereq: 6.1000, 6.1200[J]
+Introduction to mathematical modeling of computational problems, as well as common algorithms, algorithmic paradigms, and data structures used to solve these problems. Emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems. Enrollment may be limited.
+
+6.3700 Introduction to Probability
+Prereq: CalcII
+An introduction to probability theory, the modeling and analysis of probabilistic systems, and elements of statistical inference. Probabilistic models, conditional probability. Discrete and continuous random variables. Expectation and conditional expectation, and further topics about random variables. Limit Theorems. Bayesian estimation and hypothesis testing. Elements of classical statistical inference. Bernoulli and Poisson processes. Markov chains. Students taking graduate version complete additional assignments.
+
+6.3800 Introduction to Inference
+Prereq: CalcII
+Introduces probabilistic modeling for problems of inference and machine learning from data, emphasizing analytical and computational aspects. Distributions, marginalization, conditioning, and structure, including graphical and neural network representations. Belief propagation, decision-making, classification, estimation, and prediction. Sampling methods and analysis. Introduces asymptotic analysis and information measures. Computational laboratory component explores the concepts introduced in class in the context of contemporary applications. Students design inference algorithms, investigate their behavior on real data, and discuss experimental results.
+
+6.4110 Representation, Inference, and Reasoning in AI
+Prereq: 6.1010, 6.1210, 6.3800
+An introduction to representations and algorithms for artificial intelligence. Topics covered include: constraint satisfaction in discrete and continuous problems, logical representation and inference, Monte Carlo tree search, probabilistic graphical models and inference, planning in discrete and continuous deterministic and probabilistic models including Markov decision processes (MDPs) and partially observed Markov decision processes (POMDPs).
+
+6.4200[J] Robotics: Science and Systems
+Prereq: 6.1000, 16.06
+Presents concepts, principles, and algorithmic foundations for robots and autonomous vehicles operating in the physical world. Topics include sensing, kinematics and dynamics, state estimation, computer vision, perception, learning, control, motion planning, and embedded system development. Students design and implement advanced algorithms on complex robotic platforms capable of agile autonomous navigation and real-time interaction with the physical word. Students engage in extensive written and oral communication exercises. Enrollment limited.
+
+6.3900 Introduction to Machine Learning
+Prereq: 6.1010, 18.06
+Introduction to the principles and algorithms of machine learning from an optimization perspective. Topics include linear and non-linear models for supervised, unsupervised, and reinforcement learning, with a focus on gradient-based methods and neural-network architectures. Previous experience with algorithms may be helpful.
+
+6.7920[J] Reinforcement Learning: Foundations and Methods
+Prereq: 6.3700
+Examines reinforcement learning (RL) as a methodology for approximately solving sequential decision-making under uncertainty, with foundations in optimal control and machine learning. Provides a mathematical introduction to RL, including dynamic programming, statistical, and empirical perspectives, and special topics. Core topics include: dynamic programming, special structures, finite and infinite horizon Markov Decision Processes, value and policy iteration, Monte Carlo methods, temporal differences, Q-learning, stochastic approximation, and bandits. Also covers approximate dynamic programming, including value-based methods and policy space methods. Applications and examples drawn from diverse domains. Focus is mathematical, but is supplemented with computational exercises. An analysis prerequisite is suggested but not required; mathematical maturity is necessary.
+
+6.7900 Machine Learning
+Prereq: 6.3800, 6.3900
+Principles, techniques, and algorithms in machine learning from the point of view of statistical inference; representation, generalization, and model selection; and methods such as linear/additive models, active learning, boosting, support vector machines, non-parametric Bayesian methods, hidden Markov models, Bayesian networks, and convolutional and recurrent neural networks.
+
+6.7960 Deep Learning
+Prereq: 18.05, 6.3900
+Fundamentals of deep learning, including both theory and applications. Topics include neural net architectures (MLPs, CNNs, RNNs, graph nets, transformers), geometry and invariances in deep learning, backpropagation and automatic differentiation, learning theory and generalization in high-dimensions, and applications to computer vision, natural language processing, and robotics.
+
+6.8200 Sensorimotor Learning
+Prereq: 6.7900
+Provides an in-depth view of the state-of-the-art learning methods for control and the know-how of applying these techniques. Topics span reinforcement learning, self-supervised learning, imitation learning, model-based learning, and advanced deep learning architectures, and specific machine learning challenges unique to building sensorimotor systems. Discusses how to identify if learning-based control can help solve a particular problem, how to formulate the problem in the learning framework, and what algorithm to use. Applications of algorithms in robotics, logistics, recommendation systems, playing games, and other control domains covered. Instruction involves two lectures a week, practical experience through exercises, discussion of current research directions, and a group project.
